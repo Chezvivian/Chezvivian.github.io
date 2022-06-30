@@ -8,5 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Hi, this is Vivian (Jie Huang).
+Hi, I am a PhD candidate at Renmin University of China right now. I am interested in the cognitive process of translation, with influences from source text features, translation methods and so on. In my latest research, I am using eye-tracking and keystroke-logging techniques to investigate the impact of multimodal information on translators' cognitive load.
+
+---
+
+* Hobbies
+- Swimming
+- Badminton
+- Archery
+- Embroidery
+- Guqin
 
