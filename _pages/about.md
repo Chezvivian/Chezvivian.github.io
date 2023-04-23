@@ -12,13 +12,15 @@ Hi, I am a PhD graduate at Renmin University of China. I am working on projects 
 
 ---
 
-## Sports
-- Swimming
-- Badminton
-- Archery
+Sports
 
-## Musical instruments
-- Piano
-- Guzheng (Chinese)
-- Guqin (Chinese)
+  - Swimming
+  - Badminton
+  - Archery
+
+Musical instruments
+
+  - Piano
+  - Guzheng (Chinese)
+  - Guqin (Chinese)
 
