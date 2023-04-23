@@ -14,7 +14,7 @@ description              : &description "Phd graduate at RUC"
 url                      : https://chezvivian.github.io/Jie_Huang.github.io/ # the base hostname & protocol for your site e.g. "https://chezvivian.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Chezvivian.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "Vivi_pic.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -85,7 +85,7 @@ author:
   bio              : "PhD graduate at Renmin University of China"
   location         : "Beijing, China"
   googlescholar    : "https://scholar.google.com/citations?user=2sYe9FqdDUsC&hl=zh-CN"
-  email            : "vivian_huang@ruc.edu.cn"
+  email            : "chezvivian@outlook.com"
   researchgate     : "https://www.researchgate.net/profile/Jie-Huang-139"
   github           : "Chezvivian"
   orcid            : "http://orcid.org/0000-0001-9762-4773"
