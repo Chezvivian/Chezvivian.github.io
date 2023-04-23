@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Main page"
-    url: /
+    url: ./
 
   - title: "Publications"
     url: /publications/
