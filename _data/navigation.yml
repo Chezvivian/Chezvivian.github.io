@@ -1,17 +1,17 @@
 # main links links
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://chezvivian.github.io/Jie_Huang.github.io/publications/
 
   - title: "Talks"
-    url: /talks/    
+    url: https://chezvivian.github.io/Jie_Huang.github.io/talks/    
 
   - title: "Projects"
-    url: /portfolio/
+    url: https://chezvivian.github.io/Jie_Huang.github.io/portfolio/
     
   - title: "Tutorials"
-    url: /tutorials/
+    url: https://chezvivian.github.io/Jie_Huang.github.io/tutorials/
   
   - title: "CV"
-    url: /cv/
+    url: https://chezvivian.github.io/Jie_Huang.github.io/cv/
     
