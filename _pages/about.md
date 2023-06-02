@@ -17,7 +17,8 @@ If you share the same interests, or would like to write or work with me, just re
 See you there.
 
 ---
-Other interests:
+Personal interests:
+===
 
 Sports
 
