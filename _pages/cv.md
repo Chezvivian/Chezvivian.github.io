@@ -17,9 +17,9 @@ Education
 
 Publications
 ======
-* Huang, Jie, & Wang, Jianhua. (2022). Post-editing machine translated subtitles: examining the effects of non-verbal input on student translators’ effort. Perspectives: Studies in Translation Theory and Practice, (online), 1–21. 
-* Huang, Jie, & Carl, Michael. (2021). Word-Based Human Edit Rate (WHER) as an Indicator of Post-editing Effort. In Explorations in Empirical Translation Process Research (pp. 39–55). Cham: Springer.
-* 
+* Jie Huang & Wang Jianhua. 2022. Post-editing machine translated subtitles: examining the effects of non-verbal input on student translators’ effort. Perspectives: Studies in Translation Theory and Practice, (online), 1–21. 
+* Jie Huang & Michael Carl. 2021. Word-Based Human Edit Rate (WHER) as an Indicator of Post-editing Effort. In Explorations in Empirical Translation Process Research (pp. 39–55). Cham: Springer.
+* 王建华,黄婕. 2020. 多模态影视翻译理论. 北京:中国人民大学出版社.
 
 
 Work experience
@@ -44,6 +44,6 @@ Languages
 * English
 * French
 
-Volunteers
+Volunteering
 ======
 * 2013-2014: volunteering to teach English classes in rural Hunan Pronvince
