@@ -8,9 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am a PhD graduate at Renmin University of China. I am working on projects focusing on the cognitive process of translation. In my latest research, I am using eye-tracking and keystroke-logging techniques to investigate the impact of multimodal information on translators' cognitive load.
+Hi, I have recently obtained my PhD degree from Renmin University of China on translation. In my latest research, I used methods including eye-tracking, keystroke-logging and subjective retrospection to investigate the impact of multimodal information on translators' cognitive load. 
+
+I am a frequent user of R and Python, and am obsessed with creating automated workflows in both life and work. 
+
+If you share the same interests, or would like to write or work with me, just reach me at chezvivian@outlook.com.
+
+See you there.
 
 ---
+Other interests:
 
 Sports
 
