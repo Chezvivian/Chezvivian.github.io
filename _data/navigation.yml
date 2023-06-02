@@ -5,10 +5,10 @@ main:
     url: year-archive/
     
 #  - title: "Tutorials"
-    url: tutorials/
+#    url: tutorials/
   
 #  - title: "Publications"
-    url: publications/
+#    url: publications/
   
   - title: "CV"
     url: cv/
