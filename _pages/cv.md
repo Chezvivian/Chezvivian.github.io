@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in English, Beijing Foreign Studies University, 2009
 * M.S. in Translation, Beijing Foreign Studies University, 2014
-* Ph.D in Translation, Renmin University of China, 2022 (expected)
+* Ph.D in Translation, Renmin University of China, 2023
 
 Work experience
 ======
