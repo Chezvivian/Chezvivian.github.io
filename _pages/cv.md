@@ -15,6 +15,13 @@ Education
 * M.S. in Translation, Beijing Foreign Studies University, 2014
 * Ph.D in Translation, Renmin University of China, 2023
 
+Publications
+======
+* Huang, Jie, & Wang, Jianhua. (2022). Post-editing machine translated subtitles: examining the effects of non-verbal input on student translators’ effort. Perspectives: Studies in Translation Theory and Practice, (online), 1–21. 
+* Huang, Jie, & Carl, Michael. (2021). Word-Based Human Edit Rate (WHER) as an Indicator of Post-editing Effort. In Explorations in Empirical Translation Process Research (pp. 39–55). Cham: Springer.
+* 
+
+
 Work experience
 ======
 * 2016-2018: Teacher
@@ -25,6 +32,7 @@ Work experience
   * Vmware 
   * Duties included: Manage software localization workflow involving 11 languages
   
+ 
 Skills
 ======
 * R
