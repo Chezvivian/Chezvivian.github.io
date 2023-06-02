@@ -4,10 +4,10 @@ main:
   - title: "Blogs"
     url: year-archive/
     
-  - title: "Tutorials"
+#  - title: "Tutorials"
     url: tutorials/
   
-  - title: "Publications"
+#  - title: "Publications"
     url: publications/
   
   - title: "CV"
