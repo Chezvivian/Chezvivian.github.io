@@ -12,8 +12,8 @@ redirect_from:
 
 Education
 ======
-* B.S. in English, Beijing Foreign Studies University, 2009
-* M.S. in Translation, Beijing Foreign Studies University, 2014
+* Bachelor in English, Beijing Foreign Studies University, 2009
+* Master in Translation, Beijing Foreign Studies University, 2014
 * Ph.D in Translation, Renmin University of China, 2023
 
 Publications
