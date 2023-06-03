@@ -4,8 +4,8 @@ main:
 #  - title: "Blogs"
 #    url: year-archive/
     
-#  - title: "Tutorials"
-#    url: tutorials/
+  - title: "Talks"
+    url: tutorials/
   
 #  - title: "Publications"
 #    url: publications/
