@@ -1,6 +1,6 @@
 ---
 title: "20230603 Multimodal cognitive processing in Audiovisual Translation (Chongqing University)"
-collection: talks
+collection: tutorials
 type: "Talk"
 permalink: /talks/20230603_chongqing
 venue: "Chongqing University"
