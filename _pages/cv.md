@@ -26,12 +26,12 @@ Publications
 Work experience
 ======
 * 2016-2018: Teacher
-  * National University of Defense Technology
+  * National University of Defense Technology, Changsha
   * Duties included: Teaching CET-4, IELTS and English debate lessons
 
 * Spring 2019: Intern project manager
-  * Vmware 
-  * Duties included: Manage software localization workflow involving 11 languages
+  * VMware, Beijing
+  * Duties included: Managing software localization workflow involving 11 target languages
   
  
 Skills
@@ -45,6 +45,6 @@ Languages
 * English
 * French
 
-Volunteering
+Volunteer
 ======
-* 2013-2014: volunteering to teach English classes in rural Hunan Pronvince
+* 2013-2014: volunteering to teach English classes in a junior high school in rural Hunan Pronvince
