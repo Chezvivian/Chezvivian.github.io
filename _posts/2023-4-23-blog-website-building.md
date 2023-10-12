@@ -1,7 +1,7 @@
 ---
 title: '2023-4-23 Building my blog website on Github'
 date: 2023-4-23
-permalink: /blogs/2023-04
+permalink: /blogs/
 tags:
   - cool posts
 ---
