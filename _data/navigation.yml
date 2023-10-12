@@ -2,7 +2,7 @@
 main:
 
   - title: "Blogs"
-    url: year-archive/
+    url: blogs/
     
 #  - title: "Talks"
 #    url: tutorials/
