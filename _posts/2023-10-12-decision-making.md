@@ -1,8 +1,10 @@
 ---
-title: 'Decision making under deep uncertainty'
-date: 2023-10-12
+title: '2023-10-12 Decision making under deep uncertainty'
 tags:
-  - cool posts
+  - thoughts
 ---
 
-这是一个测试文件。
+深度不确定性？决策？读书有感。
+
+
+
