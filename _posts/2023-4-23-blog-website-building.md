@@ -1,8 +1,7 @@
 ---
-title: '在Github上搭建个人网站'
-date: 2023-4-23
+title: '2023-4-23 在Github上搭建个人网站'
 tags:
-  - cool posts
+  - technical
 ---
 
 我使用模板搭建个人网站的过程，以及解决一些小问题的方法。
