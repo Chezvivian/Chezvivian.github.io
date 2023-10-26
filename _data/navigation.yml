@@ -4,12 +4,12 @@ main:
   - title: "CV"
     url: cv/
     
+  - title: "Talks"
+    url: tutorials/
+    
   - title: "Blogs"
     url: blogs/
     
-#  - title: "Talks"
-#    url: tutorials/
-  
 #  - title: "Publications"
 #    url: publications/
   
