@@ -4,7 +4,7 @@ tags:
   - thoughts
 ---
 
-偶然间看到这本 Springer 出的 [Decision making under deep uncertainty](Decision-making_under_deep_uncertainty.pdf) 一书，对深度不确定性的决策？看起来有点意思，顺手写一写感想。这本书是开源的，所以直接把书贴上来了。(2023-10-12)
+偶然间看到这本 Springer 出的 [Decision making under deep uncertainty](../files/Decision-making_under_deep_uncertainty.pdf) 一书，对深度不确定性的决策？看起来有点意思，顺手写一写感想。这本书是开源的，所以直接把书贴上来了。(2023-10-12)
 
 书中用 DMDU 的缩写表示普遍的 Decision Making under Deep Uncertainty 内容，第一部分是 DMDU 的五种决策方法，第二部分是在实践中的应用，第三部分是实施的过程，第四部分是总结。
 
