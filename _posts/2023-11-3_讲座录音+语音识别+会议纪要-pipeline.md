@@ -14,9 +14,9 @@ tags:
 2. Trigger 2: 流程中添加从 google drive 中获取缓存文件
 3. Trigger 3: 通过 ChatGPT API 转录音频文件
 4. Trigger 4: 通过 ChatGPT API prompts 下达总结会议纪要的指令
-  1. Query/user message
-  2. Context
-  3. Instructions/system message
+  - Query/user message
+  - Context
+  - Instructions/system message
 5. Trigger 5: formatter: Node app → pass data between steps → 把之前的summary 精简成笔记
 6. Trigger 6: 连接回 Notion 的 database, 设定新 Page 的内容格式
 
