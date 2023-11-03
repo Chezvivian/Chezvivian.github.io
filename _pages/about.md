@@ -21,16 +21,22 @@ See you there.
 Personal interests:
 ===
 
-
+<div style="float: left; width: 50%;">
+  
 Sports
 
   - Swimming
   - Badminton
   - Archery
 
+</div>
+
+<div style="float: right; width: 50%;">
+  
 Musical instruments
 
   - Piano
   - Guzheng (Chinese)
   - Guqin (Chinese)
-
+    
+</div>
