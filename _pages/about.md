@@ -23,8 +23,6 @@ Personal interests:
 
 <div style="float: left; width: 50%;">
 
-**Sports**
-
 (Recently)
 
 - Badminton
@@ -33,8 +31,6 @@ Personal interests:
 </div>
 
 <div style="float: right; width: 50%;">
-
-**Music**
 
 - Piano
 - Guzheng (Chinese)
