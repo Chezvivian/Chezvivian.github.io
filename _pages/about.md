@@ -18,23 +18,18 @@ See you there.
 
 ---
 
-Personal interests:
-===
+## Personal interests 
 
-<div style="float: left; width: 50%;">
-
+### Sports
 (Recently)
 
 - Badminton
 - Switch boxing
 
-</div>
-
-<div style="float: right; width: 50%;">
+### Music
 
 - Piano
 - Guzheng (Chinese)
 - Guqin (Chinese)
   
-    
-</div>
+  
