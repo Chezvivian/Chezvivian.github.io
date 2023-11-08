@@ -4,7 +4,6 @@ tags:
   - thoughts
 ---
 
-# GAIA 和 ChatGPT：理想照进现实？
 
 今天在YouTube上观看了昨天的OpenAI大会。出现了熟悉的 Déjà vu 情景， 因为跟 ChatGPT 的对话又让我想起在游戏[地平线](!https://en.wikipedia.org/wiki/Horizon_Forbidden_West)里和盖娅(GAIA)对话的感觉了。
 
