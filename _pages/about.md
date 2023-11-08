@@ -22,18 +22,19 @@ Personal interests:
 ===
 
 <div style="float: left; width: 50%;">
-  
-Sports
 
-- Swimming
+**Sports**
+
+(Recently)
+
 - Badminton
-- Archery
+- Switch boxing
 
 </div>
 
 <div style="float: right; width: 50%;">
-  
-Musical instruments
+
+**Music**
 
 - Piano
 - Guzheng (Chinese)
