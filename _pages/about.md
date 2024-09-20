@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am currently a lecturer at [School of International Studies in UIBE](http://sis.uibe.edu.cn/szdwx/xxjs/zyyyxsz/a0565344b91a48ef961297780fe0e181.htm) and previously obtained my PhD degree from Renmin University of China in translation. In my latest research, I used methods including eye-tracking, keystroke-logging and subjective retrospection to investigate the impact of multimodal information on translators' cognitive load. 
+Hi, I am currently a lecturer in the Department of Translation at the [School of International Studies in UIBE](https://sis.uibe.edu.cn/szdwx/xxjs/fy/2d8876d8a3db4c238fc33ac323f61563.htm) and previously obtained my PhD degree from Renmin University of China in translation. In my latest research, I use methods including eye-tracking, keystroke-logging and subjective retrospection to investigate the impact of multimodal information on translators' cognitive load. 
 
 I am a frequent user of R and Python, and am obsessed with creating automated workflows in both life and work. 
 
@@ -24,12 +24,17 @@ See you there.
 (Recently)
 
 - Badminton
-- Switch boxing
+- Switch Ringfit
 
 ### Music
 
 - Piano
 - Guzheng (Chinese)
 - Guqin (Chinese)
-  
+
+### Video Game
+
+- Black myth: Wukong
+- Horizon: Zero Dawn/Forbidden West
+- God of War series
   
