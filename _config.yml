@@ -213,7 +213,7 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: blogs
+      type: talks
     values:
       layout: single
       author_profile: true
