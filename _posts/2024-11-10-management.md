@@ -26,7 +26,7 @@ tags:
 
 从这里出发，我画了一个脑中的管理思路成长路径。大概是：个人成长和时间管理是基石，做好了这些就可以完成工作、生活中的项目管理，待有了更大的能量，就可以做企业和供应链管理，真正发展出所谓的"career"。 再往上的产业管理、宏观经济管理就不是我现在能推断的部分了。
 
-<img src="{{chezvivian.github.io}}/management.png" alt="Management path" width="500"/>  
+<img src="{{chezvivian.github.io}}/management.png" alt="management path" width="500"/>  
 
 商英的课程还在继续，期待新的思路和成长。最近几本书刚到，还没有看完，但是已经有些启发了。列出来，给将来的自己做个备忘：
 
