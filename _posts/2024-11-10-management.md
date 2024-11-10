@@ -14,7 +14,7 @@ tags:
 
 找到自己的优先级是最基础也是最难的事情。这意味着，要清楚地认识自己的现状、目标，以及评估自己的行动力。上学期在课上，我给学生们分享了一个制定优先级的方法和表格，结果这个坐标轴成为我周期性评估自己任务的一个极好工具。
 
-<img src="{{chezvivian.github.io}}/images/Urgent_and_important.png" alt="How to prioritize" width="500"/>  
+<img src="{{chezvivian.github.io}}/images/Urgent_and_important.png" alt="How to prioritize" width="600"/>  
 
 区分的两个维度是：重要性、紧急性。有些事情紧急，但没那么重要；有些事重要，但要的又没那么急。那么，在优先级排序里，通常是 “重要且紧急” 是第一位的，而第二位的可能是 “不重要但紧急” 或者 “不紧急但重要”，这个第二名的排位要看个人选择，而最后一位则是“不重要且不紧急”，这些反而可能是大家花了很多时间去做的事情。通过捋顺和排序，对个人而言真正重要、关键的问题就能显现出来。理智战胜感性的时刻有可能会到来。
 
@@ -27,7 +27,7 @@ tags:
 从这里出发，我画了一个脑中的管理思路成长路径。大概是：个人成长和时间管理是基石，做好了这些就可以完成工作、生活中的项目管理，待有了更大的能量，就可以做企业和供应链管理，真正发展出所谓的"career"。 再往上的产业管理、宏观经济管理就不是我现在能推断的部分了。
 
 
-<img src="{{chezvivian.github.io}}/images/management.png" alt="management" width="300"/>  
+<img src="{{chezvivian.github.io}}/images/management.png" alt="management" width="500"/>  
 
 
 商英的课程还在继续，期待新的思路和成长。最近几本书刚到，还没有看完，但是已经有些启发了。列出来，给将来的自己做个备忘：
