@@ -22,11 +22,13 @@ tags:
 
 上周在 Strategy 这一单元又提到了 SWOT 分析方法。一个很老但是很经典的分析方法：strengths, weaknesses, opportunities, threats. 能综合分析到内外、优劣的情况，也恰巧是个四格坐标轴的形态。
 
-<img src="{{chezvivian.github.io}}/images/SWOT.jpg" alt="SWOT analysis" width="500"/>  
+<img src="{{chezvivian.github.io}}/images/SWOT.jpg" alt="SWOT analysis" width="300"/>  
 
 从这里出发，我画了一个脑中的管理思路成长路径。大概是：个人成长和时间管理是基石，做好了这些就可以完成工作、生活中的项目管理，待有了更大的能量，就可以做企业和供应链管理，真正发展出所谓的"career"。 再往上的产业管理、宏观经济管理就不是我现在能推断的部分了。
 
-<img src="{{chezvivian.github.io}}/manage.jpg" alt="management path" width="500"/>  
+
+<img src="{{chezvivian.github.io}}/images/management.png" alt="management" width="300"/>  
+
 
 商英的课程还在继续，期待新的思路和成长。最近几本书刚到，还没有看完，但是已经有些启发了。列出来，给将来的自己做个备忘：
 
