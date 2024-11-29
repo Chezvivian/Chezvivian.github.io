@@ -29,8 +29,8 @@ See you there.
 ### Music
 
 - Piano
-- Guzheng (Chinese)
-- Guqin (Chinese)
+- Chinese Guzheng 
+- Chinese Guqin
 
 ### Video Game
 
