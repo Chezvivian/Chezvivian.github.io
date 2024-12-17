@@ -39,3 +39,31 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+#markdown-toc {  
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", sans-serif;  /* 更现代的字体栈 */  
+    padding: 15px 25px;  
+    background-color: #f8f9fa;  
+    border: 1px solid #e9ecef;  
+    border-radius: 4px;  
+    margin: 20px 0;  
+}  
+
+#markdown-toc a {  
+    text-decoration: none;  
+    color: #2c3e50;  
+}  
+
+#markdown-toc a:hover {  
+    color: #0056b3;  /* 鼠标悬停时的颜色 */  
+}  
+
+/* 一级目录项样式 */  
+#markdown-toc > li > a {  
+    font-weight: 500;  
+}  
+
+/* 二级目录项样式 */  
+#markdown-toc > li > ul > li {  
+    margin-left: 20px;  /* 缩进二级目录 */  
+}  
