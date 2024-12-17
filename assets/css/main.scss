@@ -40,23 +40,4 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* 添加更具体的选择器 */  
-.page__content #markdown-toc {  
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", sans-serif;  
-    padding: 15px 25px;  
-    background-color: #f8f9fa;  
-    border: 1px solid #e9ecef;  
-    border-radius: 4px;  
-    margin: 20px 0;  
-}  
-
-.page__content #markdown-toc a {  
-    text-decoration: none !important;  /* 使用 !important 来确保覆盖其他样式 */  
-    color: #2c3e50;  
-    border-bottom: none !important;  /* 某些主题可能使用 border-bottom 来显示下划线 */  
-}  
-
-.page__content #markdown-toc a:hover {  
-    color: #0056b3;  
-    text-decoration: none !important;  
-}  
+@import "custom";  
