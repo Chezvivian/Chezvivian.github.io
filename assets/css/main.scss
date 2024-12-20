@@ -62,50 +62,47 @@
 }  
 
 /* 评论区样式优化 */  
-.page__comments {  
-    float: none;  
-    clear: both;  
-    width: 100%;  
-    margin: 0 auto 4em auto; /* 调整上下边距 */  
-    padding: 2em 0;  
+.page__content {  
     position: relative;  
-    z-index: 10;  
-    max-width: 100%;  
+    
+    /* 确保内容区域包含评论区 */  
+    .page__comments {  
+        width: 100%;  
+        margin: 2em 0;  
+        padding: 2em 0;  
+        border-top: 1px solid #f2f3f3;  
+        
+        /* 评论标题样式 */  
+        .page__comments-title {  
+            margin-bottom: 1em;  
+            padding-bottom: 0.5em;  
+            font-size: 1em;  
+            border-bottom: 1px solid #f2f3f3;  
+        }  
+    }  
 }  
 
 /* 控制评论框的宽度和对齐 */  
+#utterances-comments {  
+    width: 100%;  
+    margin: 0 auto;  
+}  
+
 .utterances {  
-    max-width: 100% !important;  
-    margin: 0 !important;  
+    max-width: none !important;  
+    width: 100% !important;  
 }  
 
 .utterances-frame {  
     position: relative !important;  
-    margin: 0 auto !important;  
     width: 100% !important;  
+    margin: 0 auto !important;  
 }  
 
-/* 确保评论区与文章内容宽度一致 */  
-.page__content,   
-.page__comments {  
-    padding-right: 4em;  
-    padding-left: 4em;  
-    @media (max-width: 768px) {  
-        padding-right: 1em;  
-        padding-left: 1em;  
-    }  
-}  
-
-/* 调整评论区与内容的间距 */  
-.page__content + .page__comments {  
-    margin-top: 2em;  
-    border-top: 1px solid #f2f3f3;  
-}  
-
-/* 确保页脚不会覆盖评论区 */  
+/* 确保评论区不会被页脚覆盖 */  
 .page__footer {  
-    margin-top: 2em;  
     clear: both;  
+    margin-top: 3em;  
     position: relative;  
     z-index: 5;  
 }  
