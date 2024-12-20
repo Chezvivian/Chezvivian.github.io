@@ -60,3 +60,41 @@
     color: #0056b3;  
     text-decoration: none !important;  
 }  
+
+/* 评论区样式修复 */  
+.page__comments {  
+    float: none;  
+    clear: both;  
+    width: 100%;  
+    margin: 2em 0;  
+    padding: 2em 0;  
+    position: relative;  
+    z-index: 10;  
+}  
+
+.utterances {  
+    max-width: 100% !important;  
+    margin: 1em 0 !important;  
+}  
+
+.utterances-frame {  
+    position: relative !important;  
+    min-height: 244px !important;  
+}  
+
+/* 确保评论区在页面底部正确显示 */  
+.page__content + .page__comments {  
+    margin-top: 2em;  
+    padding-top: 2em;  
+    border-top: 1px solid #f2f3f3;  
+}  
+
+/* 修复可能的 z-index 问题 */  
+.page__inner-wrap {  
+    overflow: visible;  
+}  
+
+/* 确保评论框有足够的空间 */  
+.page__content {  
+    margin-bottom: 3em;  
+}  

@@ -90,15 +90,17 @@ layout: default
 </div>
 
 {% if page.comments %}  
-<div class="page__comments">  
+<div class="page__comments" style="margin-top: 2em; clear: both;">  
   <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}</h4>  
-  <script src="https://utteranc.es/client.js"  
-          repo="chezvivian/chezvivian.github.io"  
-          issue-term="pathname"  
-          label="comment"  
-          theme="github-light"  
-          crossorigin="anonymous"  
-          async>  
-  </script>  
+  <div id="utterances-comments" style="position: relative; z-index: 100;">  
+    <script src="https://utteranc.es/client.js"  
+            repo="chezvivian/chezvivian.github.io"  
+            issue-term="pathname"  
+            label="comment"  
+            theme="github-light"  
+            crossorigin="anonymous"  
+            async>  
+    </script>  
+  </div>  
 </div>  
 {% endif %}  
