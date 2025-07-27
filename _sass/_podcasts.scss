@@ -84,14 +84,18 @@
   justify-content: center;
   width: 100%;
   min-height: 56px; /* 保证按钮区有空间 */
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .podcast-channel-link {
   display: inline-block;
-  padding: 1em 2.8em;
+  padding: 1em 1.5em;
   background: #e3f0fb; /* 默认淡蓝色，后续用nth-child覆盖 */
   border: none;
   border-radius: 18px;
+  align-items: center; /* 原为flex-end，改为垂直居中 */
+  justify-content: center;
   color: #222;
   font-weight: 700;
   font-size: 1.35em;
@@ -99,7 +103,7 @@
   transition: box-shadow 0.2s, color 0.2s, background 0.2s;
   box-shadow: 0 2px 8px rgba(180,180,180,0.06);
   margin-top: 12px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.1em;
 }
 
 .podcast-channel-link:hover {
