@@ -4,7 +4,7 @@ title: "第五话：怕什么失败？干就完了"
 ---
 
 <div style="margin-bottom: 2em;">
-  <a href="/podcasts/" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回播客小镇</a>
+  <a href="/podcasts/2025-07-17-innovation" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回"创新管理"播客主页</a>
 </div>
 
 <!-- 上方：音频+字幕 | Vivian 的灵光一现 -->

@@ -5,7 +5,7 @@ title: "第一话：创新？是不是很虚啊？"
 
 
 <div style="margin-bottom: 2em;">
-  <a href="/podcasts/2025-07-17-managing-innovation" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回"创新管理"播客主页</a>
+  <a href="/podcasts/2025-07-17-innovation" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回"创新管理"播客主页</a>
 </div>
 
 <!-- 上方：音频+字幕 | Vivian 的灵光一现 -->
