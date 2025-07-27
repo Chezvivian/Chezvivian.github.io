@@ -1,5 +1,5 @@
 ---
-title: '一年总结'
+title: '2024一年总结'
 date: 2024-11-03
 tags:
   - thoughts
