@@ -3,6 +3,10 @@ layout: single
 title: "实证研究数据处理的过程标准化探索"
 ---
 
+<div style="margin-bottom: 2em;">
+  <a href="/podcasts/" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回播客小镇</a>
+</div>
+
 * TOC
 {:toc}
 
@@ -27,7 +31,7 @@ title: "实证研究数据处理的过程标准化探索"
 
 ### 处理思路
 
-<img src="{{chezvivian.github.io}}/class/assets/podcasts/empirical-data/1_data_type_process.png" alt="思路：数据类型和处理思路" width="500"/>  
+<img src="/files/podcasts/empirical-data/1_data_type_process.png" alt="思路：数据类型和处理思路" width="500"/>  
 
 
 ### 数据类型

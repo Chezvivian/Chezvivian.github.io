@@ -95,6 +95,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _podcasts
   - files
 exclude:
   - "*.sublime-project"

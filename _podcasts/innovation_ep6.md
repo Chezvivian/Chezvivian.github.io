@@ -3,12 +3,16 @@ layout: single
 title: "第六话：创新火种——处处留意皆学问"
 ---
 
+<div style="margin-bottom: 2em;">
+  <a href="/podcasts/" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回播客小镇</a>
+</div>
+
 <!-- 上方：音频+字幕 | Vivian 的灵光一现 -->
 <div style="display: flex; gap: 24px; margin-bottom: 2em; align-items: stretch; max-height: 340px; min-height: 240px;max-width: 1000 px;">
   <!-- 左上：音频+字幕 -->
   <div style="flex: 2 1 0; display: flex; flex-direction: column; justify-content: flex-start; border: 1px solid #222; border-radius: 12px; padding: 18px 36px; background: #fff;">
     <audio id="audio-ep6" controls style="width: 100%; max-width: 700px;">
-      <source src="/class/assets/podcasts/innovation_ep6.wav" type="audio/wav">
+      <source src="/files/podcasts/innovation/innovation_ep6.wav" type="audio/wav">
       您的浏览器不支持 audio 元素。
     </audio>
     <div id="lrc-container-ep6" style="width: 100%; max-width: 700px; max-height: 240px; min-height: 180px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; background: #fafbfc; margin-bottom: 1.5em;">

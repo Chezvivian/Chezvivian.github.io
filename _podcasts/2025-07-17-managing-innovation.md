@@ -3,6 +3,10 @@ layout: single
 title: "创新管理的自学播客"
 ---
 
+<div style="margin-bottom: 2em;">
+  <a href="/podcasts/" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回播客小镇</a>
+</div>
+
 <div style="display: flex; flex-direction: row; width: 100%; min-height: 500px; box-sizing: border-box;">
   <!-- 左侧目录（黑白灰色块包裹） -->
   <div style="width: 50%; min-width: 260px; padding: 32px 24px 32px 0; box-sizing: border-box; display: flex; flex-direction: column; justify-content: flex-start;">
@@ -13,37 +17,37 @@ title: "创新管理的自学播客"
           <span style="display:inline-block; width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;">
             <svg viewBox="0 0 24 24" fill="#222" width="1.3em" height="1.3em" style="display:block;"><path d="M12 3v18c-4.97 0-9-4.03-9-9s4.03-9 9-9zm1 0c4.97 0 9 4.03 9 9s-4.03 9-9 9V3zm-1 2.18C7.16 5.7 4 9.13 4 13c0 3.87 3.16 7.3 7 7.82V5.18zm2 0v15.64c3.84-.52 7-3.95 7-7.82 0-3.87-3.16-7.3-7-7.82z"></path></svg>
           </span>
-          <a href="/class/podcast/innovation_ep1" class="podcast-link">第一话：创新？是不是很虚啊？</a>
+          <a href="/podcasts/innovation_ep1" class="podcast-link">第一话：创新？是不是很虚啊？</a>
         </li>
         <li style="margin-bottom: 1.5em; display: flex; align-items: center;">
           <span style="display:inline-block; width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;">
             <svg viewBox="0 0 24 24" fill="#222" width="1.3em" height="1.3em" style="display:block;"><path d="M12 3v18c-4.97 0-9-4.03-9-9s4.03-9 9-9zm1 0c4.97 0 9 4.03 9 9s-4.03 9-9-9V3zm-1 2.18C7.16 5.7 4 9.13 4 13c0 3.87 3.16 7.3 7 7.82V5.18zm2 0v15.64c3.84-.52 7-3.95 7-7.82 0-3.87-3.16-7.3-7-7.82z"></path></svg>
           </span>
-          <a href="/class/podcast/innovation_ep2" class="podcast-link">第二话：数字创新又是什么？</a>
+          <a href="/podcasts/innovation_ep2" class="podcast-link">第二话：数字创新又是什么？</a>
         </li>
         <li style="margin-bottom: 1.5em; display: flex; align-items: center;">
           <span style="display:inline-block; width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;">
             <svg viewBox="0 0 24 24" fill="#222" width="1.3em" height="1.3em" style="display:block;"><path d="M12 3v18c-4.97 0-9-4.03-9-9s4.03-9 9-9zm1 0c4.97 0 9 4.03 9 9s-4.03 9-9-9V3zm-1 2.18C7.16 5.7 4 9.13 4 13c0 3.87 3.16 7.3 7 7.82V5.18zm2 0v15.64c3.84-.52 7-3.95 7-7.82 0-3.87-3.16-7.3-7-7.82z"></path></svg>
           </span>
-          <a href="/class/podcast/innovation_ep3" class="podcast-link">第三话：创新……还可以订制！</a>
+          <a href="/podcasts/innovation_ep3" class="podcast-link">第三话：创新……还可以订制！</a>
         </li>
         <li style="margin-bottom: 1.5em; display: flex; align-items: center;">
           <span style="display:inline-block; width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;">
             <svg viewBox="0 0 24 24" fill="#222" width="1.3em" height="1.3em" style="display:block;"><path d="M12 3v18c-4.97 0-9-4.03-9-9s4.03-9 9-9zm1 0c4.97 0 9 4.03 9 9s-4.03 9-9-9V3zm-1 2.18C7.16 5.7 4 9.13 4 13c0 3.87 3.16 7.3 7 7.82V5.18zm2 0v15.64c3.84-.52 7-3.95 7-7.82 0-3.87-3.16-7.3-7-7.82z"></path></svg>
           </span>
-          <a href="/class/podcast/innovation_ep4" class="podcast-link">第四话：拥抱变化——你的核心竞争力！</a>
+          <a href="/podcasts/innovation_ep4" class="podcast-link">第四话：拥抱变化——你的核心竞争力！</a>
         </li>
         <li style="margin-bottom: 1.5em; display: flex; align-items: center;">
           <span style="display:inline-block; width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;">
             <svg viewBox="0 0 24 24" fill="#222" width="1.3em" height="1.3em" style="display:block;"><path d="M12 3v18c-4.97 0-9-4.03-9-9s4.03-9 9-9zm1 0c4.97 0 9 4.03 9 9s-4.03 9-9-9V3zm-1 2.18C7.16 5.7 4 9.13 4 13c0 3.87 3.16 7.3 7 7.82V5.18zm2 0v15.64c3.84-.52 7-3.95 7-7.82 0-3.87-3.16-7.3-7-7.82z"></path></svg>
           </span>
-          <a href="/class/podcast/innovation_ep5" class="podcast-link">第五话：怕什么失败？干就完了</a>
+          <a href="/podcasts/innovation_ep5" class="podcast-link">第五话：怕什么失败？干就完了</a>
         </li>
         <li style="margin-bottom: 1.5em; display: flex; align-items: center;">
           <span style="display:inline-block; width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;">
             <svg viewBox="0 0 24 24" fill="#222" width="1.3em" height="1.3em" style="display:block;"><path d="M12 3v18c-4.97 0-9-4.03-9-9s4.03-9 9-9zm1 0c4.97 0 9 4.03 9 9s-4.03 9-9-9V3zm-1 2.18C7.16 5.7 4 9.13 4 13c0 3.87 3.16 7.3 7 7.82V5.18zm2 0v15.64c3.84-.52 7-3.95 7-7.82 0-3.87-3.16-7.3-7-7.82z"></path></svg>
           </span>
-          <a href="/class/podcast/innovation_ep6" class="podcast-link">第六话：创新火种——处处留意皆学问</a>
+          <a href="/podcasts/innovation_ep6" class="podcast-link">第六话：创新火种——处处留意皆学问</a>
         </li>
       </ul>
     </div>
