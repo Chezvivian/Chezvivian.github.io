@@ -1,5 +1,6 @@
 ---
-title: '2023-11-08 GAIA 和 ChatGPT：理想照进现实？'
+title: 'GAIA 和 ChatGPT：理想照进现实？'
+date: 2023-11-08
 tags:
   - thoughts
 ---

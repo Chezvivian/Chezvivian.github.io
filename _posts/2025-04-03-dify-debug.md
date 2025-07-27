@@ -1,5 +1,6 @@
 ---
-title: '2025-04-03 Dify 智能助教应用 debug 过程'
+title: 'Dify 智能助教应用 debug 过程'
+date: 2025-04-03
 tags:
   - thoughts
 ---

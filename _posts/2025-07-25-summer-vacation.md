@@ -1,5 +1,6 @@
 ---
-title: '2025-07-25 无尽夏'
+title: '无尽夏'
+date: 2025-07-25
 tags:
   - thoughts
 ---

@@ -1,5 +1,6 @@
 ---
-title: '2023-10-12 Decision making under deep uncertainty'
+title: 'Decision making under deep uncertainty'
+date: 2023-10-12
 tags:
   - thoughts
 ---
