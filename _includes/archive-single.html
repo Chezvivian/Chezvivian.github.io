@@ -26,8 +26,8 @@
       </div>
     {% endif %}
 
-    <div class="archive__item-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em;">
-      <h2 class="archive__item-title" itemprop="headline" style="margin: 0; flex: 1;">
+    <div class="archive__item-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em; padding: 0 2rem;">
+      <h2 class="archive__item-title" itemprop="headline" style="margin: 0; flex: 1; max-width: 70%;">
         {% if post.link %}
           <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
         {% else %}
@@ -36,7 +36,7 @@
       </h2>
       
       {% if post.date %}
-        <span class="archive__item-date" style="text-align: right; color: #666; font-size: 0.9em; white-space: nowrap;">
+        <span class="archive__item-date" style="text-align: right; color: #666; font-size: 1em; white-space: nowrap; margin-left: 1rem;">
           <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%Y-%m-%d" }}</time>
         </span>
       {% endif %}
@@ -52,11 +52,7 @@
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% endif %}
 
-    {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
+    {% comment %}<!-- Excerpt display removed for cleaner blog list -->{% endcomment %}
     
     {% if post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
