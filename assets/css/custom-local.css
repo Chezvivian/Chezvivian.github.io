@@ -1,0 +1,267 @@
+/* This file is kept intentionally blank inside the jekyll-github-theme
+ * It gets imported at the end of custom.css
+ * Its purpose is for users of the theme to be able to add css rules from a blank file
+ *   these get simply added to the ones already active in the layout.
+ */
+
+/* CAT课程表格响应式宽度 */
+@media (min-width: 900px) {
+  .cat-table th:nth-child(2), .cat-table td:nth-child(2) { min-width: 340px; }
+  .cat-table th:nth-child(3), .cat-table td:nth-child(3) { min-width: 220px; }
+  .cat-table th:nth-child(4), .cat-table td:nth-child(4) { min-width: 180px; }
+}
+#toggle-summary-btn {
+  box-shadow: 0 2px 8px #ccc;
+}
+@media (max-width: 600px) {
+  #toggle-summary-btn { left: 8px; top: 8px; }
+}
+
+/* 播客频道块状按钮样式 */
+.podcast-btns {
+  margin-bottom: 1.5em;
+}
+.podcast-btn {
+  display: inline-block;
+  padding: 0.8em 2em;
+  margin: 0.5em 0;
+  background: #fff;
+  border: 2px solid #bbb;
+  border-radius: 16px;
+  color: #222;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: border 0.2s, color 0.2s, background 0.2s;
+  box-shadow: 0 2px 8px rgba(180,180,180,0.08);
+}
+.podcast-btn:hover {
+  border-color: #333;
+  color: #007acc;
+  background: #f7f7f7;
+}
+.podcast-title-link {
+  text-decoration: none;
+  color: #222;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.podcast-title-link:hover {
+  color: #007acc;
+  text-decoration: underline;
+}
+
+/* 导航栏标题行距修正（如有需要可加） */
+.summary .chapter a {
+  line-height: 1.3 !important;
+  margin-bottom: 0 !important;
+}
+
+.podcast-channel-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2.5vw;
+  margin: 36px 0 36px 0;
+}
+.podcast-channel-block {
+  flex: 1 1 0;
+  background: #fff;
+  border: 2px solid #bbb;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(180,180,180,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 36px 18px 28px 18px;
+  min-width: 180px;
+  min-height: 180px;
+}
+.podcast-channel-title {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px; /* 原为32px，减小间距 */
+  text-align: center;
+  line-height: 1.3;
+}
+.podcast-channel-link-wrap {
+  /* flex: 1 1 auto; */
+  display: flex;
+  align-items: center; /* 原为flex-end，改为垂直居中 */
+  justify-content: center;
+  width: 100%;
+  min-height: 56px; /* 保证按钮区有空间 */
+}
+.podcast-channel-link {
+  display: inline-block;
+  padding: 1em 2.8em;
+  background: #e3f0fb; /* 默认淡蓝色，后续用nth-child覆盖 */
+  border: none;
+  border-radius: 18px;
+  color: #222;
+  font-weight: 700;
+  font-size: 1.35em;
+  text-decoration: none;
+  transition: box-shadow 0.2s, color 0.2s, background 0.2s;
+  box-shadow: 0 2px 8px rgba(180,180,180,0.06);
+  margin-top: 12px;
+  letter-spacing: 0.02em;
+}
+.podcast-channel-link:hover {
+  color: #007acc;
+  background: #d0e7f7;
+  box-shadow: 0 4px 16px rgba(120,160,220,0.10);
+}
+.podcast-channel-block:nth-child(1) .podcast-channel-link {
+  background: #e3f0fb; /* 淡蓝色 */
+}
+.podcast-channel-block:nth-child(2) .podcast-channel-link {
+  background: #e6f6f7; /* 淡青色 */
+}
+.podcast-channel-block:nth-child(3) .podcast-channel-link {
+  background: #ede6f7; /* 淡紫色 */
+}
+.podcast-channel-block:nth-child(1) .podcast-channel-link:hover {
+  background: #d0e7f7;
+}
+.podcast-channel-block:nth-child(2) .podcast-channel-link:hover {
+  background: #c9ecee;
+}
+.podcast-channel-block:nth-child(3) .podcast-channel-link:hover {
+  background: #e0d6f2;
+}
+
+@media (max-width: 900px) {
+  .podcast-channel-row {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .podcast-channel-block {
+    min-width: 0;
+    width: 100%;
+  }
+  .podcast-channel-link {
+    font-size: 1.08em;
+    padding: 0.8em 1.2em;
+    max-width: 90vw;
+    word-break: break-all;
+  }
+  .podcast-channel-title {
+    margin-bottom: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .podcast-channel-link {
+    font-size: 1em;
+    padding: 0.7em 0.7em;
+    max-width: 96vw;
+  }
+  .podcast-channel-title {
+    margin-bottom: 10px;
+  }
+}
+
+/* 还原主内容区宽度限制 */
+.body-inner, .page-wrapper, .page-inner, .markdown-section {
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
+
+/* 大屏幕下的上一页/下一页按钮位置 */
+.navigation.navigation-prev {
+  left: 8px !important;
+  position: fixed !important;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+.navigation.navigation-next {
+  right: 8px !important;
+  position: fixed !important;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+@media (max-width: 950px) {
+  .body-inner, .page-wrapper, .page-inner, .markdown-section {
+    max-width: 100% !important;
+    padding-left: auto;
+    padding-right: auto;
+  }
+
+  .navigation.navigation-prev {
+    left: 8px !important;
+    top: auto;
+    bottom: 24px;
+    transform: none;
+  }
+  .navigation.navigation-next {
+    right: 8px !important;
+    top: auto;
+    bottom: 24px;
+    transform: none;
+  }
+}
+
+ul.term-list {
+  margin: 1.2em 0 1.2em 0;
+  padding: 0 0 0 1.2em;
+}
+ul.term-list li {
+  margin-bottom: 14px;
+  list-style: none;
+  padding: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  color: #444;
+  font-size: 1em;
+  line-height: 1.7;
+}
+ul.term-list li strong {
+  font-weight: bold;
+  color: #222;
+  font-size: 1.08em;
+  display: inline;
+  margin-right: 8px;
+}
+/* 让解释部分始终有灰色背景且不换行 */
+ul.term-list li strong + br {
+  display: none;
+}
+ul.term-list li strong + br + span,
+ul.term-list li strong + br + em,
+ul.term-list li strong + br + div,
+ul.term-list li strong + br + p {
+  display: inline;
+  margin-top: 0;
+  margin-left: 0;
+  color: #444;
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+/* 兼容直接文本解释 */
+ul.term-list li strong + br + text,
+ul.term-list li strong + br + *:not(strong) {
+  display: inline;
+  color: #444;
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+/* 兼容 span.term-desc 写法 */
+ul.term-list li .term-desc {
+  display: inline;
+  color: #444;
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 4px 10px;
+  margin-left: 0;
+}
