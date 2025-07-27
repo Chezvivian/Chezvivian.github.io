@@ -1,5 +1,6 @@
 ---
-title: '2023-4-23 在Github上搭建个人网站'
+title: '在Github上搭建个人网站'
+date: 2023-04-23
 tags:
   - technical
 ---
