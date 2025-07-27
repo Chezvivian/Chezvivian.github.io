@@ -26,17 +26,17 @@
       </div>
     {% endif %}
 
-    <div class="archive__item-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5em; padding: 0 2rem;">
+    <div class="archive__item-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5em; padding: 0 2rem;">
       <h2 class="archive__item-title" itemprop="headline" style="margin: 0; flex: 1; max-width: 70%;">
         {% if post.link %}
-          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          <a href="{{ post.link }}" style="text-decoration: none; color: inherit; transition: color 0.2s ease;" onmouseover="this.style.color='#333'" onmouseout="this.style.color='inherit'">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
         {% else %}
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="text-decoration: none; color: inherit; transition: color 0.2s ease;" onmouseover="this.style.color='#333'" onmouseout="this.style.color='inherit'">{{ title }}</a>
         {% endif %}
       </h2>
       
       {% if post.date %}
-        <span class="archive__item-date" style="text-align: right; color: #666; font-size: 1em; white-space: nowrap; margin-left: 1rem;">
+        <span class="archive__item-date" style="text-align: right; color: #666; font-size: 1em; white-space: nowrap; margin-left: 0.5rem;">
           <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%Y-%m-%d" }}</time>
         </span>
       {% endif %}
