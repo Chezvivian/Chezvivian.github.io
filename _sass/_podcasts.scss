@@ -142,7 +142,7 @@
 /* 播客链接样式 */
 .podcast-link {
   color: #1a355e;
-  text-decoration: none;
+  text-decoration: none !important; 
   font-weight: 500;
   transition: color 0.2s, text-decoration 0.2s;
 }

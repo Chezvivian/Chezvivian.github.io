@@ -4,12 +4,12 @@ title: "创新管理的自学播客"
 ---
 
 <div style="margin-bottom: 2em;">
-  <a href="/podcasts/" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回Vivian's 播客小镇</a>
+  <a href="/podcasts/" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回 Vivian's 播客小镇</a>
 </div>
 
 <div style="display: flex; flex-direction: row; width: 100%; min-height: 500px; box-sizing: border-box;">
   <!-- 左侧目录（黑白灰色块包裹） -->
-  <div style="width: 50%; min-width: 260px; padding: 32px 24px 32px 0; box-sizing: border-box; display: flex; flex-direction: column; justify-content: flex-start;">
+  <div style="width: 70%; min-width: 260px; padding: 32px 24px 32px 0; box-sizing: border-box; display: flex; flex-direction: column; justify-content: flex-start;">
     <div style="background: #fff; border: 1px solid #e0e0e0; border-radius: 10px; padding: 28px 24px;">
       <h2 style="margin-top:0; margin-bottom: 1.2em; color: #222;">播客内容</h2>
       <ul style="list-style: none; padding: 0; font-size: 1.15em; margin: 0;">
@@ -53,7 +53,7 @@ title: "创新管理的自学播客"
     </div>
   </div>
   <!-- 右侧三色块区块 -->
-  <div style="width: 50%; display: flex; flex-direction: column; gap: 24px; padding: 32px 0 32px 24px; box-sizing: border-box;">
+  <div style="width: 30%; display: flex; flex-direction: column; gap: 24px; padding: 32px 0 32px 24px; box-sizing: border-box;">
     <div style="background: #fafbfc; border: 1px solid #e0e0e0; border-radius: 10px; padding: 24px 20px;">
       <h3 style="margin-top:0; color: #222;">资料来源</h3>
       <div style="color: #444;">（此处为资料来源占位，后续可补充书籍、论文、网站等参考信息）</div>
