@@ -13,7 +13,7 @@ author_profile: true
   <div class="podcast-channel-block">
     <div class="podcast-channel-title">创新管理的自学播客</div>
     <div class="podcast-channel-link-wrap">
-      <a class="podcast-channel-link" href="/podcasts/2025-07-17-managing-innovation">创新管理</a>
+      <a class="podcast-channel-link" href="/podcasts/2025-07-17-innovation">创新管理</a>
     </div>
   </div>
   <div class="podcast-channel-block">
