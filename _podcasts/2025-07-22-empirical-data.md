@@ -31,7 +31,10 @@ title: "实证研究数据处理的过程标准化探索"
 
 使用 NotebookLM 制作了流程的讨论对话，用来加深印象。
 
-![眼动数据处理全流程音频概览](/files/podcasts/empirical-data/眼动研究数据处理全流程.wav)
+<audio controls style="width: 100%; max-width: 600px; margin: 1em 0;">
+  <source src="/files/podcasts/empirical-data/眼动研究数据处理全流程.wav" type="audio/wav">
+  您的浏览器不支持音频播放。
+</audio>
 
 ### Part 1 数据导入与预处理
 1. **环境配置**
