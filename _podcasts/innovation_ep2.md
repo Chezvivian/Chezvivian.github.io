@@ -137,7 +137,7 @@ title: "第二话：数字创新又是什么？"
 <!-- 资料来源模块 -->
 <div style="margin-bottom: 2em; border: 1.5px solid #bbb; border-radius: 12px; background: #fff; padding: 24px 18px; max-width: 1000px; max-height: 1100px;">
   <h2 style="margin-top: 0;">资料来源</h2>
-  <iframe src="/class/assets/podcasts/Chapter 1.pdf" width="100%" height="600px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+  <iframe src="/files/podcasts/innovation/Chapter 1.pdf" width="100%" height="600px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
 </div>
 
 
@@ -191,7 +191,7 @@ function syncLRC(audio, lrcArr) {
   });
 }
 (async function() {
-  const lrcText = await fetchLRC('/class/assets/podcasts/innovation_ep2.txt');
+  const lrcText = await fetchLRC('/files/podcasts/innovation/innovation_ep2.txt');
   const lrcArr = parseLRC(lrcText);
   renderLRC(lrcArr);
   const audio = document.getElementById('audio-ep2');

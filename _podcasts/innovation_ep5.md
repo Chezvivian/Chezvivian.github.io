@@ -75,7 +75,7 @@ title: "第五话：怕什么失败？干就完了"
   <!-- 右下：资料来源 -->
   <div style="flex: 1 1 0; min-width: 320px;">
     <h2 style="margin-top: 0;">资料来源</h2>
-    <iframe src="/class/assets/podcasts/Chapter 5.pdf" width="70%" height="800px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+    <iframe src="/files/podcasts/innovation/Chapter 5.pdf" width="70%" height="800px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
   </div>
 </div>
 
@@ -130,7 +130,7 @@ function syncLRC(audio, lrcArr) {
   });
 }
 (async function() {
-  const lrcText = await fetchLRC('/class/assets/podcasts/innovation_ep5.txt');
+  const lrcText = await fetchLRC('/files/podcasts/innovation/innovation_ep5.txt');
   const lrcArr = parseLRC(lrcText);
   renderLRC(lrcArr);
   const audio = document.getElementById('audio-ep5');

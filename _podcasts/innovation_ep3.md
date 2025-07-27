@@ -114,7 +114,7 @@ title: "第三话：创新……还可以订制！"
 <!-- 资料来源模块 -->
   <div style="margin-bottom: 2em; border: 1.5px solid #bbb; border-radius: 12px; background: #fff; padding: 24px 18px; max-width: 1000px; max-height: 1100px;">
     <h2 style="margin-top: 0;">资料来源</h2>
-    <iframe src="/class/assets/podcasts/Chapter 3.pdf" width="80%" height="900px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
+    <iframe src="/files/podcasts/innovation/Chapter 3.pdf" width="80%" height="900px" style="border:1px solid #ccc; border-radius:8px;"></iframe>
   </div>
 </div>
 
@@ -168,7 +168,7 @@ function syncLRC(audio, lrcArr) {
   });
 }
 (async function() {
-  const lrcText = await fetchLRC('/class/assets/podcasts/innovation_ep3.txt');
+  const lrcText = await fetchLRC('/files/podcasts/innovation/innovation_ep3.txt');
   const lrcArr = parseLRC(lrcText);
   renderLRC(lrcArr);
   const audio = document.getElementById('audio-ep3');
