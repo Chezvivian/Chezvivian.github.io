@@ -4,7 +4,7 @@ title: "创新管理的自学播客"
 ---
 
 <div style="margin-bottom: 2em;">
-  <a href="/podcasts/" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回播客小镇</a>
+  <a href="/podcasts/" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回Vivian's 播客小镇</a>
 </div>
 
 <div style="display: flex; flex-direction: row; width: 100%; min-height: 500px; box-sizing: border-box;">
