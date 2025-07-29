@@ -20,21 +20,22 @@ See you there.
 
 ## Personal interests 
 
+<div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+<div style="flex: 1; min-width: 250px;">
+
 ### Sports
-(Recently)
 
 - Badminton
 - Switch Ringfit
 
-### Music
-
-- Piano
-- Chinese Guzheng 
-- Chinese Guqin
+</div>
+<div style="flex: 1; min-width: 250px;">
 
 ### Video Game
 
-- Black myth: Wukong
 - Horizon: Zero Dawn/Forbidden West
 - God of War series
+
+</div>
+</div>
   

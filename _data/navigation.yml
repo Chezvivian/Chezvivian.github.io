@@ -9,13 +9,14 @@ main:
     
   - title: "Blogs"
     url: blogs/
-
-  - title: "Class"
-    url: class/
-
+    
   - title: "Podcasts"
     url: podcasts/
     
+  - title: "Class"
+    url: class/
+
+
 #  - title: "Publications"
 #    url: publications/
   
