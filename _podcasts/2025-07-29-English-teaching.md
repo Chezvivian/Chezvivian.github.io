@@ -22,6 +22,14 @@ title: "大语言模型辅助商务英语教学"
 
 许老师整理的大模型提示库网站：[提示语集合](https://promptbank.unipus.cn)
 
+如果没有时间阅读这个长文档，你也可以听一听这个音频，是把这个网页凝练总结的两个主持人对话（用 NotebooLM 生成）。听一听试试！
+
+<audio controls style="width: 100%; max-width: 600px; margin: 2em 0;">
+  <source src="/files/podcasts/English-teaching/大语言模型辅助商务英语教学研究.wav" type="audio/wav">
+  您的浏览器不支持音频播放。
+</audio>
+
+
 <div style="margin-bottom:2em; border:1.5px solid #bbb; border-radius:12px; background:#fff; padding:24px 18px; max-width:1000px;">
   <h2 style="margin-top:0;">关键术语词汇表</h2>
   <ul style="list-style:none; padding:0; margin-top:1em;">
