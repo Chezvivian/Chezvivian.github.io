@@ -42,7 +42,7 @@ Please create [number] multiple-choice questions each focusing on a different wo
 3. 举例：未在提示中提供
 4. 具体要求：为每个问题提供正确答案
 ```
-</div>
+
 ### 2. 围绕特定主题造句成段
 
 **● 主题**
