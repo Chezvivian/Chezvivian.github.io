@@ -127,6 +127,10 @@
   background: #ede6f7; /* 淡紫色 */
 }
 
+.podcast-channel-block:nth-child(4) .podcast-channel-link {
+  background: #f7e6f0; /* 淡粉色 */
+}
+
 .podcast-channel-block:nth-child(1) .podcast-channel-link:hover {
   background: #d0e7f7;
 }
@@ -137,6 +141,10 @@
 
 .podcast-channel-block:nth-child(3) .podcast-channel-link:hover {
   background: #e0d6f2;
+}
+
+.podcast-channel-block:nth-child(4) .podcast-channel-link:hover {
+  background: #f0d6e6;
 }
 
 /* 播客链接样式 */

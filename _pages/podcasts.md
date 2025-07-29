@@ -28,6 +28,12 @@ author_profile: true
       <a class="podcast-channel-link" href="/podcasts/2025-07-22-empirical-data">实证数据处理</a>
     </div>
   </div>
+  <div class="podcast-channel-block">
+    <div class="podcast-channel-title">大语言模型辅助<br>商务英语教学</div>
+    <div class="podcast-channel-link-wrap">
+      <a class="podcast-channel-link" href="/podcasts/2025-07-29-English-teaching">商务英语教学</a>
+    </div>
+  </div>
 </div>
 
 ---
