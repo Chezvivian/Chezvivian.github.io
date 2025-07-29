@@ -25,7 +25,7 @@ title: "大语言模型辅助商务英语教学"
 ## Part I. 词汇篇
 
 ### 1. 词根构词拓展学习
-<div class="section-block">
+
 **● 主题**
 通过词根理解词义并拓展词汇
 
@@ -44,7 +44,7 @@ Please create [number] multiple-choice questions each focusing on a different wo
 ```
 </div>
 ### 2. 围绕特定主题造句成段
-<div class="section-block">
+
 **● 主题**
 产出导向法中的语言促成设计
 
@@ -61,9 +61,9 @@ Please generate [number] interconnected words that are suitable for CEFR [级别
 3. 举例：提供示例段落，展示如何使用目标词汇
 4. 具体要求：词汇应涵盖特定主题的不同方面，并用于写作任务
 ```
-</div>
+
 ### 3. 指定英语词汇的读后续写材料设计
-<div class="section-block">
+
 **● 主题**
 基于"续论"语言习得观的读后续写练习
 
@@ -80,9 +80,9 @@ Please create a reading-writing integrated continuation task suitable for CEFR [
 3. 举例：提供阅读材料和续写任务示例
 4. 具体要求：阅读材料长度、难度和必须包含的目标词汇
 ```
-</div>
+
 ### 4. 近义词词义辨析（fare和fee）
-<div class="section-block">
+
 **● 主题**
 帮助学生辨析近义词的意义差异
 
@@ -99,9 +99,9 @@ Please create [number] fill-in-the-blank questions (using "[词1]" or "[词2]") 
 3. 举例：未在提示中提供
 4. 具体要求：提供答案和解释，明确各词的用法区别
 ```
-</div>
+
 ### 5. 形式相似词的词义辨析（cloth、cloths、clothing和clothes）
-<div class="section-block">
+
 **● 主题**
 形式相似、语义关联的词汇辨析
 
@@ -118,9 +118,9 @@ Please create [number] error-correction questions to distinguish the meanings of
 3. 举例：未在提示中提供
 4. 具体要求：提供答案解析，解释每个词的正确用法
 ```
-</div>
+
 ### 6. 近义词用法辨析（suggest和advise）
-<div class="section-block">
+
 **● 主题**
 近义词在语用场景和句法结构上的差异
 
@@ -137,9 +137,9 @@ Please provide [number] exercises to distinguish the difference between "[词1]"
 3. 举例：提供包含常见错误的例句
 4. 具体要求：包含语用场景错误和语法结构错误的例句，并提供正误评注
 ```
-</div>
+
 ### 7. 熟词生义问题（get around）
-<div class="section-block">
+
 **● 主题**
 多义词或短语不同义项的辨析
 
@@ -156,9 +156,9 @@ Please design multiple-choice questions to distinguish all the meaning of the ph
 3. 举例：未在提示中提供
 4. 具体要求：提供不同语境下的例句，以及答案和解析
 ```
-</div>
+ 
 ### 8. 易混词拼写练习
-<div class="section-block">
+
 **● 主题**
 英语易混淆单词的拼写问题
 
@@ -175,7 +175,7 @@ Design a context-based multiple-choice spelling quiz for the words "[词1]", "[�
 3. 举例：未在提示中提供
 4. 具体要求：为每个单词提供语境句子，包含一个正确拼写和三个常见错误拼写
 ```
-</div>
+ 
 ### 总结与反思
 
 大语言模型在词汇教学中的应用非常广泛，能够帮助教师设计多样化的词汇练习。然而，使用过程中也需要注意以下几点：
@@ -189,7 +189,7 @@ Design a context-based multiple-choice spelling quiz for the words "[词1]", "[�
 ## Part II. 语法篇
 
 ### 1. 关系从句练习设计
-<div class="section-block">
+
 **● 主题**
 基于"续论"语言习得观的读后续写任务，将关系从句融入阅读材料
 
@@ -206,9 +206,9 @@ Please create a reading-writing integrated continuation task suitable for CEFR [
 3. 举例：在响应中提供续写示例
 4. 具体要求：阅读材料长度和应包含的关系从句数量
 ```
-</div>
+ 
 ### 2. 虚拟语气材料改编
-<div class="section-block">
+
 **● 主题**
 基于"续论"语言习得观的强化读后续写任务，促进虚拟语气的习得
 
@@ -225,9 +225,9 @@ Please create a reading-writing continuation task for [级别] level learner bas
 3. 举例：提供原故事内容作为参考
 4. 具体要求：阅读材料长度和应包含的虚拟语气例句数量
 ```
-</div>
+ 
 ### 3. 宾语补语的用法
-<div class="section-block">
+
 **● 主题**
 英语语法中宾语补语的使用和改写练习
 
@@ -244,9 +244,9 @@ Please create a series of [数量] exercises designed for CEFR [级别] level En
 3. 举例：提供基础句和改写后的示例
 4. 具体要求：包括不同类型的宾语补语练习和答案解析
 ```
-</div>
+ 
 ### 4. 过去完成体和过去完成进行体的区分
-<div class="section-block">
+
 **● 主题**
 英语中过去完成体和过去完成进行体的对比和应用
 
@@ -263,9 +263,9 @@ Please create [数量] grammar gap-fill questions that guide students to modify 
 3. 举例：未在提示中直接提供
 4. 具体要求：为每个题目提供答案和详细解释
 ```
-</div>
+ 
 ### 5. 否定副词引导的部分倒装句学习
-<div class="section-block">
+
 **● 主题**
 英语中否定副词引导的部分倒装句结构与应用
 
@@ -282,9 +282,9 @@ Please create [数量] exercises on partial inversion with negative adverbials i
 3. 举例：为每个否定副词提供原始句和改写后的句子
 4. 具体要求：使用不同的否定副词/短语创建练习并提供答案
 ```
-</div>
+ 
 ### 6. 主谓一致问题
-<div class="section-block">
+
 **● 主题**
 英语语法中主语和谓语在人称和数上的一致性规则
 
@@ -301,7 +301,7 @@ Please create a set of [数量] error correction exercises focusing on subject-v
 3. 举例：未在提示中直接提供
 4. 具体要求：涵盖多种主谓一致问题类型，并提供详细解析
 ```
-</div>
+ 
 ### 总结与反思
 
 大语言模型在语法教学中的应用显示出显著优势，能够快速生成多样化、高质量的语法练习，且可根据教学需求进行定制。然而，教师在使用大语言模型生成的内容时，应注意以下几点：
@@ -315,7 +315,6 @@ Please create a set of [数量] error correction exercises focusing on subject-v
 ## Part III. 听力篇
 
 ### 1. 听力材料改编
-<div class="section-block">
 
 **● 主题**
 - **将阅读材料改编为听力材料，调整语言难度、风格和内容形式**
@@ -335,9 +334,8 @@ Please convert this reading material into a listening material suitable for CEFR
 3. 举例：可选择性提供改编示例
 4. 具体要求：要求将书面语转为口语形式，可指定对话形式等特定风格
 ```
-</div>
+ 
 ### 2. 听力习题设计
-<div class="section-block">
 
 **● 主题**
 - **根据听力材料设计多样化的听力理解题目**
@@ -357,9 +355,8 @@ Here is the material: [听力材料]
 3. 举例：可要求提供示例答案
 4. 具体要求：明确指定不同类型题目的数量，并要求提供答案解析
 ```
-</div>
+ 
 ### 3. 听力音频制作
-<div class="section-block">
 
 **● 主题**
 - **将文本脚本转换为可用于听力教学的音频文件**
@@ -376,10 +373,8 @@ Here is the material: [听力材料]
   2. 在"调试台"中设置音色、语速、声调等参数
   3. 点击"生成音频"
   4. 完成后点击右下角下载按钮获取MP3文件
-</div>
+ 
 ### 4. 听力词表制作
-
-<div class="section-block">
 
 **● 主题**
 - **基于听力材料创建词汇表，帮助学生预习和复习**
@@ -403,7 +398,7 @@ Here is the material: [听力材料]
 3. 举例：可要求提供例句
 4. 具体要求：识别特定类型的词汇，提供翻译、语法解释和背景信息
 ```
-</div>
+ 
 ### 总结与反思
 
 大语言模型在听力教学中的应用具有显著优势，可以高效地帮助教师进行听力材料改编、习题设计、词表制作和辩论材料准备等工作。同时，使用过程中也存在一些需要注意的问题：
@@ -416,11 +411,9 @@ Here is the material: [听力材料]
 
 ## Part IV. 口语篇
 
-
 ### 1. 小组辩论的立论与驳论内容促成
-<div class="section-block">
 
-- **主题**：基于"产出导向法"的内容促成环节，为辩论活动生成多角度的正反理据
+**● 主题**：基于"产出导向法"的内容促成环节，为辩论活动生成多角度的正反理据
 
 - **具体方法**：
   - **辩论理据生成**：针对特定话题（如"人工智能生成的画作是艺术吗？"）从多个视角生成正反理据
@@ -435,11 +428,10 @@ I need you to generate comprehensive arguments both supporting and opposing "[�
 3. 举例：未在提示中直接提供
 4. 具体要求：从多个视角（如科技、艺术理论、人文等）提供论据
 ```
-</div>
+ 
 ### 2. 音节接龙语言促成活动设计
-<div class="section-block">
 
-- **主题**：通过音节知识学习改善语言产出，帮助学生掌握多音节单词的发音和拼写
+**● 主题**：通过音节知识学习改善语言产出，帮助学生掌握多音节单词的发音和拼写
 
 - **具体方法**：
   - **音节切分**：针对特定语义场（如"恶化"）生成多音节单词及其音节划分
@@ -454,11 +446,10 @@ Please generate a list of [数量] multisyllabic English words (comprising three
 3. 举例：未在提示中直接提供
 4. 具体要求：提供音节划分，使用连字符连接各音节
 ```
-</div>
+ 
 ### 3. 听后续说任务设计
-<div class="section-block">
 
-- **主题**：基于"续论"语言习得观的听后续说活动，结合听力理解与口语产出
+**● 主题**：基于"续论"语言习得观的听后续说活动，结合听力理解与口语产出
 
 - **具体方法**：
   - **听力材料改写**：将阅读材料智能改写为欧框特定水平（如B2）的听力材料
@@ -473,11 +464,10 @@ Please create a listening-speaking integrated continuation task suitable for CEF
 3. 举例：提供续说的示例
 4. 具体要求：指定听力材料长度、口音、语速和主题延续要求
 ```
-</div>
+ 
 ### 4. 视后续说任务设计
-<div class="section-block">
 
-- **主题**：基于图像的视觉输入进行续说活动，丰富输入模态
+**● 主题**：基于图像的视觉输入进行续说活动，丰富输入模态
 
 - **具体方法**：
   - **AI图像生成**：使用文生图模型（如[通义万相](https://tongyi.aliyun.com/wanxiang/explore)）根据文本描述生成配图
@@ -490,11 +480,10 @@ Please create a listening-speaking integrated continuation task suitable for CEF
     2. 保持提示语简洁，避免过长导致细节遗漏
     3. 如生成结果不满意，可多次尝试直至满意
     4. 将生成的图片应用于视后续说教学活动
-</div>
+ 
 ### 5. 英语演讲稿修改和问答设计
-<div class="section-block">
 
-- **主题**：辅助英语演讲比赛备赛，提高演讲技巧和应对即兴问答能力
+**● 主题**：辅助英语演讲比赛备赛，提高演讲技巧和应对即兴问答能力
 
 - **具体方法**：
   - **演讲稿修改**：从语法、不自然搭配、演讲语体等方面修改演讲稿
@@ -509,7 +498,7 @@ Please review and improve the following speech manuscript titled "[演讲标题]
 3. 举例：未在提示中直接提供
 4. 具体要求：注明原文和修改后的文本，并提供可能的问答示例
 ```
-</div>
+ 
 ### 总结与反思
 
 大语言模型在口语教学中展现出显著优势，能够辅助教师设计多种口语练习活动，提高学生的口语表达能力。主要应用方向包括辩论准备、音节学习、听后续说、视后续说和演讲训练等。在使用过程中，应注意以下几点：
@@ -522,9 +511,8 @@ Please review and improve the following speech manuscript titled "[演讲标题]
 ## Part V. 阅读篇
 
 ### 1. 阅读材料编制
-<div class="section-block">
 
-- **主题**：根据学生英语水平定制化阅读材料，解决阅读材料难度与学生英语水平不匹配的问题
+**● 主题**：根据学生英语水平定制化阅读材料，解决阅读材料难度与学生英语水平不匹配的问题
 
 - **具体方法**：
   - **文本难度调整**：将原始文本调整为符合特定语言水平（如欧框B1水平）的材料
@@ -540,11 +528,10 @@ Please revise the provided text to match a CEFR-[级别] proficiency level, suit
 3. 举例：未在提示中直接提供
 4. 具体要求：使用文内注释标明修改部分，便于教师对比原文和修改后的文本
 ```
-</div>
+ 
 ### 2. 阅读习题设计
-<div class="section-block">
 
-- **主题**：根据阅读材料设计多种类型的阅读理解题，全面评估学生的阅读理解能力
+**● 主题**：根据阅读材料设计多种类型的阅读理解题，全面评估学生的阅读理解能力
 
 - **具体方法**：
   - **多类型题目设计**：设计细节理解题、观点态度题、推理判断题和主旨大意题等多种类型题目
@@ -560,11 +547,10 @@ Please create [数量] multiple-choice reading comprehension questions based on 
 3. 举例：未在提示中直接提供
 4. 具体要求：包括不同类型的题目，并为每道题提供答案和解析
 ```
-</div>
+ 
 ### 3. 交互阅读游戏设计
-<div class="section-block">
 
-- **主题**：利用大语言模型创建开放式、交互式的阅读游戏，提高学生阅读的趣味性和参与度
+**● 主题**：利用大语言模型创建开放式、交互式的阅读游戏，提高学生阅读的趣味性和参与度
 
 - **具体方法**：
   - **交互式故事生成**：定制聊天机器人生成可交互的故事情境
@@ -578,11 +564,10 @@ Please create [数量] multiple-choice reading comprehension questions based on 
     2. 说明功能（如在故事结尾解释难词、提供多种行动选择）
     3. 设定创作风格和互动方式
     4. 测试并调整模型响应
-</div>
+ 
 ### 4. 识别争议焦点的观点促成活动设计
-<div class="section-block">
 
-- **主题**：基于"产出导向法"理论，通过识别阅读材料中的争议焦点促进学生辩论和观点形成
+**● 主题**：基于"产出导向法"理论，通过识别阅读材料中的争议焦点促进学生辩论和观点形成
 
 - **具体方法**：
   - **争议性材料生成**：针对特定话题（如"人工智能是否会取代人类工作"）生成包含多角度观点的阅读材料
@@ -598,11 +583,10 @@ Please generate a controversial reading material based on the topic "[话题]" a
 3. 举例：未在提示中直接提供
 4. 具体要求：在句子、段落和篇章三个层面标注争议焦点
 ```
-</div>
+ 
 ### 5. 阅读教学思维导图绘制
-<div class="section-block">
 
-- **主题**：通过思维导图可视化展示阅读材料的结构和核心内容，提升学生的理解和分析能力
+**● 主题**：通过思维导图可视化展示阅读材料的结构和核心内容，提升学生的理解和分析能力
 
 - **工具**: OpenAI 的 [Whimsical Diagrams](https://chatgpt.com/g/g-vI2kaiM9N-whimsical-diagrams)
 
@@ -620,11 +604,10 @@ Could you create a mindmap based on the provided text?
 3. 举例：未在提示中直接提供
 4. 具体要求：简洁明了，没有特定的额外要求
 ```
-</div>
+ 
 ### 6. 阅读语篇主题词云图绘制
-<div class="section-block">
 
-- **主题**：通过词云图直观展示阅读材料中关键词汇的频率分布，帮助学生把握文本核心
+**● 主题**：通过词云图直观展示阅读材料中关键词汇的频率分布，帮助学生把握文本核心
 
 - **具体方法**：
   - **关键词提取**：从阅读材料中识别并提取关键词汇
@@ -640,7 +623,7 @@ Based on the provided text, please generate a word cloud. Please exclude the sto
 3. 举例：未在提示中直接提供
 4. 具体要求：剔除停用词，以突出有实际语义价值的词汇
 ```
-</div>
+ 
 ### 总结与反思
 
 大语言模型在阅读教学中的应用显示出极大的潜力，可以有效辅助教师进行阅读材料的编制、习题设计和可视化展示。然而，在使用过程中也存在一些需要注意的问题：
@@ -653,9 +636,8 @@ Based on the provided text, please generate a word cloud. Please exclude the sto
 ## Part VI. 写作篇
 
 ### 1. 不同语域同题文本生成
-<div class="section-block">
 
-- **主题**：加强学生对正式和非正式英语的词句风格差异认识，解决学生写作中的语体或语域意识问题
+**● 主题**：加强学生对正式和非正式英语的词句风格差异认识，解决学生写作中的语体或语域意识问题
 
 - **具体方法**：
   - **同题不同语域生成**：针对同一主题（如人工智能）生成正式和非正式两种风格的短文
@@ -671,11 +653,10 @@ Could you write two [字数] essays on the topic "[主题]"? One should be in a 
 3. 举例：未在提示中直接提供
 4. 具体要求：一篇使用正式风格，一篇使用非正式风格
 ```
-</div>
+ 
 ### 2. 特定难度主题相关词句推荐
-<div class="section-block">
 
-- **主题**：基于"产出导向法"的语言目标设计，为写作任务提供相关词汇和表达
+**● 主题**：基于"产出导向法"的语言目标设计，为写作任务提供相关词汇和表达
 
 - **具体方法**：
   - **主题词汇生成**：为特定主题（如大学生创业）生成相关词汇和短语
@@ -691,11 +672,10 @@ Please create a two-part list for CEFR [级别] level English learners. Part 1: 
 3. 举例：未在提示中直接提供
 4. 具体要求：分别列出特定数量的主题相关词汇和写作表达
 ```
-</div>
+ 
 ### 3. 典型写作交际场景设计
-<div class="section-block">
 
-- **主题**：基于"产出导向法"驱动环节的交际场景设计，创建真实有效的写作情境
+**● 主题**：基于"产出导向法"驱动环节的交际场景设计，创建真实有效的写作情境
 
 - **具体方法**：
   - **场景要素设计**：围绕四个要素（话题、身份、目的、场合）设计写作场景
@@ -711,11 +691,10 @@ Please create [数量] scenarios where [学习者身份] [交际任务], suitabl
 3. 举例：提供场景示例以说明格式
 4. 具体要求：每个场景必须包含话题、目的、身份和场合四个要素
 ```
-</div>
+ 
 ### 4. 同义改写语言促成任务设计
-<div class="section-block">
 
-- **主题**：基于"产出导向法"语言促成环节的同义改写练习，强化语言形式与意义的连接
+**● 主题**：基于"产出导向法"语言促成环节的同义改写练习，强化语言形式与意义的连接
 
 - **具体方法**：
   - **目标词汇生成**：围绕特定主题（如创新）生成目标词汇或短语
@@ -731,11 +710,10 @@ Please create [数量] related words or phrases appropriate for CEFR [级别] le
 3. 举例：提供同义改写的示例
 4. 具体要求：词汇应与主题相关，原段落和改写示例均需提供
 ```
-</div>
+ 
 ### 5. 典型学生写作样本选择
-<div class="section-block">
 
-- **主题**：基于"产出导向法"评价环节中"师生合作评价"的课前准备，选择适合评价的典型样本
+**● 主题**：基于"产出导向法"评价环节中"师生合作评价"的课前准备，选择适合评价的典型样本
 
 - **具体方法**：
   - **样本质量评估**：从多篇学生作文中选取质量适中、可改可评的作品
@@ -752,11 +730,10 @@ A typical sample refers to a product of moderate quality that can be improved an
 3. 举例：未在提示中直接提供
 4. 具体要求：提供选择理由和评估结果，选择质量适中的样本
 ```
-</div>
+ 
 ### 6. 议论文和说明文的读后续写设计
-<div class="section-block">
 
-- **主题**：基于"续论"语言习得观的读后续写任务，帮助学生区分议论文和说明文的写作特点
+**● 主题**：基于"续论"语言习得观的读后续写任务，帮助学生区分议论文和说明文的写作特点
 
 - **具体方法**：
   - **不同体裁材料生成**：围绕同一主题（如在线教育）创作议论文和说明文阅读材料
@@ -772,11 +749,10 @@ Design two reading-writing integrated continuation tasks for CEFR [级别] level
 3. 举例：提供两种体裁的续写示例
 4. 具体要求：指定阅读材料长度，确保材料体现各体裁特点
 ```
-</div>
+ 
 ### 7. 英语写作修辞的以续促学设计
-<div class="section-block">
 
-- **主题**：通过读后续写任务促进学生英语写作修辞能力的提升
+**● 主题**：通过读后续写任务促进学生英语写作修辞能力的提升
 
 - **具体方法**：
   - **修辞改写**：将原始文本（如童话故事）改写为包含特定修辞手法（如明喻、拟人）的版本
@@ -792,11 +768,10 @@ Could you please rewrite the provided text to include [数量] instances of figu
 3. 举例：提供包含修辞手法的改写文本
 4. 具体要求：使用特定格式标注修辞手法，设计鼓励学生应用这些修辞的续写任务
 ```
-</div>
+ 
 ### 8. 视读后续写任务设计
-<div class="section-block">
 
-- **主题**：结合图像和文本的多模态"视读后续写"任务，提升阅读理解和写作表达能力
+**● 主题**：结合图像和文本的多模态"视读后续写"任务，提升阅读理解和写作表达能力
 
 - **具体方法**：
   - **文本配图生成**：为读后续写的阅读材料（如童话故事）生成配图
@@ -810,11 +785,10 @@ Could you please rewrite the provided text to include [数量] instances of figu
     2. 保持提示语简洁明了，聚焦于需要可视化的场景
     3. 如果生成结果不理想，可调整提示语后重新生成
     4. 将生成的图片与文本结合，设计"视读后续写"任务
-</div>
+ 
 ### 9. 作文自动评阅
-<div class="section-block">
 
-- **主题**：利用大语言模型的自然语言理解和生成能力对学生作文进行全面评阅
+**● 主题**：利用大语言模型的自然语言理解和生成能力对学生作文进行全面评阅
 
 - **具体方法**：
   - **多维度评阅**：从结构、连贯性、语法、风格、内容、创意、词汇和拼写等多个方面评估作文
@@ -830,7 +804,7 @@ Please review the following student's writing, focusing on the aspects of struct
 3. 举例：未在提示中直接提供
 4. 具体要求：从多个方面评估作文，指出问题并提供改进建议
 ```
-</div>
+ 
 ### 总结与反思
 
 大语言模型在写作教学中展现出强大的辅助功能，能够帮助教师设计多样化的写作教学活动，促进学生写作能力的提升。这些应用覆盖了写作教学的各个环节，从语言目标设计、场景创设、语言促成到评价反馈，形成了完整的写作教学支持体系。
@@ -851,9 +825,8 @@ Please review the following student's writing, focusing on the aspects of struct
 
 
 ### 1. 指定语汇翻译设计
-<div class="section-block">
 
-- **主题**：基于"产出导向法"语言促成环节的指定语汇翻译练习
+**● 主题**：基于"产出导向法"语言促成环节的指定语汇翻译练习
 
 - **具体方法**：
   - **指定语汇翻译练习**：引导学生使用特定目标词汇完成翻译任务
@@ -869,11 +842,10 @@ Create [数量] phrases, each suitable for CEFR [级别] level English learners,
 3. 举例：为每个生成的词汇提供短语示例
 4. 具体要求：设计使用目标词汇的中译英练习题及参考答案
 ```
-</div>
+ 
 ### 2. 汉英续译任务设计
-<div class="section-block">
 
-- **主题**：基于"续论"语言习得观的翻译教学模式，将理解和产出紧密联系
+**● 主题**：基于"续论"语言习得观的翻译教学模式，将理解和产出紧密联系
 
 - **具体方法**：
   - **平行文本分段**：将文本分为阅读翻译部分（约2/3）和续译部分（约1/3）
@@ -889,11 +861,10 @@ Translate [分数] of the provided text from the [考试名称/级别] [语言�
 3. 举例：未在提示中直接提供
 4. 具体要求：提供平行对照的原文和译文，并明确续译部分
 ```
-</div>
+ 
 ### 3. 直译意译对比分析
-<div class="section-block">
 
-- **主题**：展示直译和意译两种翻译方法的差异，帮助学生理解不同翻译策略的特点和适用场景
+**● 主题**：展示直译和意译两种翻译方法的差异，帮助学生理解不同翻译策略的特点和适用场景
 
 - **具体方法**：
   - **直译版本生成**：保留原文的句式结构和表达方式，忠实传达原文的字面意思
@@ -909,11 +880,10 @@ Please translate the provided [语言] passage into [目标语言], creating two
 3. 举例：未在提示中直接提供
 4. 具体要求：明确区分直译和意译方法，针对同一文本生成两种不同的译文
 ```
-</div>
+ 
 ### 4. 口译重要概念解释
-<div class="section-block">
 
-- **主题**：辅助译前准备中的专业领域知识学习，减轻口译准备工作量
+**● 主题**：辅助译前准备中的专业领域知识学习，减轻口译准备工作量
 
 - **具体方法**：
   - **话题识别**：从口译材料中自动提取主要话题和讨论领域
@@ -931,11 +901,10 @@ Could you create a study sheet that introduces key technical concepts from this 
 3. 举例：未在提示中直接提供
 4. 具体要求：提供简洁易懂的概念解释，重点关注理解主题所必需的概念
 ```
-</div>
+ 
 ### 5. 译前双语术语准备
-<div class="section-block">
 
-- **主题**：为口译准备阶段建立专业领域的双语术语对照表，提高口译产出的准确性
+**● 主题**：为口译准备阶段建立专业领域的双语术语对照表，提高口译产出的准确性
 
 - **具体方法**：
   - **术语识别**：从给定材料中提取专业术语和技术词汇
@@ -953,11 +922,10 @@ Using the provided [语言1] and [语言2] documents, can you identify the techn
 3. 举例：未在提示中直接提供
 4. 具体要求：以表格形式呈现源语言术语及其目标语言对应词
 ```
-</div>
+ 
 ### 6. 口译交传练习设计
-<div class="section-block">
 
-- **主题**：利用大语言模型的多模态交互能力，创建更加真实的口译练习场景
+**● 主题**：利用大语言模型的多模态交互能力，创建更加真实的口译练习场景
 
 - **具体方法**：
   - **角色扮演**：大模型扮演英语母语者，学生扮演译员和其他交际角色
@@ -971,7 +939,7 @@ Using the provided [语言1] and [语言2] documents, can you identify the techn
     2. 设置模型以识别语言切换（可使用"please go on"作为识别标记）
     3. 定义角色、场景和话题（如英语母语者讨论气候变化战略合作）
     4. 开始口译练习，模型将根据设定扮演角色并进行真实口语互动
-</div>
+ 
 ### 总结与反思
 
 大语言模型在翻译教学中展现出多方面的应用价值，从词汇翻译练习、续译任务设计到直译意译对比分析，以及口译准备与实践训练等方面都提供了有效支持。这些应用不仅减轻了教师的备课负担，也为学生提供了更加多样化、个性化的学习资源。
