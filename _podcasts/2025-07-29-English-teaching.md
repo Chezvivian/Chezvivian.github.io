@@ -18,7 +18,7 @@ title: "大语言模型辅助商务英语教学"
 
 书籍配套网页：[https://corpus.bfsu.edu.cn/info/1082/1914.htm](https://corpus.bfsu.edu.cn/info/1082/1914.htm)
 
-## 大语言模型用于外语教学的方法——词汇篇
+## Part I. 词汇篇
 
 ### 1. 词根构词拓展学习
 
@@ -182,7 +182,7 @@ Design a context-based multiple-choice spelling quiz for the words "[词1]", "[�
 4. **难度调整**：可在提示语中明确指定练习的难度级别（如欧框标准）
 
 
-## 大语言模型用于外语教学的方法——语法篇
+## Part II. 语法篇
 
 ### 1. 关系从句练习设计
 
@@ -308,7 +308,7 @@ Please create a set of [数量] error correction exercises focusing on subject-v
 4. **场景化应用**：将语法练习与特定主题或场景（如校园生活）结合，增强学习的情境性和实用性
 
 
-## 大语言模型用于外语教学的方法——听力篇
+## Part III. 听力篇
 
 ### 听力材料改编
 
@@ -395,26 +395,6 @@ Here is the material: [听力材料]
 4. 具体要求：识别特定类型的词汇，提供翻译、语法解释和背景信息
 ```
 
-### 小组辩论的立论与驳论内容促成
-
-**● 主题**
-- **基于"产出导向法"为辩论活动生成多角度的正反理据**
-
-**● 具体方法**
-- **辩论理据生成**：针对特定话题生成多角度的正反理据，帮助学生形成个人见解
-- **教师备课辅助**：为教师提供辩论话题的全面思考角度，丰富教学内容
-- **学生参考学习**：提供给学生作为思路启发或论点参考
-
-**● 提示语写作结构**
-*(PDF中未完整展示此部分的提示语，但基于内容可推断)*
-```
-Please generate multiple arguments both for and against the topic "[辩论话题]" from different perspectives, suitable for a debate activity in an English class.
-1. 指定任务：生成正反双方的多角度论据
-2. 目标群体：参与辩论的学生
-3. 举例：可要求提供论据支持的例子
-4. 具体要求：从不同视角提供支持和反对的论点
-```
-
 ### 总结与反思
 
 大语言模型在听力教学中的应用具有显著优势，可以高效地帮助教师进行听力材料改编、习题设计、词表制作和辩论材料准备等工作。同时，使用过程中也存在一些需要注意的问题：
@@ -423,3 +403,104 @@ Please generate multiple arguments both for and against the topic "[辩论话题
 2. **内容校验必要性**：大模型生成的词表和材料需要人工校验，特别是中文翻译和词汇选择
 3. **人工智能后编辑**：教师应根据教学需求对生成内容进行必要的修改和调整
 4. **参数精确控制**：根据学生水平精确设置音频参数，确保听力材料的适用性
+
+
+## Part IV. 口语篇
+
+
+### 小组辩论的立论与驳论内容促成
+
+- **主题**：基于"产出导向法"的内容促成环节，为辩论活动生成多角度的正反理据
+
+- **具体方法**：
+  - **辩论理据生成**：针对特定话题（如"人工智能生成的画作是艺术吗？"）从多个视角生成正反理据
+  - **多视角引导**：从科技进步、后现代艺术理论、人类创造力、历史文化等多个角度提供论点
+  - **论点配对**：为每个正面论点生成相应的反驳论点，帮助学生形成辩证思维
+
+- **提示语写作结构**：
+```
+I need you to generate comprehensive arguments both supporting and opposing "[辩论话题]" from the viewpoints of diverse groups, in order to guide students in constructing arguments and counterarguments.
+1. 指定任务：生成正反方的多角度论据
+2. 目标群体：参与辩论的学生
+3. 举例：未在提示中直接提供
+4. 具体要求：从多个视角（如科技、艺术理论、人文等）提供论据
+```
+
+### 音节接龙语言促成活动设计
+
+- **主题**：通过音节知识学习改善语言产出，帮助学生掌握多音节单词的发音和拼写
+
+- **具体方法**：
+  - **音节切分**：针对特定语义场（如"恶化"）生成多音节单词及其音节划分
+  - **音节接龙活动**：基于切分好的音节，引导学生完成续接音节组词的任务
+  - **针对性训练**：针对学生在多音节单词发音和拼写方面的困难进行有针对性的训练
+
+- **提示语写作结构**：
+```
+Please generate a list of [数量] multisyllabic English words (comprising three or more syllables) that are associated with the notion of [主题]. Additionally, include the syllable divisions for each word.
+1. 指定任务：生成特定语义场的多音节单词及音节划分
+2. 目标群体：学习英语发音的学生
+3. 举例：未在提示中直接提供
+4. 具体要求：提供音节划分，使用连字符连接各音节
+```
+
+### 听后续说任务设计
+
+- **主题**：基于"续论"语言习得观的听后续说活动，结合听力理解与口语产出
+
+- **具体方法**：
+  - **听力材料改写**：将阅读材料智能改写为欧框特定水平（如B2）的听力材料
+  - **故事续说设计**：设计情境化的口语续说任务，引导学生创造性地补全和拓展听力材料
+  - **拉平效应利用**：发挥听力理解与口语产出之间的拉平效应，提高口语表达能力
+
+- **提示语写作结构**：
+```
+Please create a listening-speaking integrated continuation task suitable for CEFR [级别] level learners, based on the provided story. The listening part should be a [字数] word text, converted into an audio file with a [口音] English narration at a pace of [语速] words per minute. Additionally, include a continuation speaking sample that logically extends the story's theme from the listening segment. Here is the provided story: [故事内容]
+1. 指定任务：创建听力-口语一体化的续说任务
+2. 目标群体：明确指定语言水平（如CEFR B2级别）
+3. 举例：提供续说的示例
+4. 具体要求：指定听力材料长度、口音、语速和主题延续要求
+```
+
+### 视后续说任务设计
+
+- **主题**：基于图像的视觉输入进行续说活动，丰富输入模态
+
+- **具体方法**：
+  - **AI图像生成**：使用文生图模型（如通义万相）根据文本描述生成配图
+  - **视觉引导口语**：利用生成的图片作为视觉刺激，引导学生进行续说活动
+  - **故事配图生成**：可针对经典故事（如《金发姑娘和三只熊》）生成情境图片
+
+- **AI工具操作方法**：
+  - **通义万相使用步骤**：
+    1. 将文字描述（如故事片段）作为提示语输入
+    2. 保持提示语简洁，避免过长导致细节遗漏
+    3. 如生成结果不满意，可多次尝试直至满意
+    4. 将生成的图片应用于视后续说教学活动
+
+### 英语演讲稿修改和问答设计
+
+- **主题**：辅助英语演讲比赛备赛，提高演讲技巧和应对即兴问答能力
+
+- **具体方法**：
+  - **演讲稿修改**：从语法、不自然搭配、演讲语体等方面修改演讲稿
+  - **语体调整**：将书面语表达改为更适合口头演讲的表达方式
+  - **即兴问答设计**：基于演讲主题设计相关的即兴问答题目，帮助选手准备问答环节
+
+- **提示语写作结构**：
+```
+Please review and improve the following speech manuscript titled "[演讲标题]" using in-text annotations. Focus on correcting any grammatical errors, awkward phrasings, and expressions that are not suitable for a speech. Additionally, create [数量] impromptu question-and-answer items based on the provided speech manuscript.
+1. 指定任务：修改演讲稿并设计相关即兴问答题目
+2. 目标群体：参加演讲比赛的学生
+3. 举例：未在提示中直接提供
+4. 具体要求：注明原文和修改后的文本，并提供可能的问答示例
+```
+
+### 总结与反思
+
+大语言模型在口语教学中展现出显著优势，能够辅助教师设计多种口语练习活动，提高学生的口语表达能力。主要应用方向包括辩论准备、音节学习、听后续说、视后续说和演讲训练等。在使用过程中，应注意以下几点：
+
+1. **人工智能后编辑**：教师需对大语言模型生成的内容进行必要修改，使其更符合教学需求
+2. **多模态结合**：文本与图像、音频的结合可提供更丰富的教学素材
+3. **活动设计优化**：根据不同的教学目标选择合适的提示语，获取最适合的教学资源
+4. **实践应用检验**：将大语言模型生成的内容应用于实际教学场景，根据学生反馈不断优化
