@@ -12,7 +12,7 @@ Hi, I am currently a lecturer in the Department of Translation at the [School of
 
 I am a frequent user of R and Python, and am obsessed with creating automated workflows in both life and work. 
 
-If you share the same interests, or would like to write or work with me, just reach me at chezvivian@outlook.com.
+If you share the same interests, or would like to write or work with me, just reach me at <b>chezvivian@outlook.com</b>.
 
 See you there.
 
@@ -20,22 +20,15 @@ See you there.
 
 ## Personal interests 
 
-<div style="display: flex; gap: 2rem; flex-wrap: wrap;">
-<div style="flex: 1; min-width: 250px;">
-
 ### Sports
 
 - Badminton
 - Switch Ringfit
 
-</div>
-<div style="flex: 1; min-width: 250px;">
-
 ### Video Game
 
+- Planet Coaster
 - Horizon: Zero Dawn/Forbidden West
 - God of War series
 
-</div>
-</div>
-  
+
