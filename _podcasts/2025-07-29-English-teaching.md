@@ -306,3 +306,120 @@ Please create a set of [数量] error correction exercises focusing on subject-v
 2. **语言实用性**：某些生成的语法结构虽然符合规则，但可能不是常见用法，需要教师进行筛选和调整
 3. **难度控制**：可通过在提示语中指定语言水平（如欧框标准）来控制生成内容的难度
 4. **场景化应用**：将语法练习与特定主题或场景（如校园生活）结合，增强学习的情境性和实用性
+
+
+## 大语言模型用于外语教学的方法——听力篇
+
+### 听力材料改编
+
+**● 主题**
+- **将阅读材料改编为听力材料，调整语言难度、风格和内容形式**
+
+**● 具体方法**
+- **阅读转听力材料改编**：将书面语改编为口语形式，增强听力材料的真实性和交际性
+- **对话形式转换**：将原文改编为主持人对话形式，增加听力材料的吸引力
+- **难度调控**：根据需要（如欧框B1水平）调整语法复杂度、词汇难度和信息密度
+- **内容保留**：在改编过程中保留原文的关键信息和主要内容
+
+**● 提示语写作结构**
+```
+Here is the material: [原始阅读材料]
+Please convert this reading material into a listening material suitable for CEFR [级别] level learners.
+1. 指定任务：将阅读材料转换为听力材料
+2. 目标群体：明确指定语言水平（如CEFR B1级别）
+3. 举例：可选择性提供改编示例
+4. 具体要求：要求将书面语转为口语形式，可指定对话形式等特定风格
+```
+
+### 听力习题设计
+
+**● 主题**
+- **根据听力材料设计多样化的听力理解题目**
+
+**● 具体方法**
+- **信息理解题设计**：设计单选/多选题、判断题，测试学生对听力材料中特定信息和细节的理解
+- **主旨大意题设计**：设计主观题或选择题，评估学生对听力材料整体内容的理解
+- **推断题设计**：设计需要学生基于听力材料进行合理推断的题目，测试更高层次的理解能力
+- **多样题型融合**：在同一练习中结合使用多种题型，全面测试听力理解能力
+
+**● 提示语写作结构**
+```
+Please create listening comprehension questions based on the provided listening material including [数量] multiple-choice questions for information understanding, [数量] true/false question for information understanding, [数量] inference question, and [数量] subjective question to summarize the main idea. Please provide answers and explanation.
+Here is the material: [听力材料]
+1. 指定任务：基于听力材料创建不同类型的听力理解题
+2. 目标群体：可在材料描述中指定目标学习者水平
+3. 举例：可要求提供示例答案
+4. 具体要求：明确指定不同类型题目的数量，并要求提供答案解析
+```
+
+### 听力音频制作
+
+**● 主题**
+- **将文本脚本转换为可用于听力教学的音频文件**
+
+**● 具体方法**
+- **AI语音合成**：使用文本转语音(TTS)技术将文字脚本转换为MP3等音频文件
+- **参数调整**：根据教学需求调整语速、音色、口音和语调等参数
+- **停顿控制**：通过特殊标记(如<#0.5#>)添加特定时长的停顿
+- **多工具选择**：可使用讯飞配音、外研AI教师助手、海螺AI、NaturalReader、TTSMaker、TTSMP3等多种工具
+
+**● AI工具操作方法**
+- **海螺AI工具操作步骤**：
+  1. 将文字脚本粘贴到输入框
+  2. 在"调试台"中设置音色、语速、声调等参数
+  3. 点击"生成音频"
+  4. 完成后点击右下角下载按钮获取MP3文件
+
+### 听力词表制作
+
+**● 主题**
+- **基于听力材料创建词汇表，帮助学生预习和复习**
+
+**● 具体方法**
+- **听力生词表制作**：识别并列出听力材料中的生词、术语及特定语域的高频词汇短语
+- **词汇解析提供**：为每个词汇提供中文翻译、语法用法说明和相关背景知识
+- **命名实体解释**：为材料中出现的人名、地名、组织机构等提供简洁的英文解释
+- **词汇搭配补充**：针对特定词汇提供在相应语境（如新闻）中的常见搭配和例句
+
+**● 提示语写作结构**
+```
+You are an English [具体领域] tutor, specializing in helping English learners. Your task is follow these steps:
+1. Identify and list uncommon words, along with highly frequent words and phrases that are typical in [具体语域].
+2. Provide the Chinese translation for each identified English term.
+3. Clarify the grammatical usage of each term in English.
+4. For named entities (like people, places, organizations) mentioned in the material, provide concise English explanations to clarify their relevance in the context.
+Here is the material: [听力材料]
+1. 指定任务：创建听力词表并提供多方面的词汇信息
+2. 目标群体：英语学习者
+3. 举例：可要求提供例句
+4. 具体要求：识别特定类型的词汇，提供翻译、语法解释和背景信息
+```
+
+### 小组辩论的立论与驳论内容促成
+
+**● 主题**
+- **基于"产出导向法"为辩论活动生成多角度的正反理据**
+
+**● 具体方法**
+- **辩论理据生成**：针对特定话题生成多角度的正反理据，帮助学生形成个人见解
+- **教师备课辅助**：为教师提供辩论话题的全面思考角度，丰富教学内容
+- **学生参考学习**：提供给学生作为思路启发或论点参考
+
+**● 提示语写作结构**
+*(PDF中未完整展示此部分的提示语，但基于内容可推断)*
+```
+Please generate multiple arguments both for and against the topic "[辩论话题]" from different perspectives, suitable for a debate activity in an English class.
+1. 指定任务：生成正反双方的多角度论据
+2. 目标群体：参与辩论的学生
+3. 举例：可要求提供论据支持的例子
+4. 具体要求：从不同视角提供支持和反对的论点
+```
+
+### 总结与反思
+
+大语言模型在听力教学中的应用具有显著优势，可以高效地帮助教师进行听力材料改编、习题设计、词表制作和辩论材料准备等工作。同时，使用过程中也存在一些需要注意的问题：
+
+1. **语音合成局限性**：大多数工具不支持对话或多人语音音频的生成
+2. **内容校验必要性**：大模型生成的词表和材料需要人工校验，特别是中文翻译和词汇选择
+3. **人工智能后编辑**：教师应根据教学需求对生成内容进行必要的修改和调整
+4. **参数精确控制**：根据学生水平精确设置音频参数，确保听力材料的适用性
