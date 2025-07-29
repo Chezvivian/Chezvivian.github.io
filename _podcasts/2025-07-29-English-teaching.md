@@ -22,6 +22,127 @@ title: "大语言模型辅助商务英语教学"
 
 许老师整理的大模型提示库网站：[提示语集合](https://promptbank.unipus.cn)
 
+<div style="margin-bottom:2em; border:1.5px solid #bbb; border-radius:12px; background:#fff; padding:24px 18px; max-width:1000px;">
+  <h2 style="margin-top:0;">关键术语词汇表</h2>
+  <ul style="list-style:none; padding:0; margin-top:1em;">
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">大语言模型 (LLM)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        能够理解和生成人类语言的人工智能模型，具有处理、理解和生成文本的能力，可用于多种语言教学任务。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">产出导向法 (Output-driven Approach)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        一种外语教学理论，强调以学习者的语言产出为导向，通过“驱动”、“促成”、“评价”等环节，促进语言习得。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">续论 (Continuation Theory)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        一种语言习得观，强调通过“续写”、“续说”、“续译”等形式，将语言理解（输入）和语言产出（输出）紧密结合，在动态过程中实现语言习得。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">CEFR (Common European Framework of Reference for Languages)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        欧洲共同语言参考标准，用于描述语言能力水平的国际标准，如A1、A2、B1、B2、C1、C2。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">词根构词法 (Root-based Word Formation)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        通过理解词根（如“port”）来推导和记忆相关单词（如“transport”、“import”）含义的方法。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">近义词辨析 (Synonym Discrimination)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        区分意义相近但用法、语境或细微差别不同的词汇（如“fare”和“fee”）。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">熟词生义 (New Meanings of Familiar Words)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        指常见词汇或短语在特定语境下产生新的或引申的含义（如“get around”）。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">部分倒装句 (Partial Inversion)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        英语语法中一种特殊的句式结构，当否定副词（如“never”、“hardly”）置于句首时，句子的部分谓语会提前到主语之前。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">宾语补语 (Object Complement)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        用于补充说明宾语的成分，可以是形容词、名词、现在分词、不定式等。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">人工智能后编辑 (AI Post-editing)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        指对大语言模型生成的内容进行人工审核、修改和调整，以确保其准确性、符合教学要求和语言自然度。  
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">音节接龙 (Syllable Chain Game)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        一种口语活动，通过音节划分帮助学生掌握多音节单词的发音和拼写，通常是前一个词的尾音节是后一个词的首音节。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">视后续说 (Visual-based Continuation Speaking)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        基于图片、视频等视觉输入，引导学生进行故事续说或内容扩展的口语练习。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">语域 (Register)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        指语言在特定交际情境（如正式、非正式、专业等）下所呈现出的词汇、语法和风格特征。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">同义改写 (Paraphrasing)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        在保持原意不变的前提下，使用不同的词汇、短语或句式对文本进行重新表达。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">交互阅读游戏 (Interactive Reading Game)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        利用大语言模型创建的、读者可以通过选择或输入来影响故事走向的阅读体验。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">思维导图 (Mind Map)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        一种可视化的工具，用于整理和呈现信息，通过中心主题和分支结构来显示概念之间的关系。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">词云图 (Word Cloud)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        通过不同大小和颜色的文字，直观地展示文本中词汇的频率和重要性。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">作文自动评阅 (Automated Essay Scoring)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        利用人工智能技术对学生作文进行多维度（如结构、语法、词汇、内容等）评估和反馈。
+      </div>
+    </li>
+    <li style="margin-bottom:10px;">
+      <div style="font-weight:bold;">提示语 (Prompt)</div>
+      <div style="margin-top:6px; color:#444; background:#f8f8f8; border-radius:6px; padding:8px 12px;">
+        向大语言模型发出的指令或问题，用于引导模型生成特定内容的文本。
+      </div>
+    </li>
+  </ul>
+</div>
+
+
 ## Part I. 词汇篇
 
 ### 1. 词根构词拓展学习
