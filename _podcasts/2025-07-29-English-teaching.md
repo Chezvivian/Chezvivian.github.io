@@ -883,6 +883,26 @@ Using the provided [语言1] and [语言2] documents, can you identify the techn
 
 感谢**李若姗老师**提供研修班的录音转录文档!
 
+请观看根据内容生成的英文视频讲解！
+
+<div style="margin: 2em 0; text-align: center;">
+  <div style="background: #f8f9fa; border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; max-width: 900px; margin: 0 auto;">
+    <h3 style="margin-top: 0; color: #495057;">📹 视频讲解</h3>
+    <p style="color: #6c757d; margin-bottom: 1.5em;">观看外研社AI研修班内容的详细视频讲解</p>
+    
+    <video controls style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <source src="/files/podcasts/English-teaching/The_AI_Shock_to_Education__A_Crisis_and_a_Comeback.mp4" type="video/mp4">
+      您的浏览器不支持视频播放。
+    </video>
+    
+    <p style="font-size: 0.9em; color: #6c757d; margin-top: 1em; margin-bottom: 0;">
+      <em>视频标题：The AI Shock to Education: A Crisis and a Comeback</em>
+    </p>
+  </div>
+</div>
+
+
+
 ## 学习指南
 
 ### 一、全文概要
