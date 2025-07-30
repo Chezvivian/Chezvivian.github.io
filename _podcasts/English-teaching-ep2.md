@@ -4,7 +4,7 @@ title: "外研社AI研修班：2025年7月21-22日，武汉"
 ---
 
 <div style="margin-bottom: 2em;">
-  <a href="/podcasts/2025-07-29-teaching" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回"大语言模型辅助商务英语教学"播客主页</a>
+  <a href="/podcasts/2025-07-29-English-teaching" style="color: #007acc; text-decoration: none; font-weight: 500;">← 返回"大语言模型辅助商务英语教学"播客主页</a>
 </div>
 
 * TOC
