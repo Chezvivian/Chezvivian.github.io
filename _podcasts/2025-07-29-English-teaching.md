@@ -27,13 +27,13 @@ title: "大语言模型辅助商务英语教学"
         <span style="display:inline-block; width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;">
           <svg viewBox="0 0 24 24" fill="#222" width="1.3em" height="1.3em" style="display:block;"><path d="M12 3v18c-4.97 0-9-4.03-9-9s4.03-9 9-9zm1 0c4.97 0 9 4.03 9 9s-4.03 9-9 9V3zm-1 2.18C7.16 5.7 4 9.13 4 13c0 3.87 3.16 7.3 7 7.82V5.18zm2 0v15.64c3.84-.52 7-3.95 7-7.82 0-3.87-3.16-7.3-7-7.82z"></path></svg>
         </span>
-        <a href="/podcasts/English-teaching-ep1" class="podcast-link" style="color: #81D8D0; text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#81D8D0'">许家金：大语言模型辅助外语教学</a>
+        <a href="/podcasts/English-teaching-ep1" class="podcast-link" style="color: #679fca; text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#81D8D0'">许家金：大语言模型辅助外语教学</a>
       </li>
       <li style="margin-bottom: 1.5em; display: flex; align-items: center;">
         <span style="display:inline-block; width: 1.5em; height: 1.5em; margin-right: 0.5em; vertical-align: middle;">
           <svg viewBox="0 0 24 24" fill="#222" width="1.3em" height="1.3em" style="display:block;"><path d="M12 3v18c-4.97 0-9-4.03-9-9s4.03-9 9-9zm1 0c4.97 0 9 4.03 9 9s-4.03 9-9-9V3zm-1 2.18C7.16 5.7 4 9.13 4 13c0 3.87 3.16 7.3 7 7.82V5.18zm2 0v15.64c3.84-.52 7-3.95 7-7.82 0-3.87-3.16-7.3-7-7.82z"></path></svg>
         </span>
-        <a href="/podcasts/English-teaching-ep2" class="podcast-link" style="color: #81D8D0; text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#81D8D0'">外研社AI研修班：2025年7月21-22日，武汉</a>
+        <a href="/podcasts/English-teaching-ep2" class="podcast-link" style="color: #679fca; text-decoration: none; transition: color 0.3s ease;" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='#81D8D0'">外研社AI研修班：2025年7月21-22日，武汉</a>
       </li>
     </ul>
       </div>
