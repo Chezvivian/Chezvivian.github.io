@@ -8,8 +8,7 @@ title: "大语言模型辅助商务英语教学"
 </div>
 
 * TOC
-{:toc}
-{:toc_levels="1..2"}
+{:toc max_level=2}
 
 # 写在前面（2025-7-29）
 
