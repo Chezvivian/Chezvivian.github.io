@@ -334,23 +334,23 @@ title: "实证研究数据处理的过程标准化探索"
 
 ## GLOC_24 数据处理进行时（以结构化为目标）
 
-### Part I. 数据导入和清理
+### Part I. 数据导入和清理 (2025-8-2)
 
 > 从四种数据类型入手，最先处理的是眼动数据，因为它最核心，需要非常谨慎的处理。从眼动仪导出的数据中，大致包括：眼动兴趣区报告(xls)、眼动试次报告(xls)。兴趣区报告里是注视时长、注视次数等因变量指标，或者可以进一步计算的指标。而眼动试次报告是我们要检查的第一份报告，因为它涉及到每个试次是否能够纳入到实验结果的分析中来，目的就是：排除异常试次。
-
+> 
 > A. 实验过程中的异常。本次所有40名被试，每人3个实验任务的情况下，一共产生了120个实验试次。但是并不是所有试次的所有数据都可以纳入到分析中，因为实验过程中会出现不可抗力或者其他因素导致的错误。比如，1）这次我全程作为主试参加实验，印象中至少有一次被试的全部试次都没有通过眼动校准，但是这是实验初期，我想多了解可能会出现的问题，就让被试完成了所有实验任务。但是，在数据分析中，这个被试的三个试次需要被摘除，因为在不通过校准的情况下，被试的眼动数据很可能不准确，会干扰实验结果。2）第二种情况，是不可抗力造成的数据污染。比如说，本次实验中，在不知情情况下，某场实验中，眼动仪镜头被更换，因此参数和注视点计算的结果可能会和其他试次有系统性差异，也需要排除以避免干扰。3）第三种及更多情况，包括实验中电脑故障、被试误操作未保存数据等情况，都可能会发生。这些试次需要排除在结果分析之外。
-
+> 
 > B. 眼动质量中的异常。以上都是实验过程中的异常情况。接下来，在后期数据处理时，从眼动质量指标上要进一步筛除质量差的试次，主要体现的参数是样本丢失率。以 Eyelink 1000 眼动仪为例：
-
->> 1. 眼动试次报告(trial report)中有一个直接输出的指标：VALIDATION_RESULT_RIGHT_EYE，指示被试是否通过了眼动校准。这个数据可以作为更权威的参考，来辅证主试的记录。当然，在之后的实验中，一定要记住 validation test 的重要性，每个试次都要完成。
-
->> 2. 样本丢失率 (data loss rate)，或者 proportion of missing samples, 或者 sample loss rate。从眼动研究来看，常用的术语有 gaze sample percentage。如果从字面来看的话，这个“眼动样本有效率”的计算应该是 = sample_count/(duration/1000 * 采样频率)*100% 这里的duration/1000 是把一般为毫秒的时间单位换算成秒，而采样频率一般是指眼动仪一秒中可以采集多少个眼动样本点。所以分母的意思是：按照采样频率，眼动仪在该试次记录的全时长内理论上应该能收集到的样本点数量，而 sample_count 是实际采集的样本点。这就是 gaze sample percentage 的计算方法。Eyelink 上因为没有直接输出这个指标，所以可以按照这样的逻辑进行计算，单独输出一个指标。
-
->> 3. 这个指标通过初步计算，还是能得到不错的结果，所以排除异常值的效果会差一点。而另一个和眨眼相关的指标就更精确。逻辑是：因眨眼行为需要单独的计算，而因眨眼导致的样本丢失率可以排除掉更多和实验结果无关的数据点。“眨眼导致的丢失率” = (Blink_count * average_blink_duration)/Duration *100%. 
-
->> 样本丢失率相关的参考文献：
->> - Holmqvist, K., Nystrom, M., Andersson, R., Dewhurst, R., Jarodzka, H., & Weijer, J. van de. (2011). Eye-tracking: A comprehensive guide to methods and measures. Oxford. (大意是： data loss 的标准暂不统一，但是丢失率越低越好，如果有丢失率，有些也是可以解释的，因为实验设备、经验、人员等。选择 data loss 的标准研究者可以自行 argue)
->> - Komogortsev, O. V., Gobert, D. V., Jayarathna, S., Koh, D. H., & Gowda, S. M. (2010). Standardization of automated analyses of oculomotor fixation and saccadic behaviors. IEEE Transactions on Biomedical Engineering, 57(11), 2635–2645. (上个文献提到的一个选择样本丢失率的例子，虽然我没找到他怎么定义的样本丢失率)
+> 
+>   1. 眼动试次报告(trial report)中有一个直接输出的指标：VALIDATION_RESULT_RIGHT_EYE，指示被试是否通过了眼动校准。这个数据可以作为更权威的参考，来辅证主试的记录。当然，在之后的实验中，一定要记住 validation test 的重要性，每个试次都要完成。
+> 
+>   2. 样本丢失率 (data loss rate)，或者 proportion of missing samples, 或者 sample loss rate。从眼动研究来看，常用的术语有 gaze sample percentage。如果从字面来看的话，这个“眼动样本有效率”的计算应该是 = sample_count/(duration/1000 * 采样频率)*100% 这里的duration/1000 是把一般为毫秒的时间单位换算成秒，而采样频率一般是指眼动仪一秒中可以采集多少个眼动样本点。所以分母的意思是：按照采样频率，眼动仪在该试次记录的全时长内理论上应该能收集到的样本点数量，而 sample_count 是实际采集的样本点。这就是 gaze sample percentage 的计算方法。Eyelink 上因为没有直接输出这个指标，所以可以按照这样的逻辑进行计算，单独输出一个指标。
+> 
+>   3. 这个指标通过初步计算，还是能得到不错的结果，所以排除异常值的效果会差一点。而另一个和眨眼相关的指标就更精确。逻辑是：因眨眼行为需要单独的计算，而因眨眼导致的样本丢失率可以排除掉更多和实验结果无关的数据点。“眨眼导致的丢失率” = (Blink_count * average_blink_duration)/Duration *100%. 
+> 
+>  样本丢失率相关的参考文献：
+> - Holmqvist, K., Nystrom, M., Andersson, R., Dewhurst, R., Jarodzka, H., & Weijer, J. van de. (2011). Eye-tracking: A comprehensive guide to methods and measures. Oxford. (大意是： data loss 的标准暂不统一，但是丢失率越低越好，如果有丢失率，有些也是可以解释的，因为实验设备、经验、人员等。选择 data loss 的标准研究者可以自行 argue)
+> - Komogortsev, O. V., Gobert, D. V., Jayarathna, S., Koh, D. H., & Gowda, S. M. (2010). Standardization of automated analyses of oculomotor fixation and saccadic behaviors. IEEE Transactions on Biomedical Engineering, 57(11), 2635–2645. (上个文献提到的一个选择样本丢失率的例子，虽然我没找到他怎么定义的样本丢失率)
 
 
 
