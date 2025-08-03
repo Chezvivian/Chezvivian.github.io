@@ -337,6 +337,8 @@ title: "实证研究数据处理的过程标准化探索"
 
 ### Part I. 数据导入和清理 (2025-8-2)
 
+**数据处理的dirty work**
+
 > 从四种数据类型入手，最先处理的是眼动数据，因为它最核心，需要非常谨慎的处理。从眼动仪导出的数据中，大致包括：眼动兴趣区报告(xls)、眼动试次报告(xls)。兴趣区报告里是注视时长、注视次数等因变量指标，或者可以进一步计算的指标。而眼动试次报告是我们要检查的第一份报告，因为它涉及到每个试次是否能够纳入到实验结果的分析中来，目的就是：排除异常试次。
 > 
 > A. 实验过程中的异常。本次所有40名被试，每人3个实验任务的情况下，一共产生了120个实验试次。但是并不是所有试次的所有数据都可以纳入到分析中，因为实验过程中会出现不可抗力或者其他因素导致的错误。比如，1）这次我全程作为主试参加实验，印象中至少有一次被试的全部试次都没有通过眼动校准，但是这是实验初期，我想多了解可能会出现的问题，就让被试完成了所有实验任务。但是，在数据分析中，这个被试的三个试次需要被摘除，因为在不通过校准的情况下，被试的眼动数据很可能不准确，会干扰实验结果。2）第二种情况，是不可抗力造成的数据污染。比如说，本次实验中，在不知情情况下，某场实验中，眼动仪镜头被更换，因此参数和注视点计算的结果可能会和其他试次有系统性差异，也需要排除以避免干扰。3）第三种及更多情况，包括实验中电脑故障、被试误操作未保存数据等情况，都可能会发生。这些试次需要排除在结果分析之外。
@@ -352,6 +354,37 @@ title: "实证研究数据处理的过程标准化探索"
 >  样本丢失率相关的参考文献：
 > - Holmqvist, K., Nystrom, M., Andersson, R., Dewhurst, R., Jarodzka, H., & Weijer, J. van de. (2011). Eye-tracking: A comprehensive guide to methods and measures. Oxford. (大意是： data loss 的标准暂不统一，但是丢失率越低越好，如果有丢失率，有些也是可以解释的，因为实验设备、经验、人员等。选择 data loss 的标准研究者可以自行 argue)
 > - Komogortsev, O. V., Gobert, D. V., Jayarathna, S., Koh, D. H., & Gowda, S. M. (2010). Standardization of automated analyses of oculomotor fixation and saccadic behaviors. IEEE Transactions on Biomedical Engineering, 57(11), 2635–2645. (上个文献提到的一个选择样本丢失率的例子，虽然我没找到他怎么定义的样本丢失率)
+
+**呈现在论文中的清理逻辑**
+
+在描述数据清理的步骤和思路时，可以按照这样的逻辑：
+
+1. **实验前设备校准与验证**：目的是确保空间精度，保证注视点位置准确性。标准有眼动仪设备的校准精度、被试与设备的距离控制等。
+
+> 参考文献："...the participants sat in a fixed chair, so that they would not easily move about and potentially increase the distance to the monitor (they were seated between 55 cm and 65 cm from the eye tracker)." —Hvelplund, K. T. (2011). "Allocation of cognitive resources in translation: An eye-tracking and key-logging study." PhD thesis, Copenhagen Business School, Copenhagen, Denmark.
+
+2. **被试(Participant)级别的数据筛选**: 目的是排除质量整体较差，或者未遵循实验指导的被试数据。标准：A. 样本丢失率(Data Loss)超过25-30%的参与者数据通常被完全排除；B. 校准精度持续超过标准阈值(calibration)的参与者数据应排除；C. 未遵循实验指导：注视模式明显异常，或者任务完成时间极端偏离（过快或过慢）。
+
+> 参考文献：被试眼动质量差。"Data from ten of the translators were discarded due to poor quality of the eye-tracking data (see Section 3.5 below). The quality assessment was based on Rayner & Sereno’s observation that the average fixation during reading is 200 to 250 ms (Rayner & Sereno 1994: 58).... 3.5 Problems with data quality... One explanation could be the equipment’s age. A discard percentage of 62.5 (data from ten out of 16 participants had to be excluded) could indicate technical problems as this figure is somewhat higher than in previous experiments carried out with the same piece of equipment (e.g. Pavlović & Jensen 2009; Jensen, in preparation)."—Jensen, K. T. H., Sjørup, A. C., & Balling, L. W. (2009). "Effects of L1 syntax on L2 translation." Copenhagen Studies in Language, 38, 319-336.
+
+> 参考文献：任务完成时间极端： "A first thing to do is to consider the exclusion of outliers. Outliers are observations that are numerically distant from the rest of the sample. An outlier can be naturally distant from the sample. For instance, a fixation may be unusually long compared to the rest of the fixations in a recording, because the participant is in fact looking at the same locale for a very long time. Although natural, this observation may not reflect the processes that we are interested in." —Balling, L. W., & Hvelplund, K. T. (2015). "Design and Statistics in Quantitative Translation (Process) Research." Translation Spaces, 4(1), 170-187.
+
+
+3. **试次(Trial)级别的数据筛选**: 目的是排除单个试次中的低质量数据，或者受干扰、非标准执行的试次。标准：A. 单次试次中数据丢失率超过20；B. 关键兴趣区数据缺失的试次（视具体实验而定）；C. 实验中出现明显中断或干扰。
+
+> 参考文献："In process-oriented studies, another important consideration in connection with data preparation has to do with the quality of eye-tracking data. Problems with eye-tracking data involve, for instance, abnormally short fixations, conspicuously few fixations in a recording or disagreement between registered fixation location and actual fixation location. Eye-tracking data quality is often not considered systematically and there is a strong risk that analyses are based on eye-tracking data that do not reflect actual cognitive processing. Thorough quality analysis is thus crucial (cf. Hvelplund 2014)." —Balling, L. W., & Hvelplund, K. T. (2015). "Design and Statistics in Quantitative Translation (Process) Research." Translation Spaces, 4(1), 170-187.
+
+4. **注视点(Fixation)级别的数据筛选**：目的是排除时间、空间维度的不准确记录。标准：A. 时间维度：排除过短注视（通常 < 80-100ms），临近注视点可合并（距离<1°视角，间隔<50ms），以上操作可以通过 Eyelink 配套软件在输出数据之前进行处理，若有极端情况，也可以在R里批量处理；B. 空间维度：校正空间漂移，确保注视点分配准确性。这可以在实验设计时加入 drift test, 在实验过程中实时校验。如果实验对注视点兴趣区的精度要求没那么大，也可以选择不进行空间校正。
+
+> 参考文献：时间维度： "Eye move- ments were analyzed with the eye tracking software ClearView, and automatic identification of words on the basis of gaze fixations was performed using Gaze- to-Word Mapping (GWM), a tool developed under the Eye-to-IT EU project.4 A study by Dragsted and Hansen (2008) reports that the mapping performed by GWM is subject to considerable uncertainty, with detection rates (fixations mapped correctly to words) at about 80%. Jensen (2008) reports detection rates of between 65% and 75%." —Dragsted, B. (2010). "Coordination of reading and writing processes in translation: An eye on uncharted territory." Translation and Cognition, 15, 41-62.
+>
+> 参考文献：时间维度和平均注视时长的讨论："In a study on translation directionality, Pavlovi? & Jensen (2009: 99) discarded recordings in which fixations were “abnormally short”, namely < 200 milliseconds, noting that the mean fixation duration during silent reading is around 225 milliseconds (Rayner 1998: 373). Hvelplund (2011: 106) similarly used a mean fixation duration threshold of 200 milliseconds to discriminate acceptable data from non-acceptable data, while Sjørup (2013: 105) applied a threshold of 180 milliseconds. Relying on the fixation duration alone as a quality measure is not entirely unproblematic. Mean fixation duration is a relatively crude measure, which ignores the potential difference in completeness of eye-tracking recordings. More specifically, completeness, seen as how much eye movement has been successfully recorded by the eye tracker compared to how much has not been recorded, varies between recordings as a function of various factors." —Hvelplund, K. T. (2014). "Eye tracking and the translation process: reflections on the analysis and interpretation of eye-tracking data." MonTI: Monografías de Traducción e Interpretación, Special Issue 1, 201-223.
+
+在论文中呈现数据质量报告，可以按照这样的流程：1. 报告校准精度平均值与标准差，2. 报告数据丢失率平均值与范围，3. 报告筛除的参与者比例与筛除的试次比例，4. 引用所采用的数据处理标准来源， 5. 说明任何偏离标准的理由。
+
+> 参考文献 1：质量指标透明报告。 "There is no standard criterion for how to select the data to discard, however. Criteria used in literature include, for instance, the percentage of zero values in the raw data samples, a high offset (poor accuracy) value during validation, a high number of events with a velocity above 800°/s, and an average fixation velocity above 15°/s (indicative of low precision). For an example of accuracy and data loss criteria, see Komogortsev, Gobert, Jayarathna, Koh, and Gowda (2010)." —Holmqvist, K., Nyström, M., Andersson, R., Dewhurst, R., Jarodzka, H., & Van de Weijer, J. (2011). "Eye tracking: A comprehensive guide to methods and measures." Oxford University Press.
+
+
 
 
 
