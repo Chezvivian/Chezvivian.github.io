@@ -2,13 +2,13 @@
 title: "2025-08-01 非语言信息的认知加工路径及其对大语言模型多模态翻译的启示"
 collection: talks
 type: "Talk"
-permalink: /talks/2025-09-13-talk
+permalink: /talks/2025-08-01-talk
 venue: "北京外国语大学国际会议中心"
 date: 2025-08-01
 location: "Beijing Foreign Studies University"
 ---
 
-暑期参加一系列语料库相关的培训和会议，往大兴的北外国际会议中心跑了好几趟。2025年暑期对于语料库的学习笔记[在这里](https://chezvivian.github.io/podcasts/2025-07-18-corpus/)，这次会上的发言内容如下：
+暑期参加一系列语料库相关的培训和会议，往大兴的北外国际会议中心跑了好几趟。2025年暑期对于语料库的学习笔记[在这里](https://chezvivian.github.io/podcasts/2025-07-18-corpus/)，这次会上我的发言内容在这里。
 
 [汇报内容：非语言信息的认知加工路径及其对大语言模型多模态翻译的启示.pdf](非语言信息的认知加工路径及其对大语言模型多模态翻译的启示.pdf)
 
