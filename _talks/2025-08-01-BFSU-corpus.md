@@ -2,7 +2,7 @@
 title: "2025-08-01 非语言信息的认知加工路径及其对大语言模型多模态翻译的启示"
 collection: talks
 type: "Talk"
-permalink: /talks/2025-08-01-talk
+permalink: talks/2025-08-01-talk
 venue: "北京外国语大学国际会议中心"
 date: 2025-08-01
 location: "Beijing Foreign Studies University"

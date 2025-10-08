@@ -2,7 +2,7 @@
 title: "2024-05-18 如何翻译好人大故事"
 collection: talks
 type: "Talk"
-permalink: /talks/2024-05-18-talk
+permalink: talks/2024-05-18-talk
 venue: "中国人民大学明德国际楼"
 date: 2024-05-18
 location: "Renmin University of China"

@@ -2,7 +2,7 @@
 title: "2023-11-02 翻译搜索：译者背后的超级技能"
 collection: talks
 type: "Talk"
-permalink: /talks/2023-11-02-talk
+permalink: talks/2023-11-02-talk
 venue: "Qingdao"
 date: 2023-11-02
 location: "UIBE Qingdao institute"

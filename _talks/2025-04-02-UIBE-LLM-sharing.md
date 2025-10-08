@@ -2,7 +2,7 @@
 title: "2025-04-02 AI大语言模型和工作流在翻译实践和教学中的应用"
 collection: talks
 type: "Talk"
-permalink: /talks/2025-04-02-talk
+permalink: talks/2025-04-02-talk
 venue: "对外经济贸易大学英语学院翻译系"
 date: 2025-04-02
 location: "University of International Business and Economics"
