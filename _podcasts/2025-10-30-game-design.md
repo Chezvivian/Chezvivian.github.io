@@ -72,7 +72,7 @@ title: "游戏设计"
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
 <script>
 (function(){
-  var XLSX_URL = '/files/podcasts/game/游戏行话.xlsx';
+  var XLSX_URL = encodeURI('/files/podcasts/game/游戏行话.xlsx');
   var listEl, filterEl, allItems = [];
 
   function createItem(termEn, termZh, category){
@@ -142,17 +142,46 @@ title: "游戏设计"
     filterEl = document.getElementById('gjx-filter');
     if (filterEl) filterEl.addEventListener('input', applyFilter);
 
-    // 拉取并解析 xlsx
-    fetch(XLSX_URL).then(function(res){ return res.arrayBuffer(); }).then(function(ab){
-      var wb = XLSX.read(ab, { type: 'array' });
-      var first = wb.SheetNames[0];
-      var sheet = wb.Sheets[first];
-      var json = XLSX.utils.sheet_to_json(sheet, { raw: false });
-      allItems = json.map(normalizeRow).filter(function(it){ return it.en || it.zh; });
-      render(allItems);
-    }).catch(function(e){
-      listEl.innerHTML = '<div style="color:#a33;">术语表加载失败：' + (e && e.message ? e.message : '网络或文件问题') + '</div>';
-    });
+    // 拉取并解析 xlsx（兼容无明确表头的表格）
+    fetch(XLSX_URL)
+      .then(function(res){
+        if (!res.ok) throw new Error('HTTP ' + res.status + ' - ' + res.statusText);
+        return res.arrayBuffer();
+      })
+      .then(function(ab){
+        var wb = XLSX.read(ab, { type: 'array' });
+        var first = wb.SheetNames[0];
+        var sheet = wb.Sheets[first];
+        // 先按 header:1 读为二维数组
+        var rows = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: '' });
+        if (!rows || !rows.length) throw new Error('工作表为空');
+        // 识别表头：若首行含常见标题或“英文术语/简称/拼音, 中文术语”，则跳过首行
+        var header = rows[0].map(function(v){ return String(v || '').toLowerCase(); });
+        var looksLikeHeader = header.some(function(h){
+          return (
+            h.indexOf('english') > -1 || h.indexOf('term') > -1 ||
+            h.indexOf('中文') > -1 || h.indexOf('chinese') > -1 ||
+            h.indexOf('类别') > -1 || h.indexOf('category') > -1 ||
+            h.indexOf('用途') > -1 || h.indexOf('type') > -1 ||
+            h.indexOf('英文术语') > -1 || h.indexOf('简称') > -1 || h.indexOf('拼音') > -1
+          );
+        });
+        var dataRows = looksLikeHeader ? rows.slice(1) : rows;
+        allItems = dataRows
+          .map(function(r){
+            // 两列表头：英文术语/简称/拼音 | 中文术语
+            var en = String((r[0]||'')).trim();
+            var zh = String((r[1]||'')).trim();
+            var cat = String((r[2]||'')).trim(); // 可能不存在
+            return { en: en, zh: zh, cat: cat };
+          })
+          .filter(function(it){ return (it.en || it.zh); });
+        if (!allItems.length) throw new Error('未解析到有效数据（请检查前三列是否为 英文/中文/类别）');
+        render(allItems);
+      })
+      .catch(function(e){
+        listEl.innerHTML = '<div style="color:#a33;">术语表加载失败：' + (e && e.message ? e.message : '网络或文件问题') + '<br/>路径：' + XLSX_URL + '</div>';
+      });
   });
 })();
 </script>
