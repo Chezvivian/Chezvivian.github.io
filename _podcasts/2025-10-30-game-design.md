@@ -60,8 +60,99 @@ title: "游戏设计"
 ## Game jargons 游戏行话
 
 
+<div style="margin: 10px 0 8px;">
+  <input id="gjx-filter" type="text" placeholder="搜索术语（中/英/类别）..." style="width:100%; max-width:420px; padding:8px 10px; border:1px solid #dfe6ee; border-radius:6px;" />
+</div>
 
+<div id="gjx-list" style="margin: 6px 0 16px;">
+  <div style="color:#8aa0b2; font-size:0.95rem;">正在加载术语表…</div>
+  <noscript>需要启用 JavaScript 以加载术语表。</noscript>
+</div>
 
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script>
+(function(){
+  var XLSX_URL = '/files/podcasts/game/游戏行话.xlsx';
+  var listEl, filterEl, allItems = [];
 
+  function createItem(termEn, termZh, category){
+    var li = document.createElement('li');
+    li.style.listStyle = 'none';
+    li.style.margin = '8px 0';
+    li.style.padding = '0';
 
+    var title = document.createElement('div');
+    title.style.fontWeight = 'bold';
+    title.textContent = (termZh || '').trim() + (termEn ? ' (' + termEn.trim() + ')' : '');
 
+    var meta = document.createElement('div');
+    meta.style.marginTop = '6px';
+    meta.style.color = '#444';
+    meta.style.background = '#f8f9fb';
+    meta.style.borderRadius = '6px';
+    meta.style.padding = '8px 12px';
+    meta.textContent = (category || '').trim();
+
+    li.appendChild(title);
+    if ((category || '').trim()) li.appendChild(meta);
+    return li;
+  }
+
+  function render(items){
+    listEl.innerHTML = '';
+    var ul = document.createElement('ul');
+    ul.style.listStyle = 'none';
+    ul.style.padding = '0';
+    items.forEach(function(it){ ul.appendChild(createItem(it.en, it.zh, it.cat)); });
+    listEl.appendChild(ul);
+  }
+
+  function applyFilter(){
+    var q = (filterEl.value || '').toLowerCase().trim();
+    if (!q) return render(allItems);
+    var filtered = allItems.filter(function(it){
+      return (it.en||'').toLowerCase().indexOf(q) > -1 ||
+             (it.zh||'').toLowerCase().indexOf(q) > -1 ||
+             (it.cat||'').toLowerCase().indexOf(q) > -1;
+    });
+    render(filtered);
+  }
+
+  function normalizeRow(row){
+    // 尝试优先匹配列头，否则取前三列
+    var keys = Object.keys(row);
+    var en = row['English'] || row['english'] || row['EN'] || row['Term'] || row['term'] || row[keys[0]];
+    var zh = row['中文'] || row['Chinese'] || row['CN'] || row['译名'] || row['名称'] || row[keys[1]];
+    var cat = row['类别'] || row['Category'] || row['用途'] || row['Type'] || row[keys[2]];
+    return { en: en ? String(en) : '', zh: zh ? String(zh) : '', cat: cat ? String(cat) : '' };
+  }
+
+  function load(){
+    listEl = document.getElementById('gjx-list');
+    filterEl = document.getElementById('gjx-filter');
+  }
+
+  function ready(fn){
+    if (document.readyState !== 'loading') fn();
+    else document.addEventListener('DOMContentLoaded', fn);
+  }
+
+  ready(function(){
+    listEl = document.getElementById('gjx-list');
+    filterEl = document.getElementById('gjx-filter');
+    if (filterEl) filterEl.addEventListener('input', applyFilter);
+
+    // 拉取并解析 xlsx
+    fetch(XLSX_URL).then(function(res){ return res.arrayBuffer(); }).then(function(ab){
+      var wb = XLSX.read(ab, { type: 'array' });
+      var first = wb.SheetNames[0];
+      var sheet = wb.Sheets[first];
+      var json = XLSX.utils.sheet_to_json(sheet, { raw: false });
+      allItems = json.map(normalizeRow).filter(function(it){ return it.en || it.zh; });
+      render(allItems);
+    }).catch(function(e){
+      listEl.innerHTML = '<div style="color:#a33;">术语表加载失败：' + (e && e.message ? e.message : '网络或文件问题') + '</div>';
+    });
+  });
+})();
+</script>
