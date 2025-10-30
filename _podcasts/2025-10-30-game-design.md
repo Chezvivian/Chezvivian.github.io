@@ -16,12 +16,48 @@ title: "游戏设计"
 
 
 <div class="gd-video" style="margin: 10px 0 18px;">
-  <video controls preload="metadata" src="" poster="" style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 10px; background: #000;">
-    抱歉，您的浏览器不支持视频播放。您可以
-    <a href="https://verbose-temple-e01.notion.site/Game_design-29c5a9c7a666807a94c1dfd5023e065a?source=copy_link" target="_blank" rel="noopener">点击这里观看</a>。
-  </video>
-  <div style="font-size: 0.9rem; color: #666; margin-top: 6px;">提示：将可公开访问的视频直链（.mp4/.webm）填入上面的 src。若是 Notion 页链接无法直播，可把该链接放到上面的备用“点击这里观看”。</div>
+  <div id="gd-video-mount" style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #eee; border-radius: 10px; background: #000; display: flex; align-items: center; justify-content: center; color: #9aa7b2; font-size: 0.95rem;">正在加载视频…</div>
+  <div style="font-size: 0.9rem; color: #666; margin-top: 6px;">如无法内嵌，请使用备用链接在新窗口打开：
+    <a href="https://verbose-temple-e01.notion.site/Game_design-29c5a9c7a666807a94c1dfd5023e065a?source=copy_link" target="_blank" rel="noopener">在 Notion 中观看</a>
+  </div>
 </div>
+
+<script>
+  (function() {
+    var NOTION_URL = 'https://verbose-temple-e01.notion.site/Game_design-29c5a9c7a666807a94c1dfd5023e065a?source=copy_link';
+    function mountIframe() {
+      var mount = document.getElementById('gd-video-mount');
+      if (!mount) return;
+      // 清空占位并创建 iframe
+      mount.innerHTML = '';
+      var iframe = document.createElement('iframe');
+      iframe.src = NOTION_URL;
+      iframe.setAttribute('title', 'Game Design Video');
+      iframe.setAttribute('loading', 'lazy');
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.border = '0';
+      iframe.style.borderRadius = '10px';
+      // 兼容没有 aspect-ratio 的浏览器
+      mount.style.position = 'relative';
+      if (!('aspectRatio' in document.body.style)) {
+        mount.style.paddingTop = '56.25%';
+        iframe.style.position = 'absolute';
+        iframe.style.top = '0';
+        iframe.style.left = '0';
+        iframe.style.height = '100%';
+      }
+      mount.appendChild(iframe);
+    }
+    function ready(fn){
+      if (document.readyState !== 'loading') { fn(); }
+      else { document.addEventListener('DOMContentLoaded', fn); }
+    }
+    ready(function() { mountIframe(); });
+  })();
+</script>
+
+## Game jargons 游戏行话
 
 
 
