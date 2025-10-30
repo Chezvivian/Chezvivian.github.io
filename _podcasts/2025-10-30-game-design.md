@@ -18,7 +18,7 @@ title: "游戏设计"
 <div class="gd-video" style="margin: 10px 0 18px;">
   <video controls preload="metadata" src="" poster="" style="width: 100%; height: auto; border: 1px solid #eee; border-radius: 10px; background: #000;">
     抱歉，您的浏览器不支持视频播放。您可以
-    <a href="#" target="_blank" rel="noopener">点击这里观看</a>。
+    <a href="https://verbose-temple-e01.notion.site/Game_design-29c5a9c7a666807a94c1dfd5023e065a?source=copy_link" target="_blank" rel="noopener">点击这里观看</a>。
   </video>
   <div style="font-size: 0.9rem; color: #666; margin-top: 6px;">提示：将可公开访问的视频直链（.mp4/.webm）填入上面的 src。若是 Notion 页链接无法直播，可把该链接放到上面的备用“点击这里观看”。</div>
 </div>
