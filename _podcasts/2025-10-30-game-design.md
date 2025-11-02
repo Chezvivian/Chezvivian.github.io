@@ -16,46 +16,15 @@ title: "游戏设计"
 
 
 <div class="gd-video" style="margin: 10px 0 18px;">
-  <div id="gd-video-mount" style="width: 100%; aspect-ratio: 16 / 9; border: 1px solid #eee; border-radius: 10px; background: #000; display: flex; align-items: center; justify-content: center; color: #9aa7b2; font-size: 0.95rem;">正在加载视频…</div>
-  <div style="font-size: 0.9rem; color: #666; margin-top: 6px;">如无法内嵌，请使用备用链接在新窗口打开：
-    <a href="https://verbose-temple-e01.notion.site/Game_design-29c5a9c7a666807a94c1dfd5023e065a?source=copy_link" target="_blank" rel="noopener">在 Notion 中观看</a>
+  <video controls preload="metadata" style="width: 100%; border: 1px solid #eee; border-radius: 10px; background: #000;">
+    <source src="https://pub-f74b9fb442714a7b82a0ca9fd7337260.r2.dev/chezvivian_github/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A11-4%E7%AB%A0.mp4" type="video/mp4">
+    你的浏览器暂不支持 HTML5 视频，请使用备用链接：
+    <a href="https://pub-f74b9fb442714a7b82a0ca9fd7337260.r2.dev/chezvivian_github/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A11-4%E7%AB%A0.mp4" target="_blank" rel="noopener">直接播放视频</a>
+  </video>
+  <div style="font-size: 0.9rem; color: #666; margin-top: 6px;">如需在新窗口观看，请点击：
+    <a href="https://pub-f74b9fb442714a7b82a0ca9fd7337260.r2.dev/chezvivian_github/%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A11-4%E7%AB%A0.mp4" target="_blank" rel="noopener">在 Cloudflare R2 中播放</a>
   </div>
 </div>
-
-<script>
-  (function() {
-    var NOTION_URL = 'https://verbose-temple-e01.notion.site/Game_design-29c5a9c7a666807a94c1dfd5023e065a?source=copy_link';
-    function mountIframe() {
-      var mount = document.getElementById('gd-video-mount');
-      if (!mount) return;
-      // 清空占位并创建 iframe
-      mount.innerHTML = '';
-      var iframe = document.createElement('iframe');
-      iframe.src = NOTION_URL;
-      iframe.setAttribute('title', 'Game Design Video');
-      iframe.setAttribute('loading', 'lazy');
-      iframe.style.width = '100%';
-      iframe.style.height = '100%';
-      iframe.style.border = '0';
-      iframe.style.borderRadius = '10px';
-      // 兼容没有 aspect-ratio 的浏览器
-      mount.style.position = 'relative';
-      if (!('aspectRatio' in document.body.style)) {
-        mount.style.paddingTop = '56.25%';
-        iframe.style.position = 'absolute';
-        iframe.style.top = '0';
-        iframe.style.left = '0';
-        iframe.style.height = '100%';
-      }
-      mount.appendChild(iframe);
-    }
-    function ready(fn){
-      if (document.readyState !== 'loading') { fn(); }
-      else { document.addEventListener('DOMContentLoaded', fn); }
-    }
-    ready(function() { mountIframe(); });
-  })();
-</script>
 
 ## Game jargons 游戏行话
 
