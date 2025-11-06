@@ -107,6 +107,7 @@ author_profile: true
   <div class="podcast-welcome">秋季学期我的关注点是：商务英语的数字人建设、游戏设计。最近会整理一些相关的书籍笔记和播客，keep in track!</div>
   <ul class="podcast-list">
     <li class="podcast-item"><a href="/podcasts/2025-10-30-game-design">游戏设计</a></li>
+    <li class="podcast-item"><a href="/podcasts/2025-11-06-http-deploy">网站后端和前端部署</a></li>
   </ul>
 </div>
 
