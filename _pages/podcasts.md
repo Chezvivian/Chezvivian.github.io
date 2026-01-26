@@ -102,6 +102,17 @@ author_profile: true
   }
 </style>
 
+<h3 class="podcast-section-title">2026-Q1</h3>
+<div class="podcast-section">
+  <div class="podcast-welcome">2026年开年的一些想法。</div>
+  <ul class="podcast-list">
+      <li class="podcast-item"><a href="/podcasts/2026-01-26-least-resistance">最小阻力之路：创造的力量</a></li>  
+  </ul>
+</div>
+
+
+
+
 <h3 class="podcast-section-title">2025 秋</h3>
 <div class="podcast-section">
   <div class="podcast-welcome">秋季学期我的关注点是：商务英语的数字人建设、游戏设计。最近会整理一些相关的书籍笔记和播客，keep in track!</div>
