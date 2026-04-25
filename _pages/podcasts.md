@@ -104,8 +104,9 @@ author_profile: true
 
 <h3 class="podcast-section-title">2026 春</h3>
 <div class="podcast-section">
-  <div class="podcast-welcome">2026年开年的一些想法和学习。</div>
+  <div class="podcast-welcome">2026年春季学期的一些想法和学习。</div>
   <ul class="podcast-list">
+      <li class="podcast-item"><a href="/podcasts/2026-04-25-Elon-Musk">马斯克传</a></li> 
       <li class="podcast-item"><a href="/podcasts/2026-02-28-neural-science">前额叶和神经科学</a></li> 
       <li class="podcast-item"><a href="/podcasts/2026-01-26-least-resistance">最小阻力之路：创造的力量</a></li>  
   </ul>
