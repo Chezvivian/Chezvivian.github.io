@@ -1,5 +1,5 @@
 ---
-title: '新课备课工作流'
+title: '人工智能+X 备课工作流'
 date: 2026-05-01
 tags:
   - thoughts
