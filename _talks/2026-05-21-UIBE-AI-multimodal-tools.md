@@ -3,7 +3,7 @@ title: "2026-05-21 AI辅助的外语教学多模态情境构建方法"
 collection: talks
 type: "Talk"
 permalink: talks/2026-05-21
-venue: "对外经济贸易大学翻译系"
+venue: "对外经济贸易大学英语学院翻译系"
 date: 2025-10-24
 location: "University of International Business and Economics"
 ---
