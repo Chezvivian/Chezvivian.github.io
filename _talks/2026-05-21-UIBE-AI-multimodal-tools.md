@@ -25,5 +25,6 @@ location: "University of International Business and Economics"
 
 <iframe src="20260521-AI辅助的外语教学多模态情境构建方法-黄婕.pdf"
         width="100%" height="680px" style="border:none;">
-  <a href="20260521-AI辅助的外语教学多模态情境构建方法-黄婕.pdf" target="_blank">下载 PDF：AI辅助的外语教学多模态情境构建方法</a>
 </iframe>
+
+<a href="20260521-AI辅助的外语教学多模态情境构建方法-黄婕.pdf" target="_blank">下载 PDF：AI辅助的外语教学多模态情境构建方法</a>
