@@ -23,4 +23,7 @@ location: "University of International Business and Economics"
 外语课程的核心需求是优质的音视频学习材料，以及能激发学生主动开口的练习场景。这次分享想说明的是：AI 并不只是一个写文案的工具——从课文到脚本、从脚本到音视频，这一套工作流现在已经可以在日常教学中形成一个完整的闭环了。
 
 
-<a href="20260521-AI辅助的外语教学多模态情境构建方法-黄婕.pdf" target="_blank">汇报内容：AI辅助的外语教学多模态情境构建方法.pdf</a>
+<iframe src="20260521-AI辅助的外语教学多模态情境构建方法-黄婕.pdf"
+        width="100%" height="680px" style="border:none;">
+  <a href="20260521-AI辅助的外语教学多模态情境构建方法-黄婕.pdf" target="_blank">下载 PDF：AI辅助的外语教学多模态情境构建方法</a>
+</iframe>
