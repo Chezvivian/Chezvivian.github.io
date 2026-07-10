@@ -14,7 +14,7 @@ description              : &description "Phd in translation studies"
 url                      : https://chezvivian.github.io/ # the base hostname & protocol for your site e.g. "https://chezvivian.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Chezvivian.github.io"
-teaser                   : "./images/Vivi_pic_1.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "./images/Jie_Huang.jpeg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jie Huang"
-  avatar           : "../images/Vivi_pic_1.png"
+  avatar           : "../images/Jie_Huang.jpeg"
   bio              : "PhD in translation studies. Associate professor at UIBE."
   UIBE_page        : "http://sis.uibe.edu.cn/szdwx/xxjs/zyyyxsz/a0565344b91a48ef961297780fe0e181.htm"
   googlescholar    : "https://scholar.google.com/citations?user=2sYe9FqdDUsC&hl=zh-CN"
