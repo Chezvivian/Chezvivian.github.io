@@ -1,14 +1,14 @@
 ---
-title: "2026-07-29 Localization Business Simulation · 本地化商业模拟"
+title: "本地化商业模拟 · Localization Business Simulation（中文演示）"
 collection: talks
 type: "Talk"
-permalink: /talks/2026-07-28
-venue: "AI-Empowered Education Forum / Educational Game Design Workshop · 人工智能赋能教育学术交流会"
+permalink: /talks/2026-07-28-zh
+venue: "人工智能赋能教育学术交流会 / 教育游戏设计工作坊"
 date: 2026-07-28
 location: "Beijing"
 author_profile: false
 classes: wide
-excerpt: "A plain-language walkthrough of an AI-supported educational game that lets translation students manage a game localization project through decisions and consequences."
+excerpt: "以通俗语言介绍本地化商业模拟教育游戏：学生通过决策与后果学习项目管理。"
 ---
 
 
@@ -306,335 +306,323 @@ excerpt: "A plain-language walkthrough of an AI-supported educational game that 
 
 <div class="deck" id="deck">
 
-<nav class="deck-nav" aria-label="Slide navigation">
-  <a href="#s0">Cover</a>
-  <a href="#s1">Idea</a>
-  <a href="#s2">World</a>
-  <a href="#s3">4 Rounds</a>
-  <a href="#s4">Play</a>
-  <a href="#s5">Tradeoffs</a>
-  <a href="#s6">Form</a>
-  <a href="#s7">Carryover</a>
-  <a href="#s8">Learning</a>
+<nav class="deck-nav" aria-label="幻灯导航">
+  <a href="#s0">封面</a>
+  <a href="#s1">想法</a>
+  <a href="#s2">设定</a>
+  <a href="#s3">四轮</a>
+  <a href="#s4">玩法</a>
+  <a href="#s5">权衡</a>
+  <a href="#s6">形态</a>
+  <a href="#s7">推进</a>
+  <a href="#s8">学习</a>
   <a href="#s9">AI</a>
-  <a href="#s10">Example A</a>
-  <a href="#s11">Example B</a>
-  <a href="#s12">Assessment</a>
-  <a href="#s13">Close</a>
+  <a href="#s10">示例A</a>
+  <a href="#s11">示例B</a>
+  <a href="#s12">评估</a>
+  <a href="#s13">收束</a>
 </nav>
 
 <!-- 0 Cover -->
 <section class="slide hero" id="s0">
   <div class="slide-body">
     <div class="eyebrow">
-      AI-Powered Educational Game Design · ~10 min
-      <span class="zh">AI 赋能教育游戏设计工作坊 · 约 10 分钟</span>
+      AI 赋能教育游戏设计工作坊 · 约 10 分钟
+      <span class="zh">AI-Powered Educational Game Design · ~10 min</span>
     </div>
-    <h1>Localization Business Simulation</h1>
-    <p class="title-zh">本地化商业模拟</p>
-    <p class="lede">Students learn project management by <strong>running</strong> a game translation project—not by listening to a lecture about it.</p>
+    <h1>本地化商业模拟</h1>
+    <p class="title-zh">Localization Business Simulation</p>
+    <p class="lede">学生不是听一遍项目管理，而是<strong>亲手跑一遍</strong>游戏翻译项目——看见每个选择如何变成后来的筹码或代价。</p>
     <div class="hero-meta">
-      <span class="chip solid">Course: Localization Translation</span>
-      <span class="chip">Web-based decision game</span>
-      <span class="chip">4 rounds · classroom ready</span>
+      <span class="chip solid">课程：本地化翻译</span>
+      <span class="chip">网页决策游戏</span>
+      <span class="chip">四轮 · 课堂即用</span>
     </div>
     <div class="hero-actions">
-      <a class="btn-deck primary" href="https://chezvivian.github.io/class/localization-sim/" target="_blank" rel="noopener noreferrer">Open the simulation ↗</a>
-      <a class="btn-deck ghost" href="/talks/2026-07-28-zh">中文演示</a>
+      <a class="btn-deck primary" href="https://chezvivian.github.io/class/localization-sim/" target="_blank" rel="noopener noreferrer">打开模拟平台 ↗</a>
+      <a class="btn-deck ghost" href="/talks/2026-07-28">English</a>
     </div>
   </div>
 </section>
 
-<!-- 1 Core idea -->
+<!-- 1 -->
 <section class="slide" id="s1">
   <div class="slide-bar"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>01</span> The big idea <span class="zh">核心想法</span></div>
-    <h2 class="slide-title">From hearing about the job → doing the job</h2>
-    <p class="title-zh">从「听一遍」到「做一遍」</p>
+    <div class="slide-num"><span>01</span> 核心想法</div>
+    <h2 class="slide-title">从「听一遍」到「做一遍」</h2>
     <div class="grid-3">
       <div class="card blue">
-        <div class="label">Who</div>
-        <div class="value">Translation students</div>
-        <p>They will soon work with global content, clients, and tight deadlines.</p>
+        <div class="label">对象</div>
+        <div class="value">翻译专业学生</div>
+        <p>他们很快会面对跨境内容、客户与紧迫工期。</p>
       </div>
       <div class="card teal">
-        <div class="label">Role in the game</div>
-        <div class="value">Project manager</div>
-        <p>A game studio hires their team to translate a game into English.</p>
+        <div class="label">游戏中的角色</div>
+        <div class="value">项目经理</div>
+        <p>游戏公司请他们的团队，把一款游戏译成英语。</p>
       </div>
       <div class="card amber">
-        <div class="label">Learning goal</div>
-        <div class="value">See how choices matter</div>
-        <p>Quality, cost, time, and client trust all pull in different directions.</p>
+        <div class="label">学习目标</div>
+        <div class="value">看见选择的分量</div>
+        <p>质量、成本、时间、客户信任，常常相互拉扯。</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 2 Scenario -->
+<!-- 2 -->
 <section class="slide" id="s2">
   <div class="slide-bar teal"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>02</span> The story world <span class="zh">故事设定</span></div>
-    <h2 class="slide-title">One project. Clear limits.</h2>
-    <p class="title-zh">一个项目，边界清楚</p>
+    <div class="slide-num"><span>02</span> 故事设定</div>
+    <h2 class="slide-title">一个项目，边界清楚</h2>
     <div class="grid-2">
       <div class="card">
-        <div class="label">The job</div>
-        <p>Translate a Chinese game into American English for an overseas launch.</p>
+        <div class="label">任务</div>
+        <p>把一款中文游戏译成美式英语，准备海外上线。</p>
       </div>
       <div class="card">
-        <div class="label">The limits</div>
-        <p><strong>~143,000 words</strong> · <strong>8 weeks</strong> · <strong>¥150,000</strong> budget · quality must not feel “machine-translated”.</p>
+        <div class="label">硬约束</div>
+        <p>约 <strong>143,000 字</strong> · <strong>8 周</strong> · 预算 <strong>¥150,000</strong> · 不能有明显「机翻感」。</p>
       </div>
     </div>
-    <div class="quote">Many people want different things. Students must decide—and live with the result.</div>
+    <div class="quote">很多人想要不同的东西。学生必须做决定——并承担结果。</div>
   </div>
 </section>
 
-<!-- 3 Four rounds -->
+<!-- 3 -->
 <section class="slide" id="s3">
   <div class="slide-bar"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>03</span> Course = game <span class="zh">课程即游戏</span></div>
-    <h2 class="slide-title">Four lessons → four rounds</h2>
-    <p class="title-zh">四节课 = 游戏四轮</p>
+    <div class="slide-num"><span>03</span> 课程即游戏</div>
+    <h2 class="slide-title">四节课 = 游戏四轮</h2>
     <div class="round-strip">
-      <div class="round r1"><div class="r">Round 1</div><div class="t">Start the project</div><div class="d">Plan people, time, money, and tools</div></div>
-      <div class="round r2"><div class="r">Round 2</div><div class="t">Protect quality</div><div class="d">Check work and fix problems</div></div>
-      <div class="round r3"><div class="r">Round 3</div><div class="t">Reuse assets</div><div class="d">Save time with past work &amp; terms</div></div>
-      <div class="round r4"><div class="r">Round 4</div><div class="t">Handle crises</div><div class="d">People, change requests, legal risk</div></div>
+      <div class="round r1"><div class="r">第一轮</div><div class="t">启动项目</div><div class="d">规划人力、时间、预算与工具</div></div>
+      <div class="round r2"><div class="r">第二轮</div><div class="t">守住质量</div><div class="d">检查问题并整改</div></div>
+      <div class="round r3"><div class="r">第三轮</div><div class="t">复用资产</div><div class="d">用旧译文与术语省时间</div></div>
+      <div class="round r4"><div class="r">第四轮</div><div class="t">应对危机</div><div class="d">人员、变更、合规风险</div></div>
     </div>
   </div>
 </section>
 
-<!-- 4 How you play -->
+<!-- 4 -->
 <section class="slide" id="s4">
   <div class="slide-bar amber"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>04</span> How you play <span class="zh">怎么玩</span></div>
-    <h2 class="slide-title">Read mail → decide → face the result</h2>
-    <p class="title-zh">读邮件 → 做决定 → 承担后果</p>
+    <div class="slide-num"><span>04</span> 怎么玩</div>
+    <h2 class="slide-title">读邮件 → 做决定 → 承担后果</h2>
     <div class="flow">
-      <span class="flow-step">1. Read the client email</span><span class="flow-arrow">→</span>
-      <span class="flow-step">2. Check the dashboard</span><span class="flow-arrow">→</span>
-      <span class="flow-step">3. Make a choice</span><span class="flow-arrow">→</span>
-      <span class="flow-step">4. See what changes</span>
+      <span class="flow-step">1. 读客户邮件</span><span class="flow-arrow">→</span>
+      <span class="flow-step">2. 看仪表盘</span><span class="flow-arrow">→</span>
+      <span class="flow-step">3. 做出选择</span><span class="flow-arrow">→</span>
+      <span class="flow-step">4. 看局面如何变</span>
     </div>
-    <div class="quote">Every choice has a cost. That cost can follow you into later rounds.</div>
+    <div class="quote">每个选择都有代价。这个代价可能跟到后面几轮。</div>
   </div>
 </section>
 
-<!-- 5 Tradeoffs -->
+<!-- 5 -->
 <section class="slide" id="s5">
   <div class="slide-bar"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>05</span> Goals &amp; challenges <span class="zh">目标与挑战</span></div>
-    <h2 class="slide-title">No perfect answer—only a defendable one</h2>
-    <p class="title-zh">没有完美解，只有说得通的权衡</p>
+    <div class="slide-num"><span>05</span> 目标与挑战</div>
+    <h2 class="slide-title">没有完美解，只有说得通的权衡</h2>
     <div class="grid-2">
       <div class="card blue">
-        <div class="label">What students watch</div>
+        <div class="label">学生盯着什么</div>
         <ul class="clean">
-          <li>Budget, quality, deadline, client happiness</li>
-          <li>Green / yellow / red warnings</li>
-          <li>A short written decision summary each round</li>
+          <li>预算、质量、工期、客户满意度</li>
+          <li>绿 / 黄 / 红警示</li>
+          <li>每轮写一份短决策摘要</li>
         </ul>
       </div>
       <div class="card amber">
-        <div class="label">What makes it hard</div>
+        <div class="label">难在哪里</div>
         <ul class="clean">
-          <li>Cheap now may cost more later</li>
-          <li>Speed can hurt quality</li>
-          <li>Several problems can hit at once</li>
+          <li>现在省钱，后面可能更贵</li>
+          <li>求快可能伤质量</li>
+          <li>好几件坏事可能一起砸来</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 6 Form -->
+<!-- 6 -->
 <section class="slide" id="s6">
   <div class="slide-bar teal"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>06</span> Form &amp; controls <span class="zh">形态与操控</span></div>
-    <h2 class="slide-title">A simple web page—open and play</h2>
-    <p class="title-zh">简单网页，课堂即开即用</p>
+    <div class="slide-num"><span>06</span> 形态与操控</div>
+    <h2 class="slide-title">简单网页，课堂即开即用</h2>
     <div class="grid-2">
       <div class="card blue">
-        <div class="label">Why not 3D?</div>
-        <div class="value">Focus on decisions</div>
-        <p>Fast to load, easy to share, works on classroom computers.</p>
+        <div class="label">为什么不是 3D？</div>
+        <div class="value">重点在决策</div>
+        <p>加载快、好分享，教室电脑也能顺畅打开。</p>
       </div>
       <div class="card">
-        <div class="label">How students interact</div>
-        <p>Click options · move sliders · write a short team note · teacher unlocks the next round with a password.</p>
+        <div class="label">学生怎么操作</div>
+        <p>点选方案 · 拖动滑块 · 写小组备注 · 教师用密码解锁下一轮。</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 7 Carryover -->
+<!-- 7 -->
 <section class="slide" id="s7">
   <div class="slide-bar"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>07</span> Progress <span class="zh">推进方式</span></div>
-    <h2 class="slide-title">Your past choices change the next story</h2>
-    <p class="title-zh">上一轮的选择，改写下一轮的剧本</p>
+    <div class="slide-num"><span>07</span> 推进方式</div>
+    <h2 class="slide-title">上一轮的选择，改写下一轮的剧本</h2>
     <div class="flow">
-      <span class="flow-step" style="background:#1e5a96">Start</span><span class="flow-arrow">🔐</span>
-      <span class="flow-step" style="background:#0f6e56">Quality</span><span class="flow-arrow">🔐</span>
-      <span class="flow-step" style="background:#7a5c00">Assets</span><span class="flow-arrow">🔐</span>
-      <span class="flow-step" style="background:#9b2c2c">Crisis</span>
+      <span class="flow-step" style="background:#1e5a96">启动</span><span class="flow-arrow">🔐</span>
+      <span class="flow-step" style="background:#0f6e56">质量</span><span class="flow-arrow">🔐</span>
+      <span class="flow-step" style="background:#7a5c00">资产</span><span class="flow-arrow">🔐</span>
+      <span class="flow-step" style="background:#9b2c2c">危机</span>
     </div>
     <div class="grid-2" style="margin-top:0.85rem">
       <div class="card coral">
-        <div class="label">If they overused machine translation</div>
-        <p>The client returns angry. More errors. Harder recovery.</p>
+        <div class="label">如果机器翻译用得太多</div>
+        <p>客户会很生气。错误更多。后面更难收拾。</p>
       </div>
       <div class="card amber">
-        <div class="label">If they went very slow &amp; careful</div>
-        <p>Quality is better—but almost no time left to fix anything.</p>
+        <div class="label">如果特别慢、特别仔细</div>
+        <p>质量更好——但几乎没留下修复时间。</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 8 Learning -->
+<!-- 8 -->
 <section class="slide" id="s8">
   <div class="slide-bar amber"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>08</span> How learning happens <span class="zh">知识点怎么进来</span></div>
-    <h2 class="slide-title">Feel it first. Name it later.</h2>
-    <p class="title-zh">先体验痛点，再给概念名字</p>
+    <div class="slide-num"><span>08</span> 知识点怎么进来</div>
+    <h2 class="slide-title">先体验痛点，再给概念名字</h2>
     <div class="grid-3">
-      <div class="card amber"><div class="label">Story emails</div><p>The client’s tone shows pressure and stakes.</p></div>
-      <div class="card blue"><div class="label">Short hints</div><p>Each control explains cost and risk in plain words.</p></div>
-      <div class="card teal"><div class="label">Result cards</div><p>“This happened because of your earlier choice.”</p></div>
+      <div class="card amber"><div class="label">情景邮件</div><p>客户语气本身就在传达压力与利害。</p></div>
+      <div class="card blue"><div class="label">短提示</div><p>每个控件旁边用白话说明成本与风险。</p></div>
+      <div class="card teal"><div class="label">后果卡</div><p>「之所以落到这一步，是因为你之前的选择。」</p></div>
     </div>
   </div>
 </section>
 
-<!-- 9 AI -->
+<!-- 9 -->
 <section class="slide" id="s9">
   <div class="slide-bar"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>09</span> Role of AI <span class="zh">AI 扮演什么角色</span></div>
-    <h2 class="slide-title">Rules stay fair. AI makes the world feel alive.</h2>
-    <p class="title-zh">规则保证公平；AI 让情景更生动</p>
+    <div class="slide-num"><span>09</span> AI 扮演什么角色</div>
+    <h2 class="slide-title">规则保证公平；AI 让情景更生动</h2>
     <div class="grid-2">
       <div class="card teal">
-        <div class="label">Rules engine</div>
-        <div class="value">Scores &amp; hard limits</div>
-        <p>Same inputs → same outcomes. Fair for grading.</p>
+        <div class="label">规则引擎</div>
+        <div class="value">分数与硬约束</div>
+        <p>相同输入 → 相同结果。打分公平可复现。</p>
       </div>
       <div class="card blue">
-        <div class="label">Large language models (optional)</div>
-        <div class="value">Emails, samples, replies</div>
-        <p>More natural pressure and variety—without giving “the answer.”</p>
+        <div class="label">大语言模型（可选）</div>
+        <div class="value">邮件、样本、回复</div>
+        <p>压力与变化更自然——但不直接给「标准答案」。</p>
       </div>
     </div>
-    <div class="quote">AI assists the story. Students still make the judgment.</div>
+    <div class="quote">AI 帮忙讲故事。判断，仍留给学生。</div>
   </div>
 </section>
 
-<!-- 10 Example A -->
+<!-- 10 -->
 <section class="slide" id="s10">
   <div class="slide-bar coral"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>10</span> Challenge A <span class="zh">挑战示例 A</span></div>
-    <h2 class="slide-title">How much machine translation will you use?</h2>
-    <p class="title-zh">你会用多少机器翻译？</p>
+    <div class="slide-num"><span>10</span> 挑战示例 A</div>
+    <h2 class="slide-title">你会用多少机器翻译？</h2>
     <div class="grid-3">
       <div class="card teal">
-        <div class="label">Use little</div>
-        <div class="value">Safer quality</div>
-        <p>But almost no spare time later.</p>
+        <div class="label">用得少</div>
+        <div class="value">质量更稳</div>
+        <p>但后面几乎没有缓冲时间。</p>
       </div>
       <div class="card coral">
-        <div class="label">Use a lot</div>
-        <div class="value">Cheaper &amp; faster</div>
-        <p>Client may complain hard next round.</p>
+        <div class="label">用得多</div>
+        <div class="value">更省钱、更快</div>
+        <p>下一轮客户可能严厉投诉。</p>
       </div>
       <div class="card amber">
-        <div class="label">Skip the term list</div>
-        <div class="value">Save a little money</div>
-        <p>Creates chaos when the team reuses text later.</p>
+        <div class="label">不建术语表</div>
+        <div class="value">眼下省一点钱</div>
+        <p>后面复用文本时容易一团乱。</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 11 Example B -->
+<!-- 11 -->
 <section class="slide" id="s11">
   <div class="slide-bar amber"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>11</span> Challenge B <span class="zh">挑战示例 B</span></div>
-    <h2 class="slide-title">Three problems arrive on the same day</h2>
-    <p class="title-zh">三件事同一天砸过来</p>
+    <div class="slide-num"><span>11</span> 挑战示例 B</div>
+    <h2 class="slide-title">三件事同一天砸过来</h2>
     <div class="grid-3">
       <div class="card coral">
-        <div class="label">People</div>
-        <div class="value">Lead translator is ill</div>
-        <p>Unfinished work. Deadline cannot move.</p>
+        <div class="label">人员</div>
+        <div class="value">主译者生病</div>
+        <p>工作没做完。截止日期不能动。</p>
       </div>
       <div class="card amber">
-        <div class="label">Change</div>
-        <div class="value">Client adds more text</div>
-        <p>No extra money. No extra days.</p>
+        <div class="label">变更</div>
+        <div class="value">客户追加文本</div>
+        <p>不加钱，也不延期。</p>
       </div>
       <div class="card blue">
-        <div class="label">Legal</div>
-        <div class="value">Copyright risk</div>
-        <p>Their company may share the blame.</p>
+        <div class="label">合规</div>
+        <div class="value">版权风险</div>
+        <p>他们的公司可能要一起承担责任。</p>
       </div>
     </div>
-    <div class="quote">Early planning becomes the toolkit they need today.</div>
+    <div class="quote">早期规划，会变成今天手里真正能用的工具。</div>
   </div>
 </section>
 
-<!-- 12 Assessment -->
+<!-- 12 -->
 <section class="slide" id="s12">
   <div class="slide-bar teal"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>12</span> Assessment <span class="zh">如何评估</span></div>
-    <h2 class="slide-title">We grade the thinking, not one “best path”</h2>
-    <p class="title-zh">评的是思考过程，不是唯一标准答案</p>
+    <div class="slide-num"><span>12</span> 如何评估</div>
+    <h2 class="slide-title">评的是思考过程，不是唯一标准答案</h2>
     <div class="grid-2">
       <div class="card blue">
-        <div class="label">What we collect</div>
+        <div class="label">采集什么</div>
         <ul class="clean">
-          <li>Each round’s decisions</li>
-          <li>How budget / quality / trust moved</li>
-          <li>A short reflection at the end</li>
+          <li>每轮的决策</li>
+          <li>预算 / 质量 / 信任如何变化</li>
+          <li>结束时的短反思</li>
         </ul>
       </div>
       <div class="card teal">
-        <div class="label">What “good” looks like</div>
+        <div class="label">什么叫「学得好」</div>
         <ul class="clean">
-          <li>Can explain why they chose this</li>
-          <li>Can link today’s pain to an earlier choice</li>
-          <li>Uses AI as a helper, not a blind autopilot</li>
+          <li>能说清为什么这样选</li>
+          <li>能把今天的痛连回早先的选择</li>
+          <li>把 AI 当助手，而不是盲目自动驾驶</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 13 Close -->
+<!-- 13 -->
 <section class="slide hero" id="s13">
   <div class="slide-body">
     <div class="eyebrow">
-      Takeaway
-      <span class="zh">收束</span>
+      收束
+      <span class="zh">Takeaway</span>
     </div>
-    <h1>Cause and effect is the gameplay</h1>
-    <p class="title-zh">因果链，就是核心玩法</p>
-    <p class="close-line">Rules keep outcomes fair and repeatable. AI can make the story more vivid. Judgment stays with the students.</p>
+    <h1>因果链，就是核心玩法</h1>
+    <p class="title-zh">Cause and effect is the gameplay</p>
+    <p class="close-line">规则让结果公平可复现；AI 可以让故事更生动；判断，仍留给学生。</p>
     <div class="hero-meta" style="margin-top:1.25rem">
-      <span class="chip solid">Thank you</span>
-      <span class="chip">Questions &amp; playtest welcome</span>
+      <span class="chip solid">谢谢</span>
+      <span class="chip">欢迎提问与试玩反馈</span>
     </div>
   </div>
 </section>
