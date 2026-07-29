@@ -28,7 +28,8 @@ Publications
 Work experience
 ======
 
-* 2023-now: Lecturer
+* 2026-now: Associate professor
+* 2023-2026: Lecturer
   * University of International Business and Economics, Beijing
   * Duties included: Teaching Business English and Computer-Aided Translation lessons
   
