@@ -8,13 +8,39 @@ date: 2026-07-28
 location: "Beijing"
 author_profile: false
 classes: wide
-excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇报一门AI赋能教育游戏的课程定位、决策机制、跨轮因果链与LLM可扩展点。"
+excerpt: "以【本地化商业模拟】游戏为例，汇报一门AI赋能教育游戏的课程定位、决策机制与 AI 应用。"
 ---
 
-<p class="deck-note">向下滚动讲解 · 键盘 <kbd>↓</kbd> / <kbd>↑</kbd> 或 <kbd>Space</kbd> 切换色块页 · 约 10 分钟</p>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap');
+
+/* 演示页：突破主题窄栏，贴近 16:9 宽屏 */
+.masthead {
+  padding-top: 0.35rem !important;
+  padding-bottom: 0.35rem !important;
+}
+#main {
+  max-width: min(1440px, 98vw) !important;
+  margin-top: 0.4rem !important;
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+.page {
+  float: none !important;
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.page__inner-wrap > header,
+.page__meta,
+.page__footer {
+  display: none !important;
+}
+.page__content {
+  padding-bottom: 0 !important;
+}
 
 .deck-note {
   font-size: 0.85rem; color: #64748b; margin: 0 0 1.25rem;
@@ -41,23 +67,24 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
   --white: #ffffff;
   font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
   color: var(--ink-soft);
-  line-height: 1.55;
-  max-width: 920px;
-  margin: 0 auto 3rem;
+  line-height: 1.4;
+  width: 100%;
+  max-width: min(1360px, 100%);
+  margin: 0 auto 1.5rem;
 }
 
 .deck .slide {
-  scroll-margin-top: 1.5rem;
+  scroll-margin-top: 0.6rem;
   background: var(--white);
   border: 1px solid var(--line);
-  border-radius: 18px;
+  border-radius: 14px;
   overflow: hidden;
-  margin-bottom: 1.35rem;
-  box-shadow: 0 8px 28px rgba(15, 39, 68, 0.06);
+  margin-bottom: 0.85rem;
+  box-shadow: 0 6px 22px rgba(15, 39, 68, 0.05);
 }
 
 .deck .slide-bar {
-  height: 7px;
+  height: 5px;
   background: linear-gradient(90deg, var(--blue) 0%, #4a90c8 55%, #7eb8d8 100%);
 }
 .deck .slide-bar.teal { background: linear-gradient(90deg, #0f6e56, #3d9b7a); }
@@ -65,31 +92,31 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
 .deck .slide-bar.coral { background: linear-gradient(90deg, #b42318, #e05a4f); }
 .deck .slide-bar.ink { background: linear-gradient(90deg, #0f2744, #2c6bac); }
 
-.deck .slide-body { padding: 1.6rem 1.75rem 1.75rem; }
+.deck .slide-body { padding: 1rem 1.65rem 1.1rem; }
 
 .deck .slide-num {
-  display: inline-flex; align-items: center; gap: 0.45rem;
+  display: inline-flex; align-items: center; gap: 0.4rem;
   font-family: Outfit, sans-serif;
-  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em;
   text-transform: uppercase; color: var(--blue-bright);
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.3rem;
 }
 .deck .slide-num span {
   background: var(--sky); color: var(--blue);
-  border-radius: 999px; padding: 0.15rem 0.55rem;
+  border-radius: 999px; padding: 0.1rem 0.5rem;
 }
 
 .deck h2.slide-title {
   font-family: Outfit, "Noto Sans SC", sans-serif;
-  font-size: 1.55rem; font-weight: 800; color: var(--ink);
-  margin: 0 0 0.85rem; line-height: 1.25; border: none; padding: 0;
+  font-size: 1.35rem; font-weight: 800; color: var(--ink);
+  margin: 0 0 0.55rem; line-height: 1.2; border: none; padding: 0;
 }
 .deck h3 {
   font-family: Outfit, "Noto Sans SC", sans-serif;
-  font-size: 1.05rem; font-weight: 700; color: var(--ink);
-  margin: 1.1rem 0 0.5rem; border: none; padding: 0;
+  font-size: 0.95rem; font-weight: 700; color: var(--ink);
+  margin: 0.65rem 0 0.35rem; border: none; padding: 0;
 }
-.deck p { margin: 0 0 0.7rem; font-size: 0.95rem; }
+.deck p { margin: 0 0 0.45rem; font-size: 0.9rem; }
 .deck strong { color: var(--ink); font-weight: 700; }
 
 /* Hero */
@@ -101,31 +128,39 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
   color: #e8eef6;
   border: none;
 }
-.deck .hero .slide-body { padding: 2.4rem 2rem 2.2rem; }
+.deck .hero .slide-body {
+  padding: 1.5rem 2rem 1.4rem;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 1rem 2rem;
+  align-items: center;
+}
 .deck .hero .eyebrow {
   font-family: Outfit, sans-serif;
-  font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em;
-  text-transform: uppercase; color: #9ec0e0; margin-bottom: 0.85rem;
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+  text-transform: uppercase; color: #9ec0e0; margin-bottom: 0.45rem;
+  grid-column: 1 / -1;
 }
 .deck .hero h1 {
   font-family: Outfit, "Noto Sans SC", sans-serif;
-  font-size: clamp(1.7rem, 3.5vw, 2.35rem);
-  font-weight: 800; color: #fff; margin: 0 0 0.75rem;
-  line-height: 1.2; border: none;
+  font-size: clamp(1.55rem, 2.6vw, 2.15rem);
+  font-weight: 800; color: #fff; margin: 0 0 0.45rem;
+  line-height: 1.15; border: none;
 }
 .deck .hero .lede {
-  font-size: 1.05rem; color: #c5d6e8; max-width: 36em; margin-bottom: 1.4rem;
+  font-size: 0.95rem; color: #c5d6e8; max-width: none; margin-bottom: 0;
 }
 .deck .hero-meta {
-  display: flex; flex-wrap: wrap; gap: 0.55rem;
+  display: flex; flex-wrap: wrap; gap: 0.4rem;
+  align-content: center;
 }
 .deck .chip {
   display: inline-block;
   background: rgba(255,255,255,0.12);
   border: 1px solid rgba(255,255,255,0.22);
   border-radius: 8px;
-  padding: 0.35rem 0.75rem;
-  font-size: 0.8rem; color: #e8eef6;
+  padding: 0.3rem 0.65rem;
+  font-size: 0.78rem; color: #e8eef6;
 }
 .deck .chip.solid {
   background: #fff; color: var(--blue); font-weight: 700; border-color: #fff;
@@ -133,22 +168,23 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
 
 /* Cards / grids */
 .deck .grid-2 {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem;
 }
 .deck .grid-3 {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.7rem;
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.55rem;
 }
 .deck .grid-4 {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.6rem;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem;
 }
-@media (max-width: 720px) {
+@media (max-width: 800px) {
   .deck .grid-2, .deck .grid-3, .deck .grid-4 { grid-template-columns: 1fr; }
+  .deck .hero .slide-body { grid-template-columns: 1fr; padding: 1.35rem 1.25rem; }
 }
 
 .deck .card {
   background: var(--fog);
-  border-radius: 12px;
-  padding: 0.95rem 1rem;
+  border-radius: 10px;
+  padding: 0.7rem 0.85rem;
   border: 1px solid var(--line);
 }
 .deck .card.blue { background: var(--sky); border-color: #b8d0ee; }
@@ -157,68 +193,68 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
 .deck .card.coral { background: var(--coral-soft); border-color: #f5b8b8; }
 .deck .card .label {
   font-family: Outfit, sans-serif;
-  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em;
-  text-transform: uppercase; color: var(--blue-bright); margin-bottom: 0.35rem;
+  font-size: 0.66rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--blue-bright); margin-bottom: 0.2rem;
 }
 .deck .card.teal .label { color: var(--teal); }
 .deck .card.amber .label { color: var(--amber); }
 .deck .card.coral .label { color: var(--coral); }
 .deck .card .value {
   font-family: Outfit, "Noto Sans SC", sans-serif;
-  font-size: 1.05rem; font-weight: 700; color: var(--ink); margin-bottom: 0.25rem;
+  font-size: 0.98rem; font-weight: 700; color: var(--ink); margin-bottom: 0.15rem;
 }
-.deck .card p { margin: 0; font-size: 0.84rem; color: var(--ink-soft); }
+.deck .card p { margin: 0; font-size: 0.8rem; color: var(--ink-soft); line-height: 1.4; }
 
 .deck .quote {
   background: var(--sky);
-  border-left: 5px solid var(--blue-bright);
-  border-radius: 0 12px 12px 0;
-  padding: 0.95rem 1.15rem;
-  font-size: 1.02rem; font-weight: 500; color: var(--ink);
-  margin: 0.85rem 0;
+  border-left: 4px solid var(--blue-bright);
+  border-radius: 0 10px 10px 0;
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem; font-weight: 500; color: var(--ink);
+  margin: 0.5rem 0;
 }
 
 .deck .flow {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem;
-  margin: 0.75rem 0 0.25rem;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem;
+  margin: 0.45rem 0 0.15rem;
 }
 .deck .flow-step {
   background: var(--ink); color: #fff;
-  font-size: 0.82rem; font-weight: 600;
-  padding: 0.45rem 0.75rem; border-radius: 8px;
+  font-size: 0.78rem; font-weight: 600;
+  padding: 0.35rem 0.65rem; border-radius: 7px;
 }
-.deck .flow-arrow { color: var(--blue-bright); font-weight: 800; font-size: 1.1rem; }
+.deck .flow-arrow { color: var(--blue-bright); font-weight: 800; font-size: 1rem; }
 
 .deck ul.clean {
-  list-style: none; padding: 0; margin: 0.4rem 0 0;
+  list-style: none; padding: 0; margin: 0.25rem 0 0;
 }
 .deck ul.clean li {
-  position: relative; padding: 0.35rem 0 0.35rem 1.15rem;
-  font-size: 0.9rem;
+  position: relative; padding: 0.2rem 0 0.2rem 1.05rem;
+  font-size: 0.86rem;
 }
 .deck ul.clean li::before {
-  content: ""; position: absolute; left: 0; top: 0.7rem;
-  width: 7px; height: 7px; border-radius: 50%; background: var(--blue-bright);
+  content: ""; position: absolute; left: 0; top: 0.55rem;
+  width: 6px; height: 6px; border-radius: 50%; background: var(--blue-bright);
 }
 
 .deck table.deck-table {
-  width: 100%; border-collapse: collapse; font-size: 0.84rem;
-  margin: 0.5rem 0 0;
+  width: 100%; border-collapse: collapse; font-size: 0.8rem;
+  margin: 0.35rem 0 0;
 }
 .deck table.deck-table th {
   text-align: left; background: var(--ink); color: #fff;
-  padding: 0.5rem 0.65rem; font-weight: 600;
+  padding: 0.38rem 0.6rem; font-weight: 600;
 }
 .deck table.deck-table td {
-  padding: 0.48rem 0.65rem; border-bottom: 1px solid var(--line);
+  padding: 0.35rem 0.6rem; border-bottom: 1px solid var(--line);
   vertical-align: top;
 }
 .deck table.deck-table tr:nth-child(even) td { background: var(--fog); }
 
-.deck .tag-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
+.deck .tag-row { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.4rem; }
 .deck .tag {
-  font-size: 0.75rem; font-weight: 600;
-  padding: 0.25rem 0.6rem; border-radius: 6px;
+  font-size: 0.72rem; font-weight: 600;
+  padding: 0.2rem 0.5rem; border-radius: 6px;
   background: var(--sky); color: var(--blue);
 }
 .deck .tag.teal { background: var(--teal-soft); color: var(--teal); }
@@ -226,16 +262,16 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
 .deck .tag.coral { background: var(--coral-soft); color: var(--coral); }
 
 .deck .round-strip {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem;
-  margin-top: 0.75rem;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.45rem;
+  margin-top: 0.4rem;
 }
-@media (max-width: 720px) { .deck .round-strip { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 800px) { .deck .round-strip { grid-template-columns: 1fr 1fr; } }
 .deck .round {
-  border-radius: 12px; padding: 0.85rem 0.75rem; color: #fff; text-align: center;
+  border-radius: 10px; padding: 0.65rem 0.6rem; color: #fff; text-align: center;
 }
-.deck .round .r { font-family: Outfit, sans-serif; font-size: 0.72rem; font-weight: 700; opacity: 0.85; }
-.deck .round .t { font-weight: 700; font-size: 0.95rem; margin: 0.2rem 0; }
-.deck .round .d { font-size: 0.72rem; opacity: 0.9; line-height: 1.35; }
+.deck .round .r { font-family: Outfit, sans-serif; font-size: 0.68rem; font-weight: 700; opacity: 0.85; }
+.deck .round .t { font-weight: 700; font-size: 0.9rem; margin: 0.12rem 0; }
+.deck .round .d { font-size: 0.7rem; opacity: 0.9; line-height: 1.3; }
 .deck .r1 { background: #1e5a96; }
 .deck .r2 { background: #0f6e56; }
 .deck .r3 { background: #7a5c00; }
@@ -243,28 +279,60 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
 
 .deck .close-line {
   font-family: Outfit, "Noto Sans SC", sans-serif;
-  font-size: 1.15rem; font-weight: 700; color: #fff;
-  margin: 0.5rem 0 0;
-  line-height: 1.45;
+  font-size: 1.05rem; font-weight: 700; color: #fff;
+  margin: 0.25rem 0 0;
+  line-height: 1.4;
+}
+
+/* 宽屏：把「标题区 + 内容区」压成更扁的横向构图 */
+@media (min-width: 1100px) {
+  .deck .slide.split-wide > .slide-body {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.9fr) minmax(0, 1.6fr);
+    gap: 0.75rem 1.5rem;
+    align-items: start;
+  }
+  .deck .slide.split-wide .slide-num,
+  .deck .slide.split-wide .slide-title {
+    grid-column: 1;
+  }
+  .deck .slide.split-wide .slide-title { margin-bottom: 0; }
+  .deck .slide.split-wide .slide-main {
+    grid-column: 2;
+    grid-row: 1 / span 8;
+  }
+  .deck .slide.stack-side > .slide-body > .after-lead {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 0.75rem 1.25rem;
+    align-items: start;
+  }
 }
 
 .deck-nav {
   position: sticky; top: 0; z-index: 40;
-  display: flex; gap: 0.35rem; flex-wrap: wrap;
+  display: flex; gap: 0.28rem; flex-wrap: wrap;
   background: rgba(255,255,255,0.92);
   backdrop-filter: blur(8px);
   border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 0.45rem 0.55rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 4px 16px rgba(15,39,68,0.08);
+  border-radius: 10px;
+  padding: 0.35rem 0.45rem;
+  margin-bottom: 0.65rem;
+  box-shadow: 0 3px 12px rgba(15,39,68,0.07);
 }
 .deck-nav a {
-  font-size: 0.7rem; font-weight: 600; text-decoration: none;
-  color: var(--ink-soft); padding: 0.3rem 0.5rem; border-radius: 6px;
+  font-size: 0.66rem; font-weight: 600; text-decoration: none;
+  color: var(--ink-soft); padding: 0.22rem 0.42rem; border-radius: 5px;
   background: var(--fog);
 }
 .deck-nav a:hover { background: var(--sky); color: var(--blue); }
+
+/* 收束页：单栏恢复 */
+.deck .hero#s13 .slide-body,
+.deck #s13.hero .slide-body {
+  grid-template-columns: 1fr;
+  max-width: 52rem;
+}
 </style>
 
 <div class="deck" id="deck">
@@ -290,8 +358,10 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
 <section class="slide hero" id="s0">
   <div class="slide-body">
     <div class="eyebrow">AI 赋能教育游戏设计工作坊 · 约 10 分钟</div>
-    <h1>本地化商业模拟<br>Localization Business Simulation</h1>
-    <p class="lede">用四轮网页决策沙盘，让翻译专业学生「做一遍 PM」——看见每一个早期选择如何变成后期的筹码或代价。</p>
+    <div>
+      <h1>本地化商业模拟<br>Localization Business Simulation</h1>
+      <p class="lede">用四轮网页决策沙盘，让翻译专业学生「做一遍 PM」——看见每一个早期选择如何变成后期的筹码或代价。</p>
+    </div>
     <div class="hero-meta">
       <span class="chip solid">课程：《本地化翻译》</span>
       <span class="chip">场景：本地化项目管理</span>
@@ -302,7 +372,7 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
 </section>
 
 <!-- 1 课程 / 场景 / 目标 -->
-<section class="slide" id="s1">
+<section class="slide stack-side" id="s1">
   <div class="slide-bar"></div>
   <div class="slide-body">
     <div class="slide-num"><span>01–03</span> 课程 · 场景 · 目标</div>
@@ -324,27 +394,31 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
         <p>以及决策如何影响质量、成本与客户关系。</p>
       </div>
     </div>
-    <h3>项目硬约束（情景沙箱）</h3>
-    <div class="grid-2">
-      <div class="card">
-        <div class="label">客户 × LSP</div>
-        <p><strong>米兔互娱</strong>（客户）委托 <strong>星桥语言科技</strong>（学生小组）完成《星际侦探》简中 → 美式英语本地化。</p>
+    <div class="after-lead">
+      <div>
+        <h3>项目硬约束（情景沙箱）</h3>
+        <div class="grid-2">
+          <div class="card">
+            <div class="label">客户 × LSP</div>
+            <p><strong>米兔互娱</strong>（客户）委托 <strong>星桥语言科技</strong>（学生小组）完成《星际侦探》简中 → 美式英语本地化。</p>
+          </div>
+          <div class="card">
+            <div class="label">规模与约束</div>
+            <p>约 <strong>143,000 字</strong> · 工期 <strong>8 周</strong> · 预算 <strong>¥150,000</strong> · 「不接受明显机翻感」· 必须建术语库。</p>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <div class="label">规模与约束</div>
-        <p>约 <strong>143,000 字</strong> · 工期 <strong>8 周</strong> · 预算 <strong>¥150,000</strong> · 「不接受明显机翻感」· 必须建术语库。</p>
-      </div>
+      <ul class="clean">
+        <li><strong>干系人</strong>：客户 PM、译者、审校、工程师、QA、法务……诉求彼此冲突</li>
+        <li><strong>核心要素</strong>：范围 / 进度 / 成本铁三角 + 质量、资产、合规</li>
+        <li><strong>因果链</strong>：早期决策跨轮传导至后期谈判筹码与危机处置能力</li>
+      </ul>
     </div>
-    <ul class="clean">
-      <li><strong>干系人</strong>：客户 PM、译者、审校、工程师、QA、法务……诉求彼此冲突</li>
-      <li><strong>核心要素</strong>：范围 / 进度 / 成本铁三角 + 质量、资产、合规</li>
-      <li><strong>因果链</strong>：早期决策跨轮传导至后期谈判筹码与危机处置能力</li>
-    </ul>
   </div>
 </section>
 
 <!-- 2 知识技能 -->
-<section class="slide" id="s2">
+<section class="slide stack-side" id="s2">
   <div class="slide-bar teal"></div>
   <div class="slide-body">
     <div class="slide-num"><span>04</span> 知识结构与技能体系</div>
@@ -355,24 +429,30 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
       <div class="round r3"><div class="r">R3 · 第八节</div><div class="t">资产管理</div><div class="d">TM · 术语库 · ROI</div></div>
       <div class="round r4"><div class="r">R4 · 第九节</div><div class="t">风险应对</div><div class="d">SOP · 三危机 · 合规</div></div>
     </div>
-    <h3>技能五维</h3>
-    <div class="tag-row">
-      <span class="tag">管理：范围 / 预算 / CCM</span>
-      <span class="tag teal">质量：MQM / 抽样 / 阈值</span>
-      <span class="tag amber">资产：清洗 / 匹配率 / 报价</span>
-      <span class="tag coral">风险：登记册 / 备选资源</span>
-      <span class="tag">AI 素养：批判性使用 MT/LLM</span>
+    <div class="after-lead">
+      <div>
+        <h3>技能五维</h3>
+        <div class="tag-row">
+          <span class="tag">管理：范围 / 预算 / CCM</span>
+          <span class="tag teal">质量：MQM / 抽样 / 阈值</span>
+          <span class="tag amber">资产：清洗 / 匹配率 / 报价</span>
+          <span class="tag coral">风险：登记册 / 备选资源</span>
+          <span class="tag">AI 素养：批判性使用 MT/LLM</span>
+        </div>
+      </div>
+      <div>
+        <h3>游戏产出 ↔ 课程交付物</h3>
+        <table class="deck-table">
+          <thead><tr><th>轮次</th><th>游戏决策产出</th><th>课堂交付物</th></tr></thead>
+          <tbody>
+            <tr><td>R1</td><td>启动方案 / 决策摘要</td><td>项目启动简报</td></tr>
+            <tr><td>R2</td><td>整改方案 / LQA 策略</td><td>质量验收标准 + LQA 样本</td></tr>
+            <tr><td>R3</td><td>复用与报价方案</td><td>术语表 + 复用率测算</td></tr>
+            <tr><td>R4</td><td>三危机应对摘要</td><td>SOP + 风险登记册</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <h3>游戏产出 ↔ 课程交付物</h3>
-    <table class="deck-table">
-      <thead><tr><th>轮次</th><th>游戏决策产出</th><th>课堂交付物</th></tr></thead>
-      <tbody>
-        <tr><td>R1</td><td>启动方案 / 决策摘要</td><td>项目启动简报</td></tr>
-        <tr><td>R2</td><td>整改方案 / LQA 策略</td><td>质量验收标准 + LQA 样本</td></tr>
-        <tr><td>R3</td><td>复用与报价方案</td><td>术语表 + 复用率测算</td></tr>
-        <tr><td>R4</td><td>三危机应对摘要</td><td>SOP + 风险登记册</td></tr>
-      </tbody>
-    </table>
   </div>
 </section>
 
@@ -383,17 +463,21 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
     <div class="slide-num"><span>05</span> 宏观游戏行为</div>
     <h2 class="slide-title">邮件驱动的决策循环</h2>
     <div class="quote">配置参数 → 观察铁三角与风险仪表 → 提交决策摘要 → <strong>带着后果进入下一轮</strong></div>
-    <div class="flow">
-      <span class="flow-step">① 读邮件</span><span class="flow-arrow">→</span>
-      <span class="flow-step">② 看状态</span><span class="flow-arrow">→</span>
-      <span class="flow-step">③ 做决策</span><span class="flow-arrow">→</span>
-      <span class="flow-step">④ 看后果</span><span class="flow-arrow">→</span>
-      <span class="flow-step">⑤ 交摘要</span>
-    </div>
-    <p style="margin-top:1rem">核心设计原则：</p>
-    <div class="card blue">
-      <div class="value">决策有代价，代价可跨轮传导</div>
-      <p>Consequence Chain —— 不是单关闯关，而是一条因果链。</p>
+    <div class="grid-2" style="margin-top:0.45rem; align-items:stretch">
+      <div>
+        <div class="flow">
+          <span class="flow-step">① 读邮件</span><span class="flow-arrow">→</span>
+          <span class="flow-step">② 看状态</span><span class="flow-arrow">→</span>
+          <span class="flow-step">③ 做决策</span><span class="flow-arrow">→</span>
+          <span class="flow-step">④ 看后果</span><span class="flow-arrow">→</span>
+          <span class="flow-step">⑤ 交摘要</span>
+        </div>
+      </div>
+      <div class="card blue">
+        <div class="label">核心设计原则</div>
+        <div class="value">决策有代价，代价可跨轮传导</div>
+        <p>Consequence Chain —— 不是单关闯关，而是一条因果链。</p>
+      </div>
     </div>
   </div>
 </section>
@@ -426,7 +510,7 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
         </ul>
       </div>
     </div>
-    <div class="quote" style="margin-top:1rem">挑战不是打怪答题，而是<strong>在压力下做可辩护的商业决策</strong>。</div>
+    <div class="quote" style="margin-top:0.45rem">挑战不是打怪答题，而是<strong>在压力下做可辩护的商业决策</strong>。</div>
   </div>
 </section>
 
@@ -462,7 +546,7 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
       <span class="flow-step" style="background:#7a5c00">R3 资产</span><span class="flow-arrow">🔐</span>
       <span class="flow-step" style="background:#9b2c2c">R4 危机</span>
     </div>
-    <p style="margin-top:0.9rem">前一轮决策写入 <code>localStorage</code>，后一轮读取并触发<strong>差异化剧本</strong>：</p>
+    <p style="margin-top:0.45rem">前一轮决策写入 <code>localStorage</code>，后一轮读取并触发<strong>差异化剧本</strong>：</p>
     <div class="grid-2">
       <div class="card coral">
         <div class="label">高 MT 组</div>
@@ -473,7 +557,7 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
         <p>质量尚可，但进度缓冲耗尽 · 「修复不得超过 2 天」</p>
       </div>
     </div>
-    <p style="margin-top:0.75rem;font-size:0.88rem;color:#64748b">同一课堂，多条路径 → 抽点时天然有对比样本。</p>
+    <p style="margin-top:0.4rem;font-size:0.82rem;color:#64748b">同一课堂，多条路径 → 抽点时天然有对比样本。</p>
   </div>
 </section>
 
@@ -521,7 +605,7 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
   <div class="slide-body">
     <div class="slide-num"><span>13A</span> 完整挑战 · 其一</div>
     <h2 class="slide-title">挑战 A：铁三角下的 MT 策略（R1）</h2>
-    <div class="card amber" style="margin-bottom:0.85rem">
+    <div class="card amber" style="margin-bottom:0.5rem">
       <div class="label">情境</div>
       <p>143,000 字 · 8 周 · ¥150,000 · 「不接受机翻感」· 必须建术语库。今日提交启动方案。</p>
     </div>
@@ -542,12 +626,12 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
         <p>违反 RFQ · R3 资产「混乱型」重罚</p>
       </div>
     </div>
-    <p style="margin-top:0.85rem"><strong>学习目标：</strong>体验铁三角相互制约；理解 MT 不是开关，而是质量–成本–进度的连续权衡。</p>
+    <p style="margin-top:0.45rem"><strong>学习目标：</strong>体验铁三角相互制约；理解 MT 不是开关，而是质量–成本–进度的连续权衡。</p>
   </div>
 </section>
 
 <!-- 10 挑战 B -->
-<section class="slide" id="s10">
+<section class="slide stack-side" id="s10">
   <div class="slide-bar coral"></div>
   <div class="slide-body">
     <div class="slide-num"><span>13B</span> 完整挑战 · 其二</div>
@@ -569,17 +653,21 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
         <p>LSP 可能承担连带责任</p>
       </div>
     </div>
-    <h3>跨轮因果（挑战完整性的关键）</h3>
-    <table class="deck-table">
-      <thead><tr><th>今日资源</th><th>来源决策</th></tr></thead>
-      <tbody>
-        <tr><td>替补到位成本 ¥1,500 / 5,500 / 13,000</td><td>R1 风险预案详细度</td></tr>
-        <tr><td>变更谈判强势 / 一般 / 被动</td><td>R3 合同 CCM 条款</td></tr>
-        <tr><td>紧急储备 ¥20,000 或 ¥12,000</td><td>R3 TM 折扣是否过激</td></tr>
-        <tr><td>法务残余风险倍率</td><td>R1 是否有版权检查清单</td></tr>
-      </tbody>
-    </table>
-    <p style="margin-top:0.75rem"><strong>学习目标：</strong>理解「风险管理写在规划阶段」；在资源不足时做可辩护的优先级排序。</p>
+    <div class="after-lead">
+      <div>
+        <h3>跨轮因果（挑战完整性的关键）</h3>
+        <table class="deck-table">
+          <thead><tr><th>今日资源</th><th>来源决策</th></tr></thead>
+          <tbody>
+            <tr><td>替补到位成本 ¥1,500 / 5,500 / 13,000</td><td>R1 风险预案详细度</td></tr>
+            <tr><td>变更谈判强势 / 一般 / 被动</td><td>R3 合同 CCM 条款</td></tr>
+            <tr><td>紧急储备 ¥20,000 或 ¥12,000</td><td>R3 TM 折扣是否过激</td></tr>
+            <tr><td>法务残余风险倍率</td><td>R1 是否有版权检查清单</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:0.65rem"><strong>学习目标：</strong>理解「风险管理写在规划阶段」；在资源不足时做可辩护的优先级排序。</p>
+    </div>
   </div>
 </section>
 
@@ -610,7 +698,7 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
         </ul>
       </div>
     </div>
-    <p style="margin-top:0.75rem;font-size:0.9rem">评估强调<strong>过程性与可解释性</strong>，不设唯一最优路径。</p>
+    <p style="margin-top:0.4rem;font-size:0.88rem">评估强调<strong>过程性与可解释性</strong>，不设唯一最优路径。</p>
   </div>
 </section>
 
@@ -657,7 +745,7 @@ excerpt: "以「本地化商业模拟」网页游戏为例，按16步框架汇�
     <div class="eyebrow">收束</div>
     <h1 style="font-size:clamp(1.35rem, 2.8vw, 1.85rem); margin-bottom:1rem">因果链是核心玩法</h1>
     <p class="close-line">规则引擎保证因果可复现；LLM 可进一步让邮件、样本与谈判「活」起来——但判断，仍留给学生。</p>
-    <p class="lede" style="margin-top:1.25rem; margin-bottom:1rem">本地化商业模拟：让翻译专业学生在出海项目里，亲手权衡质量–成本–工期，并看见每一个早期选择如何变成后期的筹码或代价。</p>
+    <p class="lede" style="margin-top:0.7rem; margin-bottom:0.55rem">本地化商业模拟：让翻译专业学生在出海项目里，亲手权衡质量–成本–工期，并看见每一个早期选择如何变成后期的筹码或代价。</p>
     <div class="hero-meta">
       <span class="chip solid">谢谢</span>
       <span class="chip">欢迎交流与试玩反馈</span>
