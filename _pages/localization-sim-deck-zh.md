@@ -1,14 +1,10 @@
 ---
-title: "本地化商业模拟 · Localization Business Simulation（中文演示）"
-collection: talks
-type: "Talk"
-permalink: /talks/2026-07-28-zh
-venue: "人工智能赋能教育学术交流会 / 教育游戏设计工作坊"
-date: 2026-07-28
-location: "Beijing"
+title: "本地化商业模拟 · 中文演示"
+permalink: /talks/2026-07-28-zh/
+layout: single
 author_profile: false
-classes: wide
-excerpt: "以通俗语言介绍本地化商业模拟教育游戏：学生通过决策与后果学习项目管理。"
+sitemap: false
+search: false
 ---
 
 

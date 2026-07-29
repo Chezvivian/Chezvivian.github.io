@@ -8,7 +8,7 @@ date: 2026-07-28
 location: "Beijing"
 author_profile: false
 classes: wide
-excerpt: "A plain-language walkthrough of an AI-supported educational game that lets translation students manage a game localization project through decisions and consequences."
+excerpt: "A walkthrough of an AI-supported educational game that lets translation students manage a game localization project through decisions and consequences."
 ---
 
 
@@ -327,8 +327,8 @@ excerpt: "A plain-language walkthrough of an AI-supported educational game that 
 <section class="slide hero" id="s0">
   <div class="slide-body">
     <div class="eyebrow">
-      AI-Powered Educational Game Design · ~10 min
-      <span class="zh">AI 赋能教育游戏设计工作坊 · 约 10 分钟</span>
+      AI-Powered Educational Game Design
+      <span class="zh">AI 赋能教育游戏设计工作坊</span>
     </div>
     <h1>Localization Business Simulation</h1>
     <p class="title-zh">本地化商业模拟</p>
@@ -340,7 +340,7 @@ excerpt: "A plain-language walkthrough of an AI-supported educational game that 
     </div>
     <div class="hero-actions">
       <a class="btn-deck primary" href="https://chezvivian.github.io/class/localization-sim/" target="_blank" rel="noopener noreferrer">Open the simulation ↗</a>
-      <a class="btn-deck ghost" href="/talks/2026-07-28-zh">中文演示</a>
+      <a class="btn-deck ghost" href="/talks/2026-07-28-zh/">中文演示</a>
     </div>
   </div>
 </section>
@@ -349,9 +349,9 @@ excerpt: "A plain-language walkthrough of an AI-supported educational game that 
 <section class="slide" id="s1">
   <div class="slide-bar"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>01</span> The big idea <span class="zh">核心想法</span></div>
+    <div class="slide-num"><span>01</span> The big idea <span class="zh">核心思路</span></div>
     <h2 class="slide-title">From hearing about the job → doing the job</h2>
-    <p class="title-zh">从「听一遍」到「做一遍」</p>
+    <p class="title-zh">从听课到角色扮演</p>
     <div class="grid-3">
       <div class="card blue">
         <div class="label">Who</div>
@@ -378,7 +378,7 @@ excerpt: "A plain-language walkthrough of an AI-supported educational game that 
   <div class="slide-body">
     <div class="slide-num"><span>02</span> The story world <span class="zh">故事设定</span></div>
     <h2 class="slide-title">One project. Clear limits.</h2>
-    <p class="title-zh">一个项目，边界清楚</p>
+    <p class="title-zh">一个本地化翻译项目：任务、团队、成本清晰</p>
     <div class="grid-2">
       <div class="card">
         <div class="label">The job</div>
@@ -432,7 +432,7 @@ excerpt: "A plain-language walkthrough of an AI-supported educational game that 
   <div class="slide-body">
     <div class="slide-num"><span>05</span> Goals &amp; challenges <span class="zh">目标与挑战</span></div>
     <h2 class="slide-title">No perfect answer—only a defendable one</h2>
-    <p class="title-zh">没有完美解，只有说得通的权衡</p>
+    <p class="title-zh">没有完美的答案，只有合理的权衡</p>
     <div class="grid-2">
       <div class="card blue">
         <div class="label">What students watch</div>
@@ -458,7 +458,7 @@ excerpt: "A plain-language walkthrough of an AI-supported educational game that 
 <section class="slide" id="s6">
   <div class="slide-bar teal"></div>
   <div class="slide-body">
-    <div class="slide-num"><span>06</span> Form &amp; controls <span class="zh">形态与操控</span></div>
+    <div class="slide-num"><span>06</span> Form &amp; controls <span class="zh">游戏的形式</span></div>
     <h2 class="slide-title">A simple web page—open and play</h2>
     <p class="title-zh">简单网页，课堂即开即用</p>
     <div class="grid-2">
@@ -507,7 +507,7 @@ excerpt: "A plain-language walkthrough of an AI-supported educational game that 
   <div class="slide-body">
     <div class="slide-num"><span>08</span> How learning happens <span class="zh">知识点怎么进来</span></div>
     <h2 class="slide-title">Feel it first. Name it later.</h2>
-    <p class="title-zh">先体验痛点，再给概念名字</p>
+    <p class="title-zh">先体验场景，再了解知识。</p>
     <div class="grid-3">
       <div class="card amber"><div class="label">Story emails</div><p>The client’s tone shows pressure and stakes.</p></div>
       <div class="card blue"><div class="label">Short hints</div><p>Each control explains cost and risk in plain words.</p></div>
@@ -627,10 +627,10 @@ excerpt: "A plain-language walkthrough of an AI-supported educational game that 
   <div class="slide-body">
     <div class="eyebrow">
       Takeaway
-      <span class="zh">收束</span>
+      <span class="zh">总结</span>
     </div>
     <h1>Cause and effect is the gameplay</h1>
-    <p class="title-zh">因果链，就是核心玩法</p>
+    <p class="title-zh">决策的因果关系，就是核心玩法</p>
     <p class="close-line">Rules keep outcomes fair and repeatable. AI can make the story more vivid. Judgment stays with the students.</p>
     <div class="hero-meta" style="margin-top:1.25rem">
       <span class="chip solid">Thank you</span>
