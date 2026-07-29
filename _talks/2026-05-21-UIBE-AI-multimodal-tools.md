@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: talks/2026-05-21
 venue: "对外经济贸易大学英语学院翻译系"
-date: 2025-10-24
+date: 2026-05-21
 location: "University of International Business and Economics"
 ---
 
