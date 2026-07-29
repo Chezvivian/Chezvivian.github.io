@@ -2,9 +2,9 @@
 title: "2026-07-29 Localization Business Simulation · 本地化商业模拟"
 collection: talks
 type: "Talk"
-permalink: /talks/2026-07-28
+permalink: /talks/2026-07-29
 venue: "AI-Empowered Education Forum / Educational Game Design Workshop · 人工智能赋能教育学术交流会"
-date: 2026-07-28
+date: 2026-07-29
 location: "Beijing"
 author_profile: false
 classes: wide
