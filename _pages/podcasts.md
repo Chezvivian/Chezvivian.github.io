@@ -102,6 +102,14 @@ author_profile: true
   }
 </style>
 
+<h3 class="podcast-section-title">2026 秋</h3>
+<div class="podcast-section">
+  <div class="podcast-welcome">秋季继续学习新的课堂交互工具，满足学生们听力、口语练习的需求。</div>
+  <ul class="podcast-list">
+      <li class="podcast-item"><a href="/podcasts/2026-10-26-kahoot">Kahoot 游戏设计</a></li>
+  </ul>
+</div>
+
 <h3 class="podcast-section-title">2026 春</h3>
 <div class="podcast-section">
   <div class="podcast-welcome">2026年春季学期的一些想法和学习。</div>
